@@ -17,7 +17,8 @@ export const Hero = styled.section `
 
   .hero__heading {
   font-size: 3.6rem;
-  text-align: center;
+  text-align: left;
+  color: #F2463A;
   margin: auto;
   padding-bottom: 2rem;
 
@@ -32,7 +33,7 @@ export const Hero = styled.section `
   .hero__subheading {
   font-size: 1.6rem;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   padding-bottom: 1rem;
 
   @include media-query($sm-up) {
@@ -158,7 +159,7 @@ export const Sponsor = styled.section`
     margin-bottom: .5rem;
   }
 `
-export const sponsorLogoWrapper = style.div`
+export const sponsorLogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;

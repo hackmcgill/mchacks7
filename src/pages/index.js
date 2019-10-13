@@ -1,33 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import * as Styled from "../styles/components/index"
+import Hero from "../components/hero"
+import About from "../components/about"
+import Footer from "../components/footer"
+import Sponsor from "../components/sponsor"
+import Nav from "../components/nav"
+
 
 const IndexPage = () => (
-  // <Layout>
-  //   {/* <SEO title="Home" /> */}
-    
-    
-
-  //   {/* <Link to="/page-2/">Go to page 2</Link> */}
-  // </Layout>
-
-  <Styled.Intro>
-        <Styled.Hero>
-            <div class='hero__copy'>
-                <h1 class="hero__heading">McHacks</h1> 
-                <h2 class="hero__subheading">Testing</h2>
-            </div>
-        </Styled.Hero>
-    </Styled.Intro>
-
-  
-
-
-
+    <div>
+        <Nav />
+        <Hero />
+        <About />
+        <Sponsor />
+        <Footer />
+    </div>
 )
 
 export default IndexPage

@@ -86,8 +86,8 @@ export const HeroButton = styled.button`
     margin-right: 25px;
   }
 `
-
-export const Intro = styled.section`
+// a.k.a ABOUT
+export const Intro = styled.section` 
   background-color: $landing-color-dark-bg;
   position: relative;
   padding: 16rem 0 10vw;

@@ -75,7 +75,7 @@ export const NavButton = styled.button`
     }
 `
   
-export const footer = styled.footer`
+export const Footer = styled.footer`
     padding: 2rem;
     border-top: 2px solid ${styleVariables.colorHackRed};
     display: flex;
@@ -83,7 +83,7 @@ export const footer = styled.footer`
     justify-content: space-between;
 `
   
-export const footerContainer = styled.div`
+export const FooterContainer = styled.div`
     display: flex;
     flex: row;
     justify-content: flex-start;
@@ -92,7 +92,7 @@ export const footerContainer = styled.div`
     flex-wrap: wrap;
 `
   
-export const footerLinks = styled.a`
+export const FooterLinks = styled.a`
     margin: 0;
     padding: 0;
     flex-basis: auto;
@@ -103,21 +103,21 @@ export const footerLinks = styled.a`
     }
 `
   
-export const footerLinksSocial = styled.div`
+export const FooterLinksSocial = styled.div`
     float: right;
     list-style: none;
     padding: 0 0 0 1rem;
     margin: 0;
 `
   
-export const footerLinkSocial = styled.a`
+export const FooterLinkSocial = styled.a`
     vertical-align: middle;
     vertical-align: -webkit-baseline-middle;
     margin-right: 2rem;
     text-decoration: none;
 `
   
-export const footerLink = styled.a`
+export const FooterLink = styled.a`
     color: ${navBarLink};
     margin-right: 2rem;
   

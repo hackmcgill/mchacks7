@@ -10,17 +10,17 @@ const sponsorColorBgTableHover = $styleVariables.hackBlack20;
 const sponsorColorFooterHeading = $styleVariables.hackBlack80;
 const sponsorColorTableCategory= $styleVariables.hackBlack70;
 
-export const tierList = styled.background`
+export const TierList = styled.background`
     background: ${styleVariables.globalColorBg} ;
 `
 
-export const hero = styled.div`
+export const Hero = styled.div`
     max-width: 128rem;
     margin: 0 auto;
     position: relative;
 `
 
-export const heroForeground = styled.div`
+export const HeroForeground = styled.div`
     z-index: 2;
     margin-top: 12rem;
     text-align: center;
@@ -33,7 +33,7 @@ export const heroForeground = styled.div`
     }
 `
 
-export const heroBackground = styled.div`
+export const HeroBackground = styled.div`
     margin-top: 10rem;
     width: 80%;
     margin-left: 10%;
@@ -42,7 +42,7 @@ export const heroBackground = styled.div`
     user-select: none;
 `
 
-export const heroHeading = styled.div`
+export const HeroHeading = styled.div`
     color: ${sponsorColorPrimary};
     font-size: 4.8rem;      
 
@@ -103,7 +103,7 @@ export const Description = styled.section`
     }
 `
 
-export const tierList = styled.div`
+export const TierList = styled.div`
     font-family: Brown, sans-serif;
     background-color: ${sponsorColorBgSlant};
     position: relative;
@@ -245,7 +245,7 @@ export const tierList = styled.div`
 `
 
 
-export const getInTouchSection= styled.div`
+export const GetInTouchSection= styled.div`
     margin: 0 auto;
     max-width: 128rem;
     margin-top: 24rem;

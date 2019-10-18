@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import * as styleVariables from './variable'
 
 export const notFound = styled.body`
     overflow-x: hidden;
@@ -31,7 +32,7 @@ export const notFoundHeading = styled.body`
     padding: 3rem 0 1rem 0;
     text-align: center;
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVariables.smUp}) {
     font-size: 4rem;
     }
 ` 

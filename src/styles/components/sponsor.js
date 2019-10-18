@@ -1,7 +1,17 @@
 import styled from "styled-components"
+import * as styleVariables from './variable'
+
+const sponsorColorPrimary = styleVariables.globalColorPrimary;
+const sponsorColorBg = $styleVariables.globalColorBg;
+const sponsorColorText = $styleVariables.globalColorText;
+const sponsorColorBgSlant = $styleVariables.hackBlack5;
+const sponsorColorBgTable = $styleVariables.hackBlack10;
+const sponsorColorBgTableHover = $styleVariables.hackBlack20;
+const sponsorColorFooterHeading = $styleVariables.hackBlack80;
+const sponsorColorTableCategory= $styleVariables.hackBlack70;
 
 export const tierList = styled.background`
-    background: $global-color-bg;
+    background: ${styleVariables.globalColorBg} ;
 `
 
 export const hero = styled.div`
@@ -15,7 +25,7 @@ export const heroForeground = styled.div`
     margin-top: 12rem;
     text-align: center;
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVariables.smUp} ) {
     position: absolute;
     top: 10%;
     left: 10%;
@@ -33,10 +43,10 @@ export const heroBackground = styled.div`
 `
 
 export const heroHeading = styled.div`
-    color: $sponsor-color-primary;
+    color: ${sponsorColorPrimary};
     font-size: 4.8rem;      
 
-    @include media-query($md-up) {
+    @include media-query(${styleVariables.mdUp} ) {
     font-size: 6.4rem;
     margin-top: 6rem;
     }
@@ -48,7 +58,7 @@ export const Description = styled.section`
     margin: 0 auto;
     margin-bottom: 12rem;
 
-    @include media-query($md-up) {
+    @include media-query(${styleVariables.mdUp} ) {
       padding: 6.4rem;
     }
 
@@ -57,45 +67,45 @@ export const Description = styled.section`
       display: block;
       margin: 0 auto;
 
-      @include media-query($md-up) {
+      @include media-query(${styleVariables.mdUp} ) {
         width: 24rem;
       }
     }
 
     .heading {
-      color: $global-color-primary;
+      color: ${globalColorPrimary};
       font-size: 3.0rem;
 
-      @include media-query($sm-up) {
+      @include media-query(${styleVariables.smUp} ) {
         font-size: 4.2rem;
       }
     }
 
     .subheading {
-      color: $global-color-primary;
+      color: ${styleVariables.globalColorPrimary};
       font-size: 2.75rem;
     }
 
     .text {
-      color: $global-color-text;
+      color: ${styleVariables.globalColorText};
       font-size: 1.8rem;
     }
 
     a {
-      color: $color-hack-red;
+      color: ${styleVariables.colorHackRed};
       text-decoration: none;
       background-color: transparent;
     }
 
     a:hover {
-      color: $color-hack-red-light;
+      color: ${styleVariables.colorHackRedLight};
       text-decoration: none;
     }
 `
 
 export const tierList = styled.div`
     font-family: Brown, sans-serif;
-    background-color: $sponsor-color-bg-slant;
+    background-color: ${sponsorColorBgSlant};
     position: relative;
     margin-top: 20rem;
     margin-bottom: 6rem;
@@ -132,14 +142,14 @@ export const tierList = styled.div`
       }
   
     .heading {
-        color: $sponsor-color-primary;
+        color: ${sponsorColorPrimary};
         font-weight: bold;
     }
   
     .table-wrapper {
         overflow-x: scroll;
 
-        @include media-query($md-up) {
+        @include media-query(${styleVariables.mdUp} ) {
             overflow: initial;
         }
     }
@@ -154,7 +164,7 @@ export const tierList = styled.div`
             transition: 0.2s background-color ease-in-out;
 
             & .tier-list__table-cell {
-            background-color: $sponsor-color-bg-table-hover;
+            background-color: ${sponsorColorBgTableHover};
             transition: 0.2s background-color ease-in-out;
             }
         }
@@ -163,7 +173,7 @@ export const tierList = styled.div`
     .row--category {
         th {
             font-family: Brown, sans-serif;
-            color: $sponsor-color-table-category;
+            color: ${sponsorColorTableCategory};
             padding-top: 4rem;
         }
     }
@@ -180,7 +190,7 @@ export const tierList = styled.div`
     }
 
     .tier-name {
-        background: $sponsor-color-bg-slant;
+        background: ${sponsorColorBgSlant};
         text-align: center;
         z-index: 2;
         position: sticky;
@@ -201,9 +211,9 @@ export const tierList = styled.div`
         width: 7.5%;
         position: sticky;
         left: 0;
-        background-color: $sponsor-color-bg-slant;
+        background-color: ${sponsorColorBgSlant};
 
-        @include media-query($sm-up) {
+        @include media-query(${styleVariables.smUp} ) {
             width: initial;
         }
     }
@@ -213,12 +223,12 @@ export const tierList = styled.div`
         text-align: center;
         width: 12rem;
         height: 6rem;
-        border-bottom-color: $sponsor-color-bg-table;
+        border-bottom-color: ${sponsorColorBgTable};
 
         @include tiered-coloring;
 
         &:not(:empty) {
-            background-color: $sponsor-color-bg-table;
+            background-color: ${sponsorColorBgTable};
         }
     }
 
@@ -246,7 +256,7 @@ export const getInTouchSection= styled.div`
     justify-content: space-around;
 
     .heading {
-      color: $sponsor-color-footer-heading;
+      color: ${sponsorColorFooterHeading};
       font-size: 4rem;
       font-weight: bold;
       margin-bottom: 1rem;
@@ -254,11 +264,11 @@ export const getInTouchSection= styled.div`
     }
 
     .subheading {
-      color: $sponsor-color-primary;
+      color: ${sponsorColorPrimary};
       font-size: 2.4rem;
       text-align: center;
 
-      @include media-query($md-up) {
+      @include media-query(${styleVariables.mdUp} ) {
         text-align: left;
       }
     }

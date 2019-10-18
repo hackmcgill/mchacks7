@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as styleVariables from './variable';
 
 export const WaiverWrapper = styled.div`
     @include page-width;
@@ -6,7 +7,7 @@ export const WaiverWrapper = styled.div`
     margin: auto;
     padding: 16rem 4rem;
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVariables.smUp}) {
     padding: 16rem 0;
     }
 `

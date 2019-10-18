@@ -6,7 +6,7 @@ export const PrivacyWrapper = styled.div`
     margin: auto;
     padding: 16rem 4rem;
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVariables.smUp}) {
     padding: 16rem 0;
     }
 `

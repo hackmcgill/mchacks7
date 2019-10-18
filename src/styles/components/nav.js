@@ -1,10 +1,13 @@
 import styled from "styled-components"
+import * as styleVariables from './variable'
+
+const navBarLink = styleVariables.hackBlack60;
 
 export const NavBar = styled.nav`
     z-index: 2;
     height: 7rem;
     background-color: transparent;
-    border-bottom: 2px solid $color-hack-black-5;
+    border-bottom: 2px solid ${styleVariables.colorHackBlack};
     position: absolute;
     top: 0;
     width: 100%;
@@ -34,7 +37,7 @@ export const NavItems = styled.div`
     padding-left: 0;
     display: none;
   
-    @include media-query($sm-up) {
+    @include media-query(${styleVariables.smUp}) {
       display: initial;
     }
 `
@@ -46,7 +49,7 @@ export const NavItem = styled.div`
     text-decoration: none;
 
     a {
-        color: $navbar-link;
+        color: ${navBarLink};
         &:focus,
         &:hover {
             text-decoration: none;
@@ -59,22 +62,22 @@ export const NavButton = styled.button`
     font-weight: 600;
     font-size: 16px;
     text-transform: none;
-    color: $color-hack-red;
+    color: ${styleVariables.colorHackRed};
     border-radius: 0.5em;
-    border: 2px solid $color-hack-red;
+    border: 2px solid ${styleVariables.colorHackRed};
     transition: all 0.15s ease-in-out;
     padding: 8px 16px;
     margin-left: 12px;
   
     &:hover {
-      background-color: $color-hack-red;
+      background-color: ${styleVariables.colorHackRed};
       color: white;
     }
 `
   
 export const footer = styled.footer`
     padding: 2rem;
-    border-top: 2px solid $color-hack-red;
+    border-top: 2px solid ${styleVariables.colorHackRed};
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,7 +118,7 @@ export const footerLinkSocial = styled.a`
 `
   
 export const footerLink = styled.a`
-    color: $navbar-link;
+    color: ${navBarLink};
     margin-right: 2rem;
   
     &:focus,

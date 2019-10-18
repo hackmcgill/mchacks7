@@ -1,3 +1,5 @@
+import * as styleVariables from './variable'
+
 export const COCWrapper = styled.div`
     @include page-width;
     max-width: 70rem;

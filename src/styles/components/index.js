@@ -17,8 +17,7 @@ export const Hero = styled.section `
 
   .hero__heading {
   font-size: 3.6rem;
-  text-align: left;
-  color: #F2463A;
+  text-align: center;
   margin: auto;
   padding-bottom: 2rem;
 
@@ -33,7 +32,7 @@ export const Hero = styled.section `
   .hero__subheading {
   font-size: 1.6rem;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   padding-bottom: 1rem;
 
   @include media-query($sm-up) {
@@ -86,8 +85,8 @@ export const HeroButton = styled.button`
     margin-right: 25px;
   }
 `
-// a.k.a ABOUT
-export const Intro = styled.section` 
+
+export const Intro = styled.section`
   background-color: $landing-color-dark-bg;
   position: relative;
   padding: 16rem 0 10vw;
@@ -159,7 +158,8 @@ export const Sponsor = styled.section`
     margin-bottom: .5rem;
   }
 `
-export const sponsorLogoWrapper = styled.div`
+
+export const sponsorLogoWrapper = style.div`
   display: flex;
   flex-direction: row;
   justify-content: center;

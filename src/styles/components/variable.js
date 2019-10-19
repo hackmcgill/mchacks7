@@ -14,9 +14,9 @@ export const hackBlack5 = '#f4f4f4';
 export const hackWhite = '#fff';
 
 // global colors
-export const globalColorText = $color- hackBlack70;
-export const globalColorBg = $color-hack-white;
-export const globalColorPrimary = $color-hack-red;
+export const globalColorText = hackBlack70;
+export const globalColorBg = hackWhite;
+export const globalColorPrimary = colorHackRed;
 
 // screen breakpoint sizes
 export const smUp = '768px';

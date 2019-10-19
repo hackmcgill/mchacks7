@@ -1,21 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Nav from "../components/nav"
 import Hero from "../components/hero"
 import About from "../components/about"
-import Footer from "../components/footer"
 import Sponsor from "../components/sponsor"
-import Nav from "../components/nav"
-
+import Footer from "../components/footer"
 
 const IndexPage = () => (
-    <div>
-        <Nav />
-        <Hero />
-        <About />
-        <Sponsor />
-        <Footer />
-    </div>
+  <div>
+    <Nav />
+    <Hero />
+    <About />
+    <Sponsor />
+    <Footer />
+  </div>
 )
 
 export default IndexPage

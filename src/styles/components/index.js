@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import * as styleVariables from './variable'
+import * as styleVars from './variable'
 
-const landingColorPrimary = styleVariables.colorHackRed;
-const landingColorBorder = styleVariables.hackBlack5;
-const landingColorDarkBg = styleVariables.hackBlack5;
+const landingColorPrimary = styleVars.colorHackRed;
+const landingColorBorder = styleVars.hackBlack5;
+const landingColorDarkBg = styleVars.hackBlack5;
 
 export const Hero = styled.section `
   min-height: 100vh;
@@ -11,7 +11,7 @@ export const Hero = styled.section `
   overflow: hidden;
   padding: 0 4rem;
 
-  @include media-query(${styleVariables.mdUp}) {
+  @include media-query(${styleVars.mdUp}) {
     padding: 0 10rem;
   }
   }
@@ -26,7 +26,7 @@ export const Hero = styled.section `
   margin: auto;
   padding-bottom: 2rem;
 
-  @include media-query(${styleVariables.smUp}) {
+  @include media-query(${styleVars.smUp}) {
     text-align: left;
     margin: inherit;
     font-size: 4.8rem;
@@ -40,7 +40,7 @@ export const Hero = styled.section `
   text-align: center;
   padding-bottom: 1rem;
 
-  @include media-query(${styleVariables.smUp}) {
+  @include media-query(${styleVars.smUp}) {
     font-size: 1.8rem;
     text-align: left;
   }
@@ -51,7 +51,7 @@ export const Hero = styled.section `
     font-weight: 400;
     text-align: center;
 
-    @include media-query(${styleVariables.smUp}) {
+    @include media-query(${styleVars.smUp}) {
       font-size: 1.8rem;
       text-align: left;
     }
@@ -62,7 +62,7 @@ export const Hero = styled.section `
       text-align: center;
       margin-bottom: 1rem;
   
-      @include media-query(${styleVariables.smUp}) {
+      @include media-query(${styleVars.smUp}) {
         font-size: 1.4rem;
         text-align: left;
       }
@@ -74,18 +74,18 @@ export const HeroButton = styled.button`
   font-weight: 600;
   font-size: 16px;
   text-transform: none;
-  color: ${styleVariables.colorHackRed};
+  color: ${styleVars.colorHackRed};
   border-radius: 0.5em;
-  border: 2px solid ${styleVariables.colorHackRed};
+  border: 2px solid ${styleVars.colorHackRed};
   transition: all 0.15s ease-in-out;
   padding: 10px 32px;
 
   &:hover {
-    background-color: ${styleVariables.colorHackRed};
+    background-color: ${styleVars.colorHackRed};
     color: white;
   }
 
-  @include media-query(${styleVariables.smUp}) {
+  @include media-query(${styleVars.smUp}) {
     font-size: 1.8rem;
     margin-right: 25px;
   }
@@ -122,17 +122,17 @@ export const Intro = styled.section`
 `
 
 export const IntroButton = styled.button`
-  background-color: ${styleVariables.colorHackRed};
+  background-color: ${styleVars.colorHackRed};
     color: white;
     border-radius: 2em;
     border: none;
     transition: all 0.15s ease-in-out;
 
     &:hover {
-      background-color: ${styleVariables.colorHackRedMed};
+      background-color: ${styleVars.colorHackRedMed};
     }
 
-    @include media-query(${styleVariables.smUp}) {
+    @include media-query(${styleVars.smUp}) {
       font-size: 1.8rem;
       margin-right: 25px;
     }
@@ -163,7 +163,7 @@ export const Sponsor = styled.section`
     margin-bottom: .5rem;
   }
 `
-export const SponsorLogoWrapper = style.div`
+export const SponsorLogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -288,7 +288,7 @@ export const FaqContainer = styled.div`
     text-align: center;
     margin: auto;
 
-    @include media-query(${styleVariables.mdUp}) {
+    @include media-query(${styleVars.mdUp}) {
         padding-bottom: 32rem;
     }
 `
@@ -334,20 +334,20 @@ export const AccordionTitle = styled.div`
     flex-direction: column;
     width: 80%;
     padding: 1rem .5rem 1rem 1rem;
-    color: ${styleVariables.hackBlack80};
+    color: ${styleVars.hackBlack80};
 
     &:hover {
         cursor: pointer;
-        color: ${styleVariables.globalColorPrimary};
+        color: ${styleVars.globalColorPrimary};
     }
 
     &.active {
-        color: ${styleVariables.globalColorPrimary};
+        color: ${styleVars.globalColorPrimary};
     }
 `
 
 export const AccordionItem = styled.div`
-    background-color: ${styleVariables.hackBlack5};
+    background-color: ${styleVars.hackBlack5};
     box-shadow: 0px 2px 2px #E9E9E9;
     border-radius: 4px;
     margin-bottom: 3rem;
@@ -362,7 +362,7 @@ export const AccordionItem = styled.div`
         top: 1.1rem;
         right: 1.1rem;
         font-size: 1.5rem;
-        color: ${styleVariables.hackBlack80};
+        color: ${styleVars.hackBlack80};
     }
 
     &.active {
@@ -370,14 +370,14 @@ export const AccordionItem = styled.div`
             font-weight: 900;
             font-size: 1.5rem;
             content: '-';
-            color:  ${styleVariables.globalColorPrimary};
+            color:  ${styleVars.globalColorPrimary};
         }
     }
 
     &:hover {
         &:after {
             cursor: pointer;
-            color:  ${styleVariables.globalColorPrimary};
+            color:  ${styleVars.globalColorPrimary};
         }
     }
 `
@@ -391,11 +391,11 @@ export const AccordionContent = styled.div`
 
     a,
         a:active {
-        color:  ${styleVariables.globalColorPrimary};
+        color:  ${styleVars.globalColorPrimary};
     }
 
     a:hover {
-        color: ${styleVariables.hackBlack80};
+        color: ${styleVars.hackBlack80};
     }
 
     &.active {
@@ -414,7 +414,7 @@ export const AccordionContent = styled.div`
     .faq__image-left {
         display: none;
 
-        @include media-query(${styleVariables.lgUp}) {
+        @include media-query(${styleVars.lgUp}) {
         display: initial;
         position: absolute;
         top: 40%;
@@ -427,7 +427,7 @@ export const AccordionContent = styled.div`
     .faq__image-right {
         display: none;
     
-        @include media-query(${styleVariables.lgUp}) {
+        @include media-query(${styleVars.lgUp}) {
           display: initial;
           position: absolute;
           top: 30%;

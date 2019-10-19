@@ -1,13 +1,13 @@
 import styled from "styled-components"
-import * as styleVariables from './variable'
+import * as styleVars from './variable'
 
-const navBarLink = styleVariables.hackBlack60;
+const navBarLink = styleVars.hackBlack60;
 
 export const NavBar = styled.nav`
     z-index: 2;
     height: 7rem;
     background-color: transparent;
-    border-bottom: 2px solid ${styleVariables.colorHackBlack};
+    border-bottom: 2px solid ${styleVars.colorHackBlack};
     position: absolute;
     top: 0;
     width: 100%;
@@ -37,7 +37,7 @@ export const NavItems = styled.div`
     padding-left: 0;
     display: none;
   
-    @include media-query(${styleVariables.smUp}) {
+    @include media-query(${styleVars.smUp}) {
       display: initial;
     }
 `
@@ -62,22 +62,22 @@ export const NavButton = styled.button`
     font-weight: 600;
     font-size: 16px;
     text-transform: none;
-    color: ${styleVariables.colorHackRed};
+    color: ${styleVars.colorHackRed};
     border-radius: 0.5em;
-    border: 2px solid ${styleVariables.colorHackRed};
+    border: 2px solid ${styleVars.colorHackRed};
     transition: all 0.15s ease-in-out;
     padding: 8px 16px;
     margin-left: 12px;
   
     &:hover {
-      background-color: ${styleVariables.colorHackRed};
+      background-color: ${styleVars.colorHackRed};
       color: white;
     }
 `
   
 export const Footer = styled.footer`
     padding: 2rem;
-    border-top: 2px solid ${styleVariables.colorHackRed};
+    border-top: 2px solid ${styleVars.colorHackRed};
     display: flex;
     align-items: center;
     justify-content: space-between;

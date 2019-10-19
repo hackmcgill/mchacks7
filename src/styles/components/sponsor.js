@@ -1,17 +1,17 @@
 import styled from "styled-components"
-import * as styleVariables from './variable'
+import * as styleVars from './variable'
 
-const sponsorColorPrimary = styleVariables.globalColorPrimary;
-const sponsorColorBg = $styleVariables.globalColorBg;
-const sponsorColorText = $styleVariables.globalColorText;
-const sponsorColorBgSlant = $styleVariables.hackBlack5;
-const sponsorColorBgTable = $styleVariables.hackBlack10;
-const sponsorColorBgTableHover = $styleVariables.hackBlack20;
-const sponsorColorFooterHeading = $styleVariables.hackBlack80;
-const sponsorColorTableCategory= $styleVariables.hackBlack70;
+const sponsorColorPrimary = styleVars.globalColorPrimary;
+const sponsorColorBg = $styleVars.globalColorBg;
+const sponsorColorText = $styleVars.globalColorText;
+const sponsorColorBgSlant = $styleVars.hackBlack5;
+const sponsorColorBgTable = $styleVars.hackBlack10;
+const sponsorColorBgTableHover = $styleVars.hackBlack20;
+const sponsorColorFooterHeading = $styleVars.hackBlack80;
+const sponsorColorTableCategory= $styleVars.hackBlack70;
 
 export const TierList = styled.background`
-    background: ${styleVariables.globalColorBg} ;
+    background: ${styleVars.globalColorBg} ;
 `
 
 export const Hero = styled.div`
@@ -25,7 +25,7 @@ export const HeroForeground = styled.div`
     margin-top: 12rem;
     text-align: center;
 
-    @include media-query(${styleVariables.smUp} ) {
+    @include media-query(${styleVars.smUp} ) {
     position: absolute;
     top: 10%;
     left: 10%;
@@ -46,7 +46,7 @@ export const HeroHeading = styled.div`
     color: ${sponsorColorPrimary};
     font-size: 4.8rem;      
 
-    @include media-query(${styleVariables.mdUp} ) {
+    @include media-query(${styleVars.mdUp} ) {
     font-size: 6.4rem;
     margin-top: 6rem;
     }
@@ -58,7 +58,7 @@ export const Description = styled.section`
     margin: 0 auto;
     margin-bottom: 12rem;
 
-    @include media-query(${styleVariables.mdUp} ) {
+    @include media-query(${styleVars.mdUp} ) {
       padding: 6.4rem;
     }
 
@@ -67,7 +67,7 @@ export const Description = styled.section`
       display: block;
       margin: 0 auto;
 
-      @include media-query(${styleVariables.mdUp} ) {
+      @include media-query(${styleVars.mdUp} ) {
         width: 24rem;
       }
     }
@@ -76,29 +76,29 @@ export const Description = styled.section`
       color: ${globalColorPrimary};
       font-size: 3.0rem;
 
-      @include media-query(${styleVariables.smUp} ) {
+      @include media-query(${styleVars.smUp} ) {
         font-size: 4.2rem;
       }
     }
 
     .subheading {
-      color: ${styleVariables.globalColorPrimary};
+      color: ${styleVars.globalColorPrimary};
       font-size: 2.75rem;
     }
 
     .text {
-      color: ${styleVariables.globalColorText};
+      color: ${styleVars.globalColorText};
       font-size: 1.8rem;
     }
 
     a {
-      color: ${styleVariables.colorHackRed};
+      color: ${styleVars.colorHackRed};
       text-decoration: none;
       background-color: transparent;
     }
 
     a:hover {
-      color: ${styleVariables.colorHackRedLight};
+      color: ${styleVars.colorHackRedLight};
       text-decoration: none;
     }
 `
@@ -149,7 +149,7 @@ export const TierList = styled.div`
     .table-wrapper {
         overflow-x: scroll;
 
-        @include media-query(${styleVariables.mdUp} ) {
+        @include media-query(${styleVars.mdUp} ) {
             overflow: initial;
         }
     }
@@ -213,7 +213,7 @@ export const TierList = styled.div`
         left: 0;
         background-color: ${sponsorColorBgSlant};
 
-        @include media-query(${styleVariables.smUp} ) {
+        @include media-query(${styleVars.smUp} ) {
             width: initial;
         }
     }
@@ -268,7 +268,7 @@ export const GetInTouchSection= styled.div`
       font-size: 2.4rem;
       text-align: center;
 
-      @include media-query(${styleVariables.mdUp} ) {
+      @include media-query(${styleVars.mdUp} ) {
         text-align: left;
       }
     }

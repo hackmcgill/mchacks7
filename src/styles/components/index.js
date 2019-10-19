@@ -158,7 +158,6 @@ export const Sponsor = styled.section`
     margin-bottom: .5rem;
   }
 `
-
 export const sponsorLogoWrapper = style.div`
   display: flex;
   flex-direction: row;

@@ -5,7 +5,7 @@ import * as Styles from "../styles/components/index.js"
 
 
 const Footer = () => (
-    <div class="nav"></div>
+    <div className="nav"></div>
 )
     
 export default Footer

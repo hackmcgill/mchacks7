@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `McHacks`,
-    description: `Hack McGill`,
+    description: `Dream, develop, and deploy at McHacks, Canada's favourite hackathon hosted annually at McGill University.`,
     author: `@hackmcgill`,
   },
   plugins: [

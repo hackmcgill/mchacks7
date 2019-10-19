@@ -52,6 +52,7 @@ export const HeroHeading = styled.div`
     }
 `
 
+
 export const Description = styled.section`
     max-width: 76.8rem;
     padding: 4.8rem;

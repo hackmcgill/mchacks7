@@ -1,4 +1,9 @@
 import styled from "styled-components";
+import * as styleVars from './variable'
+
+const landingColorPrimary = styleVars.colorHackRed;
+const landingColorBorder = styleVars.hackBlack5;
+const landingColorDarkBg = styleVars.hackBlack5;
 
 export const Hero = styled.section `
   min-height: 100vh;
@@ -6,7 +11,7 @@ export const Hero = styled.section `
   overflow: hidden;
   padding: 0 4rem;
 
-  @include media-query($md-up) {
+  @include media-query(${styleVars.mdUp}) {
     padding: 0 10rem;
   }
   }
@@ -21,7 +26,7 @@ export const Hero = styled.section `
   margin: auto;
   padding-bottom: 2rem;
 
-  @include media-query($sm-up) {
+  @include media-query(${styleVars.smUp}) {
     text-align: left;
     margin: inherit;
     font-size: 4.8rem;
@@ -35,7 +40,7 @@ export const Hero = styled.section `
   text-align: center;
   padding-bottom: 1rem;
 
-  @include media-query($sm-up) {
+  @include media-query(${styleVars.smUp}) {
     font-size: 1.8rem;
     text-align: left;
   }
@@ -46,7 +51,7 @@ export const Hero = styled.section `
     font-weight: 400;
     text-align: center;
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVars.smUp}) {
       font-size: 1.8rem;
       text-align: left;
     }
@@ -57,7 +62,7 @@ export const Hero = styled.section `
       text-align: center;
       margin-bottom: 1rem;
   
-      @include media-query($sm-up) {
+      @include media-query(${styleVars.smUp}) {
         font-size: 1.4rem;
         text-align: left;
       }
@@ -69,25 +74,25 @@ export const HeroButton = styled.button`
   font-weight: 600;
   font-size: 16px;
   text-transform: none;
-  color: $color-hack-red;
+  color: ${styleVars.colorHackRed};
   border-radius: 0.5em;
-  border: 2px solid $color-hack-red;
+  border: 2px solid ${styleVars.colorHackRed};
   transition: all 0.15s ease-in-out;
   padding: 10px 32px;
 
   &:hover {
-    background-color: $color-hack-red;
+    background-color: ${styleVars.colorHackRed};
     color: white;
   }
 
-  @include media-query($sm-up) {
+  @include media-query(${styleVars.smUp}) {
     font-size: 1.8rem;
     margin-right: 25px;
   }
 `
 
 export const Intro = styled.section`
-  background-color: $landing-color-dark-bg;
+  background-color: ${landingColorDarkBg};
   position: relative;
   padding: 16rem 0 10vw;
 
@@ -117,17 +122,17 @@ export const Intro = styled.section`
 `
 
 export const IntroButton = styled.button`
-  background-color: $color-hack-red;
+  background-color: ${styleVars.colorHackRed};
     color: white;
     border-radius: 2em;
     border: none;
     transition: all 0.15s ease-in-out;
 
     &:hover {
-      background-color: $color-hack-red-med;
+      background-color: ${styleVars.colorHackRedMed};
     }
 
-    @include media-query($sm-up) {
+    @include media-query(${styleVars.smUp}) {
       font-size: 1.8rem;
       margin-right: 25px;
     }
@@ -158,7 +163,7 @@ export const Sponsor = styled.section`
     margin-bottom: .5rem;
   }
 `
-export const sponsorLogoWrapper = style.div`
+export const SponsorLogoWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -171,7 +176,7 @@ export const sponsorLogoWrapper = style.div`
     max-height: 100%;
   }
 `
-export const sponsorLogoWrapperTera = styled.div`
+export const SponsorLogoWrapperTera = styled.div`
     flex-basis: 90%;
     align-self: center;
     padding: 2%;
@@ -184,7 +189,7 @@ export const sponsorLogoWrapperTera = styled.div`
     }
 `
 
-export const sponsorLogoWrapperGiga = styled.div`
+export const SponsorLogoWrapperGiga = styled.div`
     flex-basis: 65%;
     align-self: center;
     padding: 2%;
@@ -196,7 +201,7 @@ export const sponsorLogoWrapperGiga = styled.div`
     }
 `
 
-export const sponsorLogoWrapperMega = styled.div`
+export const SponsorLogoWrapperMega = styled.div`
     flex-basis: 45%;
     align-self: center;
     padding: 2%;
@@ -208,7 +213,7 @@ export const sponsorLogoWrapperMega = styled.div`
     }
 `
 
-export const sponsorLogoWrapperKilo = styled.div`
+export const SponsorLogoWrapperKilo = styled.div`
     flex-basis: 21%;
     align-self: center;
     padding: 2%;
@@ -220,7 +225,7 @@ export const sponsorLogoWrapperKilo = styled.div`
     }
 `
 
-export const sponsorLogoWrapperByte = styled.div`
+export const SponsorLogoWrapperByte = styled.div`
     flex-basis: 18%;
     align-self: center;
     padding: 1%;
@@ -232,7 +237,7 @@ export const sponsorLogoWrapperByte = styled.div`
     }
 `
 
-export const sponsorLogoWrapperInkind = styled.div`
+export const SponsorLogoWrapperInkind = styled.div`
     flex-basis: 7%;
     align-self: center;
     padding: 1.5%;
@@ -244,7 +249,7 @@ export const sponsorLogoWrapperInkind = styled.div`
     }
 `
 
-export const sponsorLogo = styled.image`
+export const SponsorLogo = styled.image`
     max-width: 100%;
     max-height: 100%;
     transition: 1s;
@@ -253,7 +258,7 @@ export const sponsorLogo = styled.image`
     transform: scale(1.1);
     }
 `
-export const sponsporList = styled.div`
+export const SponsporList = styled.div`
     margin-bottom: 16rem;
     sponsor-list__heading {
         text-align: center;
@@ -269,28 +274,28 @@ export const sponsporList = styled.div`
         margin-bottom: .5rem;
     }
 `
-export const sponsorHeading = styled.div`
+export const SponsorHeading = styled.div`
     font-size: 2.8rem;
 `
-export const faqSection = styled.div`
+export const FaqSection = styled.div`
     align-content: center;
 `
 
-export const faqContainer = styled.div`
+export const FaqContainer = styled.div`
     padding-bottom: 60rem;
     max-width: 88rem;
     height: 40rem;
     text-align: center;
     margin: auto;
 
-    @include media-query($md-up) {
+    @include media-query(${styleVars.mdUp}) {
         padding-bottom: 32rem;
     }
 `
-export const faqJumpTo = styled.div`
+export const FaqJumpTo = styled.div`
     padding-top: 5rem;
 `
-export const faqFlexContainer = styled.div`
+export const FaqFlexContainer = styled.div`
     .faq__flex-container {
         display: flex;
         justify-content: center;
@@ -307,7 +312,7 @@ export const faqFlexContainer = styled.div`
         }
     }
 `
-export const faqLeftColumn = styled.div`
+export const FaqLeftColumn = styled.div`
     width: 40rem;
     text-align: initial;
 
@@ -315,7 +320,7 @@ export const faqLeftColumn = styled.div`
         padding-right: 1.5rem;
     }
 `
-export const faqRightColumn = styled.div`
+export const FaqRightColumn = styled.div`
     width: 40rem;
     text-align: initial;
 
@@ -323,26 +328,26 @@ export const faqRightColumn = styled.div`
         padding-left: 1.5rem;
     }
 `
-export const accordionTitle = styled.div`
+export const AccordionTitle = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
     width: 80%;
     padding: 1rem .5rem 1rem 1rem;
-    color: $color-hack-black-80;
+    color: ${styleVars.hackBlack80};
 
     &:hover {
         cursor: pointer;
-        color: $global-color-primary;
+        color: ${styleVars.globalColorPrimary};
     }
 
     &.active {
-        color: $global-color-primary;
+        color: ${styleVars.globalColorPrimary};
     }
 `
 
-export const accordionItem = styled.div`
-    background-color: $color-hack-black-5;
+export const AccordionItem = styled.div`
+    background-color: ${styleVars.hackBlack5};
     box-shadow: 0px 2px 2px #E9E9E9;
     border-radius: 4px;
     margin-bottom: 3rem;
@@ -357,7 +362,7 @@ export const accordionItem = styled.div`
         top: 1.1rem;
         right: 1.1rem;
         font-size: 1.5rem;
-        color: $color-hack-black-80;
+        color: ${styleVars.hackBlack80};
     }
 
     &.active {
@@ -365,19 +370,19 @@ export const accordionItem = styled.div`
             font-weight: 900;
             font-size: 1.5rem;
             content: '-';
-            color: $global-color-primary;
+            color:  ${styleVars.globalColorPrimary};
         }
     }
 
     &:hover {
         &:after {
             cursor: pointer;
-            color: $global-color-primary;
+            color:  ${styleVars.globalColorPrimary};
         }
     }
 `
 
-export const accordionContent = styled.div`
+export const AccordionContent = styled.div`
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
@@ -386,11 +391,11 @@ export const accordionContent = styled.div`
 
     a,
         a:active {
-        color: $global-color-primary;
+        color:  ${styleVars.globalColorPrimary};
     }
 
     a:hover {
-        color: $color-hack-black-80;
+        color: ${styleVars.hackBlack80};
     }
 
     &.active {
@@ -409,7 +414,7 @@ export const accordionContent = styled.div`
     .faq__image-left {
         display: none;
 
-        @include media-query($lg-up) {
+        @include media-query(${styleVars.lgUp}) {
         display: initial;
         position: absolute;
         top: 40%;
@@ -422,7 +427,7 @@ export const accordionContent = styled.div`
     .faq__image-right {
         display: none;
     
-        @include media-query($lg-up) {
+        @include media-query(${styleVars.lgUp}) {
           display: initial;
           position: absolute;
           top: 30%;

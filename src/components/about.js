@@ -1,6 +1,6 @@
 import React from "react"
 
-import AboutImg from "../images/about.png"
+import AboutImg from "../images/about.svg"
 import * as Styles from "../styles/components/index.js"
 
 const About = () => (

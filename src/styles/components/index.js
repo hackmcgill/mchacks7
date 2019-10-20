@@ -90,56 +90,106 @@ export const HeroButton = styled.button`
     margin-right: 25px;
   }
 `
+export const About = styled.section`
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
 
-export const Intro = styled.section`
-  background-color: ${landingColorDarkBg};
-  position: relative;
-  padding: 16rem 0 10vw;
-
-  &::before {
-    display: block;
-    position: absolute;
-    top: -350px;
-    content: " ";
-    width: 100%;
-    height: 400px;
-    background-image: url("/static/hero-skyline.svg");
-    background-size: 1440px;
-    z-index: -2;
-  }
-
-  &::after {
-    display: block;
-    position: absolute;
-    content: " ";
-    bottom: -30vw;
-    width: 100%;
-    height: 50vw;
-    background-image: url("/static/info-plateau.svg");
-    background-size: contain;
-    z-index: 2;
-  }
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        display: block;
+    }
 `
 
-export const IntroButton = styled.button`
-  background-color: ${styleVars.colorHackRed};
-    color: white;
-    border-radius: 2em;
-    border: none;
-    transition: all 0.15s ease-in-out;
+export const AboutContent = styled.div`
+    display: flex;
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 5rem;
 
-    &:hover {
-      background-color: ${styleVars.colorHackRedMed};
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        display: block;
+    }
+`
+
+export const AboutText = styled.div`
+    padding-left: 2rem;
+    margin-right: 10rem;
+    width: 50%;
+    margin-bottom: 1rem;
+
+    h2 {
+        color: ${styleVars.colorHackRed};
+        font-size: 3.0rem;
+        font-weight: 400;
     }
 
-    @include media-query(${styleVars.smUp}) {
-      font-size: 1.8rem;
-      margin-right: 25px;
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+        margin-bottom: 1rem;
+    }
+`
+
+export const AboutImg = styled.img`
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    padding-right: 2rem;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+    }
+`
+export const SponsContent = styled.div`
+    display: flex;
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        display: block;
+    }
+`
+
+export const SponsText = styled.div`
+    padding-left: 2rem;
+    margin-right: 10rem;
+    width: 50%;
+    margin-bottom: 1rem;
+
+    h2 {
+        color: ${styleVars.colorHackRed};
+        font-size: 3.0rem;
+        font-weight: 400;
+    }
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+        margin-bottom: 1rem;
+    }
+`
+
+export const SponsImg = styled.img`
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    padding-right: 2rem;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
     }
 `
 
 export const Sponsor = styled.section`
-  margin-top: 50rem;
   margin-bottom: 12rem;
   .sponsor__heading {
     font-size: 2.8rem;

@@ -7,53 +7,42 @@ export const NavBar = styled.nav`
     z-index: 2;
     height: 7rem;
     background-color: transparent;
-    border-bottom: 2px solid ${styleVars.colorHackBlack};
+    border-bottom: 2px solid #f4f4f4;
     position: absolute;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 `
   
 export const NavbarBrand = styled.div`
-    display: inline-block;
-    padding: 1.2rem 0 1.2rem 1.4rem;
-    margin-left: 1.2rem;
-  
-    &:focus,
-    &:hover {
-      text-decoration: none;
-    }
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
 `
 
-export const NavbarBrand = styled.img`
+export const NavbarBrandImg = styled.img`
     height: 5rem;
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
 `
   
 export const NavItems = styled.div` 
-    float: right;
-    list-style: none;
-    padding: 2.1rem;
-    padding-left: 0;
-    display: none;
-  
-    @include media-query(${styleVars.smUp}) {
-      display: initial;
+    padding: 1.2rem 2.4rem;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (min-width: ${styleVars.smUp})
+        display: initial;
     }
 `
-  
-export const NavItem = styled.div`
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
-    margin-right: 2rem;
+
+export const NavItem = styled.a`
+    margin-left: 2rem;
+    cursor: pointer;
+    color: ${navBarLink};
     text-decoration: none;
 
-    a {
-        color: ${navBarLink};
-        &:focus,
-        &:hover {
-            text-decoration: none;
-        }
+    &:focus,
+    &:hover {
+        color: ${styleVars.colorHackRed};
     }
 `
   
@@ -76,53 +65,43 @@ export const NavButton = styled.button`
 `
   
 export const Footer = styled.footer`
-    padding: 2rem;
+    padding: 2rem 0;
     border-top: 2px solid ${styleVars.colorHackRed};
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
-`
-  
-export const FooterContainer = styled.div`
-    display: flex;
-    flex: row;
-    justify-content: flex-start;
     align-items: center;
-    max-width: 48%;
-    flex-wrap: wrap;
 `
   
-export const FooterLinks = styled.a`
-    margin: 0;
-    padding: 0;
-    flex-basis: auto;
-  
-    li {
-      margin-left: 1rem;
-      display: inline;
-    }
+export const FooterLinks = styled.div`
+    padding: 1.2rem 2.4rem;
 `
-  
-export const FooterLinksSocial = styled.div`
-    float: right;
-    list-style: none;
-    padding: 0 0 0 1rem;
-    margin: 0;
-`
-  
-export const FooterLinkSocial = styled.a`
-    vertical-align: middle;
-    vertical-align: -webkit-baseline-middle;
-    margin-right: 2rem;
-    text-decoration: none;
-`
-  
+
 export const FooterLink = styled.a`
     color: ${navBarLink};
     margin-right: 2rem;
-  
+    cursor: pointer;
+    text-decoration: none;
+
     &:focus,
     &:hover {
-      text-decoration: none;
+        color: ${styleVars.colorHackRed};
+    }
+`
+
+export const FooterLinksSocial = styled.div`
+    padding: 1.2rem 2.4rem;
+`
+  
+export const FooterLinkSocial = styled.a`
+    margin-left: 2rem;
+    color: ${navBarLink};
+    margin-right: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+        color: ${styleVars.colorHackRed};
     }
 `

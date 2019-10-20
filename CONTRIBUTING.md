@@ -13,7 +13,7 @@
 
 ## Pull Requests
 
-- Use your branch name as the PR title
+- Name the PR with a summary of proposed changes
 - Complete the entire PR template
 - Satisfy the PR checklist before asking for review
 - Set `develop` as the base branch unless it's a release (then set base to `master`)

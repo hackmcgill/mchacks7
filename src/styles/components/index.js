@@ -157,8 +157,8 @@ export const SponsContent = styled.div`
 `
 
 export const SponsText = styled.div`
-    padding-left: 2rem;
-    margin-right: 10rem;
+    padding-left: 10rem;
+    // margin-right: 10rem;
     width: 50%;
     margin-bottom: 1rem;
 

@@ -105,7 +105,7 @@ export const ArrowButton = styled.button`
         right: 0;
         height: 36px;
         padding: 0 14px;
-        margin-left: -8.5px;
+        margin-left: -8px;
 
         &:hover {
         background-color: $color-hack-red-med;
@@ -132,7 +132,7 @@ export const HeroForeground = styled.img`
     height: auto;
     object-fit: contain;
     z-index: -5;
-    top: 290px; 
+    top: 350px; 
     right: 0px;
 
     @media only screen and (max-width: ${styleVars.smUp}) {
@@ -147,7 +147,7 @@ export const HeroBuildings = styled.img`
     height: auto;
     object-fit: contain;
     z-index: -4;
-    top: 350px; 
+    top: 290px; 
     right: 0px;
 
     @media only screen and (max-width: ${styleVars.smUp}) {

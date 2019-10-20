@@ -132,7 +132,7 @@ export const HeroForeground = styled.img`
     height: auto;
     object-fit: contain;
     z-index: -5;
-    top: 350px; 
+    top: 290px; 
     right: 0px;
 
     @media only screen and (max-width: ${styleVars.smUp}) {

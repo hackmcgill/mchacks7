@@ -5,13 +5,15 @@ const landingColorPrimary = styleVars.colorHackRed;
 const landingColorBorder = styleVars.hackBlack5;
 const landingColorDarkBg = styleVars.hackBlack5;
 
+
+
 export const Hero = styled.section `
   min-height: 100vh;
   position: relative;
   overflow: hidden;
   padding: 0 4rem;
 
-  @include media-query(${styleVars.mdUp}) {
+  @media only screen and (min-width: ${styleVars.mdUp}){
     padding: 0 10rem;
   }
   }
@@ -21,12 +23,14 @@ export const Hero = styled.section `
   }
 
   .hero__heading {
-  font-size: 3.6rem;
   text-align: center;
   margin: auto;
   padding-bottom: 2rem;
+  font-size: 1.875em; 
+  font-weight: bold;
+  color: ${styleVars.colorHackRed};
 
-  @include media-query(${styleVars.smUp}) {
+  @media only screen and (min-width: ${styleVars.smUp}) {
     text-align: left;
     margin: inherit;
     font-size: 4.8rem;
@@ -35,13 +39,13 @@ export const Hero = styled.section `
   }
 
   .hero__subheading {
-  font-size: 1.6rem;
+  font-size: 1.5em;
   font-weight: 400;
   text-align: center;
   padding-bottom: 1rem;
+  color: ${styleVars.hackBlack50};
 
-  @include media-query(${styleVars.smUp}) {
-    font-size: 1.8rem;
+  @media only screen and (min-width: ${styleVars.smUp}) {
     text-align: left;
   }
   }
@@ -51,7 +55,7 @@ export const Hero = styled.section `
     font-weight: 400;
     text-align: center;
 
-    @include media-query(${styleVars.smUp}) {
+    @media only screen and (min-width: ${styleVars.smUp}) {
       font-size: 1.8rem;
       text-align: left;
     }
@@ -62,7 +66,7 @@ export const Hero = styled.section `
       text-align: center;
       margin-bottom: 1rem;
   
-      @include media-query(${styleVars.smUp}) {
+      @media only screen and (min-width: ${styleVars.smUp}) {
         font-size: 1.4rem;
         text-align: left;
       }
@@ -85,11 +89,89 @@ export const HeroButton = styled.button`
     color: white;
   }
 
-  @include media-query(${styleVars.smUp}) {
+  @media only screen and (min-width: ${styleVars.smUp}) {
     font-size: 1.8rem;
     margin-right: 25px;
   }
 `
+
+export const ArrowButton = styled.button`
+    background-color: ${styleVars.colorHackRed};
+        color: #fff;
+        border-radius: 2em;
+        border: none;
+        transition: all 0.15s ease-in-out;
+        top: 1px;
+        right: 0;
+        height: 36px;
+        padding: 0 14px;
+        margin-left: -8.5px;
+
+        &:hover {
+        background-color: $color-hack-red-med;
+        }
+`
+
+export const HeroBackground = styled.img`
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    top: 100px;
+    z-index: -6;
+    width: 100%;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+    }
+`
+
+export const HeroForeground = styled.img`
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    z-index: -5;
+    top: 350px; 
+    right: 0px;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+    }
+`
+
+export const HeroBuildings = styled.img`
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    z-index: -4;
+    top: 350px; 
+    right: 0px;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+    }
+`
+
+export const HeroCord = styled.img`
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    z-index: -3;
+    top: 350px; 
+    right: 0px;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 2rem;
+    }
+`
+
 export const About = styled.section`
     display: flex;
     align-items: center;

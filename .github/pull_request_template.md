@@ -20,10 +20,9 @@ Please delete options that aren't relevant.
 
 ### Questions for code reviewers?
 
-## Checklist:
-
-  - [ ] Merged `develop` branch (before testing)
-  - [ ] Linted my code locally
-  - [ ] Tested all links in project relevant browsers
-  - [ ] Tested all links on different screen sizes
-  - [ ] Referenced all useful info (issues, tasks, etc)
+### PR Checklist:
+- [ ] Merged `develop` branch (before testing)
+- [ ] Linted my code locally
+- [ ] Tested all links in project relevant browsers
+- [ ] Tested all links on different screen sizes
+- [ ] Referenced all useful info (issues, tasks, etc)

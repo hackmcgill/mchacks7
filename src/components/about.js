@@ -7,6 +7,7 @@ const About = () => (
     <Styles.Intro>
         <div className="intro">
             <h2 className="intro__heading">Behind Canada’s original collegiate hackathon</h2> 
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus metus, tincidunt at finibus quis,
                 <br />

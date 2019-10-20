@@ -7,7 +7,6 @@ import About from "../components/about"
 import Sponsor from "../components/sponsor"
 import Footer from "../components/footer"
 
-
 const IndexPage = () => (
     <div>
         <Nav />

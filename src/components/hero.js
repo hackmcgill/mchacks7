@@ -14,7 +14,6 @@ const Hero = () => (
             <button>your email here -></button>
         </div>
     </Styles.Hero>
-    
   )
   
   export default Hero

@@ -5,7 +5,9 @@ import * as Styles from "../styles/components/index.js"
 
 
 const Nav = () => (
+
         <div className="nav">
+
         </div>
 )
     

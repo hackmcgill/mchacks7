@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `McHacks 7`,
-    description: `Canada's favourite collegiate hackathon's static website!`,
-    author: `@gatsbyjs`,
+    title: `McHacks`,
+    description: `Dream, develop, and deploy at McHacks, Canada's favourite hackathon hosted annually at McGill University.`,
+    author: `@hackmcgill`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

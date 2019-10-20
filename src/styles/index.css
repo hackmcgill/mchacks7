@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+
+html {
+    line-height: 1.15;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Hind Siliguri,-apple-system,system-ui,BlinkMacSystemFont,sans-serif;
+    color: #636363;
+    overflow: scroll;
+    overflow-x: hidden;
+}

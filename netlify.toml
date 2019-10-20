@@ -1,0 +1,5 @@
+[build]
+  publish = "public"
+  command = "yarn build"
+[build.environment]
+  NPM_VERSION = "6.11.3"

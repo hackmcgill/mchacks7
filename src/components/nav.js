@@ -3,7 +3,10 @@ import React from "react"
 import Logo from "../images/logo.png"
 import * as Styles from "../styles/components/nav"
 
-const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => (
+const scrollToAbout = () => {}
+const scrollToSponsor = () => {} 
+
+const Nav = ({) => (
         <Styles.NavBar>
                 <Styles.NavbarBrand>
                         <Styles.NavbarBrandImg src={Logo} />

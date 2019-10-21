@@ -7,7 +7,7 @@ This repository contains the code behind the static site of McHacks 7.
 ## Setup
 
 1. Make sure you have [node](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/lang/en/) installed. 
-2. Run `npm install -g gatsby-cli` to install Gatsby CLI locally.
+2. Run `yarn global add gatsby-cli` to install Gatsby CLI locally.
 3. Run `yarn` to install dependencies.
 4. Run `gatsby develop` to start dev server! 🚀
 

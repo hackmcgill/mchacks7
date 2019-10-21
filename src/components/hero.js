@@ -21,7 +21,7 @@ const Hero = () => (
   
     <Styles.Hero>
         <div class='hero__copy'>
-            <h2 class="hero__subheading">Youpi doop firggin slogan:</h2> 
+            <h2 class="hero__subheading">Dream, develop, and deploy at</h2> 
             <h1 class="hero__heading">McHacks</h1> 
             <p class="hero__subheading">Montreal, Canada - February 1-2, 2020</p>
             <p class="hero__email">Sign up for updates about McHacks. No spam, we promise.</p>

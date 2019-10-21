@@ -15,6 +15,7 @@ const Sponsor = () => (
                     solve problems from the ground up. Join us as we shake the world of technology for 24 hours. 
                     We've got a table with your name on it!
                 </p>
+                <a class="button" href="mailto:sponsorship@mchacks.ca">Become a sponsor</a>
             </Styles.SponsText>
         </Styles.SponsContent>   
     </Styles.Sponsor>

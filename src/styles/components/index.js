@@ -69,6 +69,8 @@ export const Hero = styled.section `
     }
 `
 
+// export const Button = 
+
 export const HeroButton = styled.button`
   font-family: Brown, sans-serif;
   font-weight: 600;

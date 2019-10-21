@@ -8,13 +8,13 @@ import Sponsor from "../components/sponsor"
 import Footer from "../components/footer"
 
 const IndexPage = () => (
-    <div>
-        <Nav />
-        <Hero />
-        <About />
-        <Sponsor />
-        <Footer />
-    </div>
+  <div>
+    <Nav />
+    <Hero />
+    <About />
+    <Sponsor />
+    <Footer />
+  </div>
 )
 
 export default IndexPage

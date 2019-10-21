@@ -20,7 +20,7 @@ const Sponsor = () => (
                     We've got a table with your name on it!
                 </p>
                 <Styles.SponsButton onClick = {mailTo}>
-                    Interested in Sponsoring?
+                    Become a Sponsor
                 </Styles.SponsButton>
                 {/* <a class="button" href="mailto:sponsorship@mchacks.ca">Become a sponsor</a> */}
             </Styles.SponsText>

@@ -3,7 +3,7 @@
 ## Branches
 
 - Create a new branch from `develop`
-- Name branches like `feature/short-description` or `bug/short-description`, for ex. `feature/add-styling`
+- Name branches like `feature/ticket#-short-description` or `bug/ticket#-short-description`, for ex. `feature/9-styling`
 
 ## Commits
 

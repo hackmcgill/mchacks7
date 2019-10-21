@@ -18,8 +18,6 @@ const IndexPage = () => (
     <About />
     <Sponsor />
     <Footer />
-    <Styles.HeroBackground src={HeroFirstBackground}/>
-
   </div>
 )
 

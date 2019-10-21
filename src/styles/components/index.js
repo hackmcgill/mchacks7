@@ -191,6 +191,26 @@ export const SponsImg = styled.img`
     }
 `
 
+export const SponsButton = styled.button`
+  font-family: Brown, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  background-color: ${landingColorPrimary};
+  color: white;
+  border-radius: 0.5em;
+  border: none;
+  transition: all 0.15s ease-in-out;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 48px;
+
+  &:hover {
+    background-color: #f56f65;
+    color: white;
+  }
+`
+
 export const Sponsor = styled.section`
   margin-bottom: 12rem;
   .sponsor__heading {

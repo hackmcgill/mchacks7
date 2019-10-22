@@ -69,10 +69,8 @@ export const Hero = styled.section`
     }
 `
 
-// export const Button =
-
 export const HeroButton = styled.button`
-  font-family: Brown, sans-serif;
+//   font-family: Brown, sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-transform: none;
@@ -198,12 +196,13 @@ export const SponsButton = styled.button`
   text-transform: none;
   background-color: ${landingColorPrimary};
   color: white;
-  border-radius: 0.5em;
+  border-radius: 3.75em;
   border: none;
   transition: all 0.15s ease-in-out;
   padding-top: 4px;
   padding-bottom: 4px;
-  height: 48px;
+  height: 45px;
+  width: 175px;
 
   &:hover {
     background-color: #f56f65;

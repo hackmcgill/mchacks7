@@ -199,10 +199,12 @@ export const SponsButton = styled.button`
   border-radius: 3.75em;
   border: none;
   transition: all 0.15s ease-in-out;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  height: 45px;
-  width: 175px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+//   height: 45px;
+//   width: 175px;
 
   &:hover {
     background-color: #f56f65;

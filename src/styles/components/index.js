@@ -70,7 +70,7 @@ export const Hero = styled.section`
 `
 
 export const HeroButton = styled.button`
-//   font-family: Brown, sans-serif;
+  //   font-family: Brown, sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-transform: none;
@@ -160,7 +160,7 @@ export const SponsText = styled.div`
   padding-left: 10rem;
   // margin-right: 10rem;
   width: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   h2 {
     color: ${styleVars.colorHackRed};
@@ -199,12 +199,13 @@ export const SponsButton = styled.button`
   border-radius: 3.75em;
   border: none;
   transition: all 0.15s ease-in-out;
+  margin-top: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 25px;
   padding-right: 25px;
-//   height: 45px;
-//   width: 175px;
+  //   height: 45px;
+  //   width: 175px;
 
   &:hover {
     background-color: #f56f65;

@@ -1,8 +1,9 @@
 ### Tickets:
+
 - HCK-
 
 ### List of changes:
--
+
 -
 
 ### Type of change:
@@ -21,6 +22,7 @@ Please delete options that aren't relevant.
 ### Questions for code reviewers?
 
 ### PR Checklist:
+
 - [ ] Merged `develop` branch (before testing)
 - [ ] Linted my code locally
 - [ ] Tested all links in project relevant browsers

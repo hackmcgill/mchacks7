@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
+import React from "react"
+import PropTypes from "prop-types"
+import Helmet from "react-helmet"
 
 const SEO = ({ description, title, lang }) => (
   <Helmet>
@@ -12,13 +12,13 @@ const SEO = ({ description, title, lang }) => (
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffffff"></meta>
   </Helmet>
-);
+)
 
 SEO.defaultProps = {
-  lang: 'en',
+  lang: "en",
   meta: [],
-  description: '',
-  title: 'McHacks'
+  description: "",
+  title: "McHacks",
 }
 
 SEO.propTypes = {

@@ -4,7 +4,7 @@
 
 ### List of changes:
 
-## -
+-
 
 ### Type of change:
 

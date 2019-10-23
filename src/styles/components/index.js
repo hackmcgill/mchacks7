@@ -21,7 +21,7 @@ export const Hero = styled.section `
   }
 
   .hero__heading {
-  text-align: center;
+  text-align: left;
   margin: auto;
   padding-bottom: 2rem;
   font-size: 1.875em; 
@@ -31,6 +31,7 @@ export const Hero = styled.section `
   @media only screen and (max-width: ${styleVars.smUp}) {
     text-align: center;
     font-size: 4.8rem;
+    padding-bottom: 0;
   }
   }
 
@@ -43,6 +44,7 @@ export const Hero = styled.section `
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     text-align: center;
+    padding-bottom: 0;
   }
   }
 
@@ -155,7 +157,7 @@ export const HeroBuildings = styled.img`
         margin-top: 10%;
         padding: 0rem 2rem; 
         padding-top: 3rem;
-        top: 520px; 
+        top: 450px; 
         z-index: 0;
     }
 `

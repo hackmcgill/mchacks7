@@ -6,6 +6,10 @@ import Hero from "../components/hero"
 import About from "../components/about"
 import Sponsor from "../components/sponsor"
 import Footer from "../components/footer"
+import * as Styles from "../styles/components/index.js"
+import HeroFirstBackground from "../images/hero/bg.svg"
+import Cord from "../images/hero/cord.svg"
+
 
 const IndexPage = () => (
   <div>

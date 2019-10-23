@@ -1,8 +1,9 @@
 import React from "react"
+import * as Styles from "../styles/components/index.js"
 
 const NotFoundPage = () => (
-  <div class="notfound">
-    <a> NOT FOUND!</a>
+  <div className="notfound">
+    <p> NOT FOUND!</p>
   </div>
 )
 

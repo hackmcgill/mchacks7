@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
 
+@font-face {
+    font-family: "Brown";
+    src: url("./font/Brown-Regular.ttf");
+}
+
 html {
     line-height: 1.15;
     font-size: 62.5%;
@@ -10,7 +15,7 @@ body {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    font-family: Hind Siliguri,-apple-system,system-ui,BlinkMacSystemFont,sans-serif;
+    font-family: "Brown";
     color: #636363;
     overflow: scroll;
     overflow-x: hidden;

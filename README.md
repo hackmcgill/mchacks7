@@ -1,4 +1,4 @@
-# McHacks 7
+# [McHacks 7](https://2020.mchacks.ca)
 
 This repository contains the code behind the static site of McHacks 7.
 
@@ -13,4 +13,4 @@ This repository contains the code behind the static site of McHacks 7.
 
 ## Contributing
 
-See our [contributing guide](https://github.com/hackmcgill/mchacks7/blob/dev/CONTRIBUTING.md).
+See our [contributing guide](https://github.com/hackmcgill/mchacks7/blob/develop/CONTRIBUTING.md).

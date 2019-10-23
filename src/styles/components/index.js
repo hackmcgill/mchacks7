@@ -39,11 +39,11 @@ export const Hero = styled.section `
   .hero__subheading {
   font-size: 1.5em;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   padding-bottom: 1rem;
   color: ${styleVars.hackBlack50};
 
-  @media only screen and (min-width: ${styleVars.smUp}) {
+  @media only screen and (max-width: ${styleVars.smUp}) {
     text-align: center;
   }
   }

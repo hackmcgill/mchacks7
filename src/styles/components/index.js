@@ -5,7 +5,7 @@ const landingColorPrimary = styleVars.colorHackRed
 const landingColorBorder = styleVars.hackBlack5
 const landingColorDarkBg = styleVars.hackBlack5
 
-export const Hero = styled.section `
+export const Hero = styled.section`
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -24,7 +24,7 @@ export const Hero = styled.section `
   text-align: left;
   margin: auto;
   font-size: 3.875em; 
-  font-weight: bold;
+  font-weight: normal;
   color: ${styleVars.colorHackRed};
 
   @media only screen and (max-width: ${styleVars.smUp}) {
@@ -33,17 +33,33 @@ export const Hero = styled.section `
   }
   }
 
-  .hero__subheading {
+  .hero__topsubheading {
   font-size: 1.5em;
   font-weight: 400;
   text-align: left;
-  color: ${styleVars.hackBlack50};
+  color: ${styleVars.colorHackRed};
+  margin-top: 0;
+  margin-bottom: 0;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     text-align: center;
     padding-bottom: 0;
   }
   }
+
+  .hero__subheading {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    color: ${styleVars.hackBlack50};
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      text-align: center;
+      padding-bottom: 0;
+    }
+    }
 
   .hero__cta {
     font-size: 1.4rem;
@@ -90,88 +106,88 @@ export const HeroButton = styled.button`
 `
 
 export const ArrowButton = styled.button`
-    background-color: ${styleVars.colorHackRed};
-        color: #fff;
-        border-radius: 2em;
-        border: none;
-        transition: all 0.15s ease-in-out;
-        top: 1px;
-        right: 0;
-        height: 36px;
-        padding: 0 14px;
-        margin-left: -8px;
+  background-color: ${styleVars.colorHackRed};
+  color: #fff;
+  border-radius: 2em;
+  border: none;
+  transition: all 0.15s ease-in-out;
+  top: 1px;
+  right: 0;
+  height: 36px;
+  padding: 0 14px;
+  margin-left: -8px;
 
-        &:hover {
-        background-color: $color-hack-red-med;
-        }
+  &:hover {
+    background-color: $color-hack-red-med;
+  }
 `
 
 export const HeroBackground = styled.img`
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    top: 100px;
-    z-index: -6;
-    width: 100%;
+  position: absolute;
+  height: auto;
+  object-fit: contain;
+  top: 100px;
+  z-index: -6;
+  width: 100%;
 
-    @media only screen and (max-width: ${styleVars.smUp}) {
-        position: relative;
-        max-width: 100%;
-        margin: 0;
-        padding: 0 2rem;
-    }
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+  }
 `
 
 export const HeroForeground = styled.img`
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    z-index: -5;
-    top: 350px; 
-    right: 0px;
+  position: absolute;
+  height: auto;
+  object-fit: contain;
+  z-index: -5;
+  top: 350px;
+  right: 0px;
 
-    @media only screen and (max-width: ${styleVars.smUp}) {
-        max-width: 90%;
-        margin: 0;
-        padding: 0 2rem;
-        padding-top: 7rem; 
-        position: unset; 
-        z-index: -1
-    }
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    max-width: 90%;
+    margin: 0;
+    padding: 0 2rem;
+    padding-top: 7rem;
+    position: unset;
+    z-index: -1;
+  }
 `
 
 export const HeroBuildings = styled.img`
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    z-index: -4;
-    top: 290px; 
-    right: 0px;
+  position: absolute;
+  height: auto;
+  object-fit: contain;
+  z-index: -4;
+  top: 290px;
+  right: 0px;
 
-    @media only screen and (max-width: ${styleVars.smUp}) {
-        max-width: 90%;
-        max-height: 80%;
-        margin-top: 10%;
-        padding: 0rem 2rem; 
-        padding-top: 3rem;
-        top: 500px; 
-        z-index: 0;
-    }
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 10%;
+    padding: 0rem 2rem;
+    padding-top: 3rem;
+    top: 500px;
+    z-index: 0;
+  }
 `
 
 export const HeroCord = styled.img`
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    z-index: -3;
-    top: 350px; 
-    right: 0px;
+  position: absolute;
+  height: auto;
+  object-fit: contain;
+  z-index: -3;
+  top: 350px;
+  right: 0px;
 
-    @media only screen and (max-width: ${styleVars.smUp}) {
-        max-width: 100%;
-        margin: 0;
-        padding: 0 2rem;
-    }
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+  }
 `
 
 export const About = styled.section`

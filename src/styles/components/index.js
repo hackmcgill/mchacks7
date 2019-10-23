@@ -17,7 +17,7 @@ export const Hero = styled.section `
   }
 
   .hero__copy {
-  padding-top: 16rem;
+  padding-top: 14rem;
   }
 
   .hero__heading {
@@ -28,11 +28,9 @@ export const Hero = styled.section `
   font-weight: bold;
   color: ${styleVars.colorHackRed};
 
-  @media only screen and (min-width: ${styleVars.smUp}) {
-    text-align: left;
-    margin: inherit;
+  @media only screen and (max-width: ${styleVars.smUp}) {
+    text-align: center;
     font-size: 4.8rem;
-    width: 48rem;
   }
   }
 
@@ -157,7 +155,7 @@ export const HeroBuildings = styled.img`
         margin-top: 10%;
         padding: 0rem 2rem; 
         padding-top: 3rem;
-        top: 500px; 
+        top: 520px; 
         z-index: 0;
     }
 `

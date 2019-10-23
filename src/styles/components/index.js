@@ -9,7 +9,7 @@ export const Hero = styled.section `
   min-height: 100vh;
   position: relative;
   overflow: hidden;
-  padding: 0 4rem;
+  padding: 0 2rem;
 
   @media only screen and (min-width: ${styleVars.mdUp}){
     padding: 0 10rem;
@@ -44,7 +44,7 @@ export const Hero = styled.section `
   color: ${styleVars.hackBlack50};
 
   @media only screen and (min-width: ${styleVars.smUp}) {
-    text-align: left;
+    text-align: center;
   }
   }
 
@@ -66,7 +66,7 @@ export const Hero = styled.section `
   
       @media only screen and (min-width: ${styleVars.smUp}) {
         font-size: 1.4rem;
-        text-align: left;
+        text-align: center;
       }
     }
 `
@@ -88,8 +88,7 @@ export const HeroButton = styled.button`
   }
 
   @media only screen and (min-width: ${styleVars.smUp}) {
-    font-size: 1.8rem;
-    margin-right: 25px;
+    text-align: center;
   }
 `
 
@@ -119,6 +118,7 @@ export const HeroBackground = styled.img`
     width: 100%;
 
     @media only screen and (max-width: ${styleVars.smUp}) {
+        position: relative;
         max-width: 100%;
         margin: 0;
         padding: 0 2rem;
@@ -134,9 +134,12 @@ export const HeroForeground = styled.img`
     right: 0px;
 
     @media only screen and (max-width: ${styleVars.smUp}) {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0;
         padding: 0 2rem;
+        padding-top: 7rem; 
+        position: unset; 
+        z-index: -1
     }
 `
 
@@ -149,9 +152,13 @@ export const HeroBuildings = styled.img`
     right: 0px;
 
     @media only screen and (max-width: ${styleVars.smUp}) {
-        max-width: 100%;
-        margin: 0;
-        padding: 0 2rem;
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: 10%;
+        padding: 0rem 2rem; 
+        padding-top: 3rem;
+        top: 500px; 
+        z-index: 0;
     }
 `
 

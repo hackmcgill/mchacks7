@@ -10,7 +10,6 @@ import * as Styles from "../styles/components/index.js"
 import HeroFirstBackground from "../images/hero/bg.svg"
 import Cord from "../images/hero/cord.svg"
 
-
 const IndexPage = () => (
   <div>
     <Nav />

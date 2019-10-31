@@ -29,6 +29,18 @@ This repository contains the code behind the static site of McHacks 7.
 
 `yarn format`
 
+## Folder Structure
+
+    ├── docs                    # Documentation files
+    ├── src                     # Source files
+    │   ├── components          # Page sections files
+    │   ├── images              # Image files
+    │   └── pages               # Page files
+    │   └── styles              # Style files
+    │   │   └── components
+    │   │   └── font
+    ├── static                  # Unbundled assets
+
 ## Contributing
 
 > Want to contribute to the McHacks site?

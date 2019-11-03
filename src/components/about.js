@@ -3,8 +3,8 @@ import React from "react"
 import AboutImg from "../images/about.svg"
 import * as Styles from "../styles/components/index.js"
 
-const About = () => (
-  <Styles.About>
+const About = ({ scrollRef }) => (
+  <Styles.About ref={scrollRef}>
     <Styles.AboutContent>
       <Styles.AboutText>
         <h2>Behind Canada’s original collegiate hackathon</h2>

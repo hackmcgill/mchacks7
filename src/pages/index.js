@@ -10,16 +10,16 @@ import * as Styles from "../styles/components/index.js"
 import HeroFirstBackground from "../images/hero/bg.svg"
 import Cord from "../images/hero/cord.svg"
 
-const scrollToRef = (ref) => {
+const scrollToRef = ref => {
   if (!ref || !ref.current) {
-    return;
+    return
   }
-  window.scrollTo(0, ref.current.offsetTop);
+  window.scrollTo(0, ref.current.offsetTop)
 }
 
 const IndexPage = () => {
-  const aboutRef = useRef(null);
-  const sponsorRef = useRef(null);
+  const aboutRef = useRef(null)
+  const sponsorRef = useRef(null)
 
   return (
     <div>
@@ -32,7 +32,7 @@ const IndexPage = () => {
       <Sponsor scrollRef={sponsorRef} />
       <Footer />
     </div>
-  );
+  )
 }
 
 export default IndexPage

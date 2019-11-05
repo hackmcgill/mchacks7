@@ -7,8 +7,8 @@ const mailTo = () => {
   window.location = "mailto:sponsorship@mchacks.ca"
 }
 
-const Sponsor = () => (
-  <Styles.Sponsor>
+const Sponsor = ({ scrollRef }) => (
+  <Styles.Sponsor ref={scrollRef}>
     <Styles.SponsContent>
       <Styles.SponsImg src={SponsImg} />
       <Styles.SponsText>

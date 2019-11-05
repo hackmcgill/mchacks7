@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import { Link } from "gatsby"
 
 import Nav from "../components/nav"
@@ -10,14 +10,29 @@ import * as Styles from "../styles/components/index.js"
 import HeroFirstBackground from "../images/hero/bg.svg"
 import Cord from "../images/hero/cord.svg"
 
-const IndexPage = () => (
-  <div>
-    <Nav />
-    <Hero />
-    <About />
-    <Sponsor />
-    <Footer />
-  </div>
-)
+const scrollToRef = ref => {
+  if (!ref || !ref.current) {
+    return
+  }
+  window.scrollTo(0, ref.current.offsetTop)
+}
+
+const IndexPage = () => {
+  const aboutRef = useRef(null)
+  const sponsorRef = useRef(null)
+
+  return (
+    <div>
+      <Nav
+        scrollToAbout={() => scrollToRef(aboutRef)}
+        scrollToSponsor={() => scrollToRef(sponsorRef)}
+      />
+      <Hero />
+      <About scrollRef={aboutRef} />
+      <Sponsor scrollRef={sponsorRef} />
+      <Footer />
+    </div>
+  )
+}
 
 export default IndexPage

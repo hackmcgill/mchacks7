@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
 import Nav from "../components/nav"
 import Hero from "../components/hero"
 import About from "../components/about"

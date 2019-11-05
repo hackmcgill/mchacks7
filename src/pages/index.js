@@ -13,7 +13,7 @@ import Cord from "../images/hero/cord.svg"
 
 const IndexPage = () => (
   <div>
-    <Seo />
+    <SEO />
     <Nav />
     <Hero />
     <About />

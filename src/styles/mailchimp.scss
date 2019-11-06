@@ -7,35 +7,29 @@ $mailchimp-color-white: #fff;
 #mc_embed_signup input[type="text"] {
   font-size: 14px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 32px;
   color: $mailchimp-color-grey;
   outline: 0;
   border-width: 2px;
-  width: 400px;
-  padding-top: 7px; /* aligns input text in element */
+  width: 390px;
+  /*padding-top: 7px;  aligns input text in element */
   background-color: $mailchimp-color-white;
   border-radius: 30px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   text-transform: none;
   border-radius: 30px;
   border: 2px solid $mailchimp-color-main;
   transition: all 0.15s ease-in-out;
-
+  font-family: "Brown";
+  padding-left: 10px;
+  z-index: 1;
 }
 
 #mc_embed_signup input[type="email"]:focus,
 #mc_embed_signup input[type="text"]:focus,
 #mc_embed_signup input[type="email"]:active,
 #mc_embed_signup input[type="text"]:active {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: $mailchimp-color-grey;
-  outline: 0;
-  border-width: 2px;
-  background-color: transparent;
-  border-radius: 30px;
   border-color: $mailchimp-color-light;
 }
 
@@ -146,4 +140,5 @@ input:-webkit-autofill:active {
 
 .mc-input-wrapper {
   position: relative;
+  text-align: left;
 }

@@ -105,6 +105,7 @@ export const FooterLinkSocial = styled.a`
   margin-right: 2rem;
   cursor: pointer;
   text-decoration: none;
+  font-size: 28px;
 
   &:focus,
   &:hover {

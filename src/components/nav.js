@@ -24,7 +24,7 @@ const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
         </Link>
       </Styles.NavbarBrand>
       <Styles.NavItems>{NavItems()}</Styles.NavItems>
-      <Menu>
+      <Menu isOpen={true}>
         {NavItems()}
       </Menu>
     </Styles.NavBar>

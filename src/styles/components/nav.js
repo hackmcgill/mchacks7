@@ -28,11 +28,15 @@ export const NavbarBrandImg = styled.img`
 
 export const NavItems = styled.div` 
     padding: 1.2rem 2.4rem;
-    display: flex;
     align-items: center;
+    position: fixed;
+    top: 1.3rem;
+    right: 20px; 
+    display: none;
 
-    @media only screen and (min-width: ${styleVars.smUp})
-        display: initial;
+    @media only screen and (min-width: ${styleVars.smUp}) {
+        display: flex;
+        
     }
 `
 

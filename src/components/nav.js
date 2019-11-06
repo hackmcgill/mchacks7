@@ -36,7 +36,6 @@ const styles = {
     position: 'fixed',
     height: '100%',
     width: '100%',
-
   },
   bmMenu: {
     background: '#fff',
@@ -45,18 +44,21 @@ const styles = {
     position: 'absolute',
     top: '0',
     right: '0',
+    width: '70%',
   },
   bmMorphShape: {
     fill: '#373a47'
   },
   bmItemList: {
     color: '#b8b7ad',
-    padding: '0.8em'
+    padding: '0.8em',
+    top: '4em',
   },
   bmItem: {
     display: 'grid',
     textAlign: 'center',
-    lineHeight: '4rem',
+    lineHeight: '7rem',
+    fontSize: '24px',
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)'

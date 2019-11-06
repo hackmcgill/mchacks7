@@ -168,7 +168,7 @@ export const HeroBuildings = styled.img`
     max-width: 90%;
     max-height: 80%;
     margin-top: 10%;
-    padding: 0rem 2rem;
+    padding: 0;
     padding-top: 3rem;
     top: 500px;
     z-index: 0;
@@ -186,7 +186,7 @@ export const HeroCord = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
   }
 `
 
@@ -227,7 +227,7 @@ export const AboutText = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
     margin-bottom: 1rem;
   }
 `
@@ -241,7 +241,7 @@ export const AboutImg = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
   }
 `
 export const SponsContent = styled.div`
@@ -271,7 +271,7 @@ export const SponsText = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
     margin-bottom: 1rem;
   }
 `
@@ -285,7 +285,7 @@ export const SponsImg = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
   }
 `
 

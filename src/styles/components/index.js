@@ -11,9 +11,12 @@ export const Hero = styled.section`
   padding: 0 2rem;
   margin-bottom: 400px;
 
-    @media only screen and (min-width: ${styleVars.mdUp}){
-      padding: 0 10rem;
-    }
+  @media only screen and (min-width: ${styleVars.mdUp}){
+    padding: 0 10rem;
+  }
+
+  @media only screen and (max-width: ${styleVars.smUp}){
+    margin-bottom: 80px;
   }
 
   .hero__copy {

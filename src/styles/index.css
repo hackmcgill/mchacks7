@@ -22,3 +22,11 @@ body {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,21 +1,17 @@
 import styled from "styled-components"
 import * as styleVars from "./variable"
 
-const landingColorPrimary = styleVars.colorHackRed
-const landingColorBorder = styleVars.hackBlack5
-const landingColorDarkBg = styleVars.hackBlack5
-
 export const Hero = styled.section`
   height: 100%;
   position: relative;
   padding: 0 2rem;
   margin-bottom: 400px;
 
-  @media only screen and (min-width: ${styleVars.mdUp}){
+  @media only screen and (min-width: ${styleVars.mdUp}) {
     padding: 0 10rem;
   }
 
-  @media only screen and (max-width: ${styleVars.smUp}){
+  @media only screen and (max-width: ${styleVars.smUp}) {
     margin-bottom: 80px;
   }
 
@@ -26,7 +22,7 @@ export const Hero = styled.section`
   .hero__heading {
     text-align: left;
     margin: auto;
-    font-size: 3.875em; 
+    font-size: 3.875em;
     font-weight: normal;
     color: ${styleVars.colorHackRed};
 
@@ -54,10 +50,10 @@ export const Hero = styled.section`
     font-size: 1.5em;
     font-weight: 400;
     text-align: left;
-    color: ${styleVars.hackBlack50};
+    color: ${styleVars.hackBlack60};
     margin-top: 0;
     margin-bottom: 0;
-  
+
     @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
       padding-bottom: 0;
@@ -299,7 +295,7 @@ export const SponsButton = styled.button`
   font-weight: 600;
   font-size: 14px;
   text-transform: none;
-  background-color: ${landingColorPrimary};
+  background-color: ${styleVars.colorHackRed};
   color: white;
   border-radius: 3.75em;
   border: none;

@@ -1,16 +1,11 @@
 import styled from "styled-components"
 import * as styleVars from "./variable"
 
-const mailchimpColorMain = styleVars.colorHackRed
-const mailchimpColorLight = styleVars.colorHackRedMed
-const mailchimpColorGrey = styleVars.hackBlack70
-const mailchimpColorWhite = styleVars.hackWhite
-
 export const MceErrorResponse = styled.div`
   margin: 0 0 1em 0 !important;
   padding: 10px 10px !important;
   z-index: 1 !important;
-  color: ${mailchimpColorGrey} !important;
+  color: ${styleVars.hackBlack70} !important;
   font-size: 15px !important;
   font-weight: 400 !important;
   background-color: rgba(107, 5, 5, 0) !important;
@@ -50,7 +45,7 @@ export const InputSignUp = styled.input.attrs({
 })`
   line-height: 24px !important;
   outline: 0;
-  color: ${mailchimpColorLight};
+  color: ${styleVars.colorHackRedMed};
   width: 152px !important;
   height: 40px !important;
   padding: 4px 12px !important; /* aligns input text in element */

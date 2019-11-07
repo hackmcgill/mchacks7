@@ -18,14 +18,12 @@ const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
   return (
     <Styles.NavBar>
       <Styles.NavbarBrand>
-        <Link to="/"> 
-          <Styles.NavbarBrandImg src={Logo} /> 
+        <Link to="/">
+          <Styles.NavbarBrandImg src={Logo} />
         </Link>
       </Styles.NavbarBrand>
       <Styles.NavItems>{NavItems()}</Styles.NavItems>
-      <Menu isOpen={true}>
-        {NavItems()}
-      </Menu>
+      <Menu isOpen={true}>{NavItems()}</Menu>
     </Styles.NavBar>
   )
 }

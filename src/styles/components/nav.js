@@ -27,18 +27,17 @@ export const NavbarBrandImg = styled.img`
   height: 8rem;
 `
 
-export const NavItems = styled.div` 
-    padding: 1.2rem 2.4rem;
-    align-items: center;
-    position: fixed;
-    top: 1.3rem;
-    right: 20px; 
-    display: none;
+export const NavItems = styled.div`
+  padding: 1.2rem 2.4rem;
+  align-items: center;
+  position: fixed;
+  top: 1.3rem;
+  right: 20px;
+  display: none;
 
-    @media only screen and (min-width: ${styleVars.smUp}) {
-        display: flex;
-        
-    }
+  @media only screen and (min-width: ${styleVars.smUp}) {
+    display: flex;
+  }
 `
 
 export const NavItem = styled.a`

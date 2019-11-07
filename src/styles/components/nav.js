@@ -19,24 +19,25 @@ export const NavBar = styled.nav`
 
 export const NavbarBrand = styled.div`
   cursor: pointer;
-  padding: 1.2rem 2.4rem;
+  margin-left: 1.2rem;
+  margin-top: -4px;
 `
 
 export const NavbarBrandImg = styled.img`
-  height: 5rem;
+  height: 8rem;
 `
 
 export const NavItems = styled.div`
-    padding: 1.2rem 2.4rem;
-    align-items: center;
-    position: fixed;
-    top: 1.3rem;
-    right: 20px;
-    display: none;
+  padding: 1.2rem 2.4rem;
+  align-items: center;
+  position: fixed;
+  top: 1.3rem;
+  right: 20px;
+  display: none;
 
-    @media only screen and (min-width: ${styleVars.smUp}) {
-        display: flex;
-    }
+  @media only screen and (min-width: ${styleVars.smUp}) {
+      display: flex;
+  }
 `
 
 export const NavItem = styled.a`

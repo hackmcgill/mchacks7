@@ -19,11 +19,12 @@ export const NavBar = styled.nav`
 
 export const NavbarBrand = styled.div`
   cursor: pointer;
-  padding: 1.2rem 2.4rem;
+  margin-left: 1.2rem;
+  margin-top: -4px;
 `
 
 export const NavbarBrandImg = styled.img`
-  height: 5rem;
+  height: 8rem;
 `
 
 export const NavItems = styled.div` 

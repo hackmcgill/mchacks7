@@ -26,7 +26,6 @@ const Footer = () => (
     </Styles.FooterLinks>
 
     <Styles.FooterLinksSocial>
-      <Styles.FooterLinkSocial></Styles.FooterLinkSocial>
       <Styles.FooterLinkSocial
         href="mailto:contact@mchacks.ca?Subject=Hello!"
         target="_blank"

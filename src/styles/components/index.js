@@ -6,7 +6,7 @@ const landingColorBorder = styleVars.hackBlack5
 const landingColorDarkBg = styleVars.hackBlack5
 
 export const Hero = styled.section`
-  height: 110%;
+  height: 100%;
   position: relative;
   padding: 0 2rem;
   margin-bottom: 400px;
@@ -20,34 +20,34 @@ export const Hero = styled.section`
   }
 
   .hero__copy {
-  padding-top: 14rem;
+    padding-top: 14rem;
   }
 
   .hero__heading {
-  text-align: left;
-  margin: auto;
-  font-size: 3.875em; 
-  font-weight: normal;
-  color: ${styleVars.colorHackRed};
+    text-align: left;
+    margin: auto;
+    font-size: 3.875em; 
+    font-weight: normal;
+    color: ${styleVars.colorHackRed};
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    text-align: center;
-    font-size: 4.8rem;
-  }
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      text-align: center;
+      font-size: 4.8rem;
+    }
   }
 
   .hero__topsubheading {
-  font-size: 1.5em;
-  font-weight: 400;
-  text-align: left;
-  color: ${styleVars.colorHackRed};
-  margin-top: 0;
-  margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    color: ${styleVars.colorHackRed};
+    margin-top: 0;
+    margin-bottom: 0;
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    text-align: center;
-    padding-bottom: 0;
-  }
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      text-align: center;
+      padding-bottom: 0;
+    }
   }
 
   .hero__subheading {
@@ -62,7 +62,7 @@ export const Hero = styled.section`
       text-align: center;
       padding-bottom: 0;
     }
-    }
+  }
 
   .hero__cta {
     font-size: 1.4rem;
@@ -73,20 +73,18 @@ export const Hero = styled.section`
       font-size: 1.8rem;
       text-align: left;
     }
+  }
 
-    .hero__email {
-      font-size: 1.6rem;
-      font-weight: 400;
+  .hero__email {
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1rem;
+    display: block;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
-      margin-bottom: 1rem;
-  
-      @media only screen and (min-width: ${styleVars.smUp}) {
-        font-size: 1.4rem;
-        text-align: center;
-        display: block;
-        margin: 4rem;
-      }
     }
+  }
 `
 
 export const HeroButton = styled.button`

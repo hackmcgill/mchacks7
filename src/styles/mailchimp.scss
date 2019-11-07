@@ -12,7 +12,6 @@ $mailchimp-color-white: #fff;
   outline: 0;
   border-width: 2px;
   width: 390px;
-  /*padding-top: 7px;  aligns input text in element */
   background-color: $mailchimp-color-white;
   border-radius: 30px;
   text-align: left;
@@ -22,8 +21,9 @@ $mailchimp-color-white: #fff;
   border: 2px solid $mailchimp-color-main;
   transition: all 0.15s ease-in-out;
   font-family: "Brown";
-  padding-left: 10px;
+  padding: 0 15px;
   z-index: 1;
+  max-width: 100%;
 }
 
 #mc_embed_signup input[type="email"]:focus,
@@ -71,23 +71,6 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
   -webkit-text-fill-color: $mailchimp-color-grey;
-}
-
-@media only screen and (max-width: 768px) {
-  #mc_embed_signup input[type="email"],
-  #mc_embed_signup input[type="email"]:focus,
-  #mc_embed_signup input[type="email"]:active {
-    font-size: 14px;
-    width: 94%;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  #mc_embed_signup input[type="email"],
-  #mc_embed_signup input[type="email"]:focus,
-  #mc_embed_signup input[type="email"]:active {
-    font-size: 11px;
-  }
 }
 
 #mc_embed_signup input.mce_inline_error {
@@ -141,4 +124,9 @@ input:-webkit-autofill:active {
 .mc-input-wrapper {
   position: relative;
   text-align: left;
+
+  @media only screen and (max-width: 768px) {
+    margin: auto;
+    max-width: 390px;
+  }
 }

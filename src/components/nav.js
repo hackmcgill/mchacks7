@@ -3,8 +3,6 @@ import { slide as Menu } from "react-burger-menu"
 import { Link } from "gatsby"
 import Logo from "../images/logo.svg"
 import * as Styles from "../styles/components/nav"
-import { Z_BUF_ERROR } from "zlib"
-import "../styles/hamburger.css"
 
 const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
   const NavItems = () => (
@@ -24,7 +22,7 @@ const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
         </Link>
       </Styles.NavbarBrand>
       <Styles.NavItems>{NavItems()}</Styles.NavItems>
-      <Menu isOpen={true}>
+      <Menu isOpen={true} styles={Styles.menuStyles}>
         {NavItems()}
       </Menu>
     </Styles.NavBar>

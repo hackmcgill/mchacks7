@@ -12,10 +12,6 @@ $mailchimp-color-white: #fff;
   outline: 0;
   border-width: 2px;
   width: 390px;
-<<<<<<< HEAD
-=======
-  // padding-top: 7px;  aligns input text in element
->>>>>>> 6a4d09aa5e4616df7ca07a41788e0d67cbde49bb
   background-color: $mailchimp-color-white;
   border-radius: 30px;
   text-align: center;
@@ -128,13 +124,9 @@ input:-webkit-autofill:active {
 .mc-input-wrapper {
   position: relative;
   text-align: left;
-<<<<<<< HEAD
 
   @media only screen and (max-width: 768px) {
     margin: auto;
     max-width: 390px;
   }
 }
-=======
-}
->>>>>>> 6a4d09aa5e4616df7ca07a41788e0d67cbde49bb

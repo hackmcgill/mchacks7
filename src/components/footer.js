@@ -7,7 +7,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
 
-import * as Styles from "../styles/components/nav.js"
+import * as Styles from "../styles/components/footer.js"
 
 const Footer = () => (
   <Styles.Footer>
@@ -26,7 +26,6 @@ const Footer = () => (
     </Styles.FooterLinks>
 
     <Styles.FooterLinksSocial>
-      <Styles.FooterLinkSocial></Styles.FooterLinkSocial>
       <Styles.FooterLinkSocial
         href="mailto:contact@mchacks.ca?Subject=Hello!"
         target="_blank"

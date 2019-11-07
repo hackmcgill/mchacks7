@@ -28,14 +28,14 @@ export const MceSuccessResponse = styled.div`
 
 export const MceEmbeddedSubscribe = styled.div`
   position: absolute;
-  top: 1px;
+  top: 0;
   right: 0;
-  margin-left: -40px;
+  margin-left: -42px;
   height: 36px;
-  padding: 0 14px;
+  padding-left: 0px;
 
-  @media only screen and (min-width: 768px) {
-    left: 401px;
+  @media only screen and (min-width: 767px) {
+    left: 400px;
     right: inherit;
   }
 `

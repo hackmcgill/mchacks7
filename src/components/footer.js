@@ -7,7 +7,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
 
-import * as Styles from "../styles/components/nav.js"
+import * as Styles from "../styles/components/footer.js"
 
 const Footer = () => (
   <Styles.Footer>

@@ -44,7 +44,7 @@ const Hero = () => (
                   value=""
                   name="EMAIL"
                   class="required email"
-                  placeholder="Your email here"
+                  placeholder="your email here"
                 />
                 <Mailchimp.MceEmbeddedSubscribe>
                   <Styles.ArrowButton>

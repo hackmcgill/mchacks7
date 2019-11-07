@@ -7,11 +7,11 @@ export const Hero = styled.section`
   padding: 0 2rem;
   margin-bottom: 400px;
 
-  @media only screen and (min-width: ${styleVars.mdUp}){
+  @media only screen and (min-width: ${styleVars.mdUp}) {
     padding: 0 10rem;
   }
 
-  @media only screen and (max-width: ${styleVars.smUp}){
+  @media only screen and (max-width: ${styleVars.smUp}) {
     margin-bottom: 80px;
   }
 
@@ -22,7 +22,7 @@ export const Hero = styled.section`
   .hero__heading {
     text-align: left;
     margin: auto;
-    font-size: 3.875em; 
+    font-size: 3.875em;
     font-weight: normal;
     color: ${styleVars.colorHackRed};
 
@@ -53,7 +53,7 @@ export const Hero = styled.section`
     color: ${styleVars.hackBlack60};
     margin-top: 0;
     margin-bottom: 0;
-  
+
     @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
       padding-bottom: 0;

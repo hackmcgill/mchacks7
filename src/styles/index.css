@@ -22,3 +22,26 @@ body {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .bm-burger-button, .bm-menu-wrap {
+        display: none;
+    }
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

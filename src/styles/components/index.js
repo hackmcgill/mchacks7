@@ -6,45 +6,48 @@ const landingColorBorder = styleVars.hackBlack5
 const landingColorDarkBg = styleVars.hackBlack5
 
 export const Hero = styled.section`
-  min-height: 100vh;
+  height: 100%;
   position: relative;
-  overflow: hidden;
   padding: 0 2rem;
+  margin-bottom: 400px;
 
   @media only screen and (min-width: ${styleVars.mdUp}){
     padding: 0 10rem;
   }
+
+  @media only screen and (max-width: ${styleVars.smUp}){
+    margin-bottom: 80px;
   }
 
   .hero__copy {
-  padding-top: 14rem;
+    padding-top: 14rem;
   }
 
   .hero__heading {
-  text-align: left;
-  margin: auto;
-  font-size: 3.875em; 
-  font-weight: normal;
-  color: ${styleVars.colorHackRed};
+    text-align: left;
+    margin: auto;
+    font-size: 3.875em; 
+    font-weight: normal;
+    color: ${styleVars.colorHackRed};
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    text-align: center;
-    font-size: 4.8rem;
-  }
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      text-align: center;
+      font-size: 4.8rem;
+    }
   }
 
   .hero__topsubheading {
-  font-size: 1.5em;
-  font-weight: 400;
-  text-align: left;
-  color: ${styleVars.colorHackRed};
-  margin-top: 0;
-  margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    color: ${styleVars.colorHackRed};
+    margin-top: 0;
+    margin-bottom: 0;
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    text-align: center;
-    padding-bottom: 0;
-  }
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      text-align: center;
+      padding-bottom: 0;
+    }
   }
 
   .hero__subheading {
@@ -59,7 +62,7 @@ export const Hero = styled.section`
       text-align: center;
       padding-bottom: 0;
     }
-    }
+  }
 
   .hero__cta {
     font-size: 1.4rem;
@@ -70,18 +73,18 @@ export const Hero = styled.section`
       font-size: 1.8rem;
       text-align: left;
     }
+  }
 
-    .hero__email {
-      font-size: 1.6rem;
-      font-weight: 400;
+  .hero__email {
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1rem;
+    display: block;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
-      margin-bottom: 1rem;
-  
-      @media only screen and (min-width: ${styleVars.smUp}) {
-        font-size: 1.4rem;
-        text-align: center;
-      }
     }
+  }
 `
 
 export const HeroButton = styled.button`
@@ -132,7 +135,7 @@ export const HeroBackground = styled.img`
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     position: relative;
-    max-width: 100%;
+    max-width: 80%;
     margin: 0;
     padding: 0 2rem;
   }
@@ -150,7 +153,7 @@ export const HeroForeground = styled.img`
     max-width: 90%;
     margin: 0;
     padding: 0 2rem;
-    padding-top: 7rem;
+    padding-top: 7.3rem;
     position: unset;
     z-index: -1;
   }
@@ -167,10 +170,9 @@ export const HeroBuildings = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 90%;
     max-height: 80%;
-    margin-top: 10%;
-    padding: 0rem 2rem;
+    margin-top: 120px;
+    padding: 0;
     padding-top: 3rem;
-    top: 500px;
     z-index: 0;
   }
 `
@@ -186,7 +188,7 @@ export const HeroCord = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
   }
 `
 
@@ -208,7 +210,7 @@ export const AboutContent = styled.div`
   margin-bottom: 5rem;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    display: block;
+    flex-direction: column;
   }
 `
 
@@ -227,7 +229,7 @@ export const AboutText = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
     margin-bottom: 1rem;
   }
 `
@@ -239,9 +241,9 @@ export const AboutImg = styled.img`
   padding-right: 2rem;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    max-width: 100%;
-    margin: 0;
-    padding: 0 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
   }
 `
 export const SponsContent = styled.div`
@@ -252,15 +254,16 @@ export const SponsContent = styled.div`
   margin-bottom: 5rem;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    display: block;
+    flex-direction: column;
+    padding: 4rem 2rem;
   }
 `
 
 export const SponsText = styled.div`
-  padding-left: 10rem;
-  // margin-right: 10rem;
+  padding-left: 2rem;
+  margin-right: 10rem;
   width: 50%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   h2 {
     color: ${styleVars.colorHackRed};
@@ -271,8 +274,9 @@ export const SponsText = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
     margin-bottom: 1rem;
+    order: 1;
   }
 `
 
@@ -285,7 +289,8 @@ export const SponsImg = styled.img`
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 100%;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
+    order: 2;
   }
 `
 

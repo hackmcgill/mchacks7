@@ -1,10 +1,6 @@
 import styled from "styled-components"
 import * as styleVars from "./variable"
 
-const landingColorPrimary = styleVars.colorHackRed
-const landingColorBorder = styleVars.hackBlack5
-const landingColorDarkBg = styleVars.hackBlack5
-
 export const Hero = styled.section`
   height: 100%;
   position: relative;
@@ -54,7 +50,7 @@ export const Hero = styled.section`
     font-size: 1.5em;
     font-weight: 400;
     text-align: left;
-    color: ${styleVars.hackBlack50};
+    color: ${styleVars.hackBlack60};
     margin-top: 0;
     margin-bottom: 0;
   
@@ -299,7 +295,7 @@ export const SponsButton = styled.button`
   font-weight: 600;
   font-size: 14px;
   text-transform: none;
-  background-color: ${landingColorPrimary};
+  background-color: ${styleVars.colorHackRed};
   color: white;
   border-radius: 3.75em;
   border: none;

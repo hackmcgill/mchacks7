@@ -1,6 +1,6 @@
 import React from "react"
 
-import AboutImg from "../assets/images/about.svg"
+import AboutImg from "../assets/images/designs/about.svg"
 import * as Styles from "../styles/components/index.js"
 
 const About = ({ scrollRef }) => (

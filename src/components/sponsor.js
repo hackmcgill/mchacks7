@@ -1,6 +1,6 @@
 import React from "react"
 
-import SponsImg from "../assets/images/spons.svg"
+import SponsorImg from "../assets/images/designs/sponsor.svg"
 import * as Styles from "../styles/components/index.js"
 
 const mailTo = () => {
@@ -10,7 +10,7 @@ const mailTo = () => {
 const Sponsor = ({ scrollRef }) => (
   <Styles.Sponsor ref={scrollRef}>
     <Styles.SponsContent>
-      <Styles.SponsImg src={SponsImg} />
+      <Styles.SponsImg src={SponsorImg} />
       <Styles.SponsText>
         <h2>Interested in Sponsoring?</h2>
         <p>

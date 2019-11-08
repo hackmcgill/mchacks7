@@ -1,6 +1,6 @@
 import React from "react"
 
-import SponsImg from "../images/spons.svg"
+import SponsImg from "../assets/images/spons.svg"
 import * as Styles from "../styles/components/index.js"
 
 const mailTo = () => {

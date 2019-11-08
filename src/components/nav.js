@@ -1,7 +1,7 @@
 import React from "react"
 import { slide as Menu } from "react-burger-menu"
 import { Link } from "gatsby"
-import Logo from "../images/logo.svg"
+import Logo from "../assets/images/logo.svg"
 import * as Styles from "../styles/components/nav"
 
 const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {

@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import "../styles/mailchimp.scss"
 
-import HeroSecondBackground from "../images/hero/bg-1.svg"
-import HeroImage from "../images/hero/foreground.svg"
+import HeroSecondBackground from "../assets/images/hero/bg-1.svg"
+import HeroImage from "../assets/images/hero/foreground.svg"
 
 const displayNone = { display: "none" }
 const divStyle = {

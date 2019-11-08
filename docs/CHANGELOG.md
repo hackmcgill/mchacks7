@@ -2,7 +2,7 @@
 
 ## v1.1.0
 
-*November 8, 2019*
+_November 8, 2019_
 
 **Features:**
 
@@ -18,7 +18,7 @@
 
 ## v1.0.1
 
-*October 23, 2019*
+_October 23, 2019_
 
 **Features:**
 
@@ -26,7 +26,7 @@
 
 ## v1.0.0
 
-*October 23, 2019*
+_October 23, 2019_
 
 **Features:**
 

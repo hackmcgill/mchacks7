@@ -188,60 +188,6 @@ export const HeroCord = styled.img`
   }
 `
 
-export const About = styled.section`
-  display: flex;
-  align-items: center;
-  padding: 2rem 1rem;
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    display: block;
-  }
-`
-
-export const AboutContent = styled.div`
-  display: flex;
-  padding: 2rem 1rem;
-  max-width: 1000px;
-  margin: auto;
-  margin-bottom: 5rem;
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    flex-direction: column;
-  }
-`
-
-export const AboutText = styled.div`
-  padding-left: 2rem;
-  margin-right: 10rem;
-  width: 50%;
-  margin-bottom: 1rem;
-
-  h2 {
-    color: ${styleVars.colorHackRed};
-    font-size: 3rem;
-    font-weight: 400;
-  }
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1rem;
-  }
-`
-
-export const AboutImg = styled.img`
-  max-width: 50%;
-  height: auto;
-  object-fit: contain;
-  padding-right: 2rem;
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0;
-  }
-`
 export const SponsContent = styled.div`
   display: flex;
   padding: 2rem 1rem;

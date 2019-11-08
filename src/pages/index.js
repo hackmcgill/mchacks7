@@ -2,7 +2,7 @@ import React, { useRef } from "react"
 import SEO from "../components/seo"
 import Nav from "../components/nav"
 import Hero from "../components/hero"
-import About from "../components/about"
+import About from "../components/About/About"
 import Sponsor from "../components/sponsor"
 import Footer from "../components/footer"
 

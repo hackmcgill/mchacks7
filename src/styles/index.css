@@ -8,6 +8,8 @@
 html {
     line-height: 1.15;
     font-size: 62.5%;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -19,4 +21,27 @@ body {
     color: #636363;
     overflow: scroll;
     overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .bm-burger-button, .bm-menu-wrap {
+        display: none;
+    }
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
 }

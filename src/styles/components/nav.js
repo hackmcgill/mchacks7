@@ -6,10 +6,12 @@ const navBarLink = styleVars.hackBlack60
 export const NavBar = styled.nav`
   z-index: 2;
   height: 7rem;
-  background-color: transparent;
+  background-color: white;
   border-bottom: 2px solid #f4f4f4;
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -17,21 +19,25 @@ export const NavBar = styled.nav`
 
 export const NavbarBrand = styled.div`
   cursor: pointer;
-  padding: 1.2rem 2.4rem;
+  margin-left: 1.2rem;
+  margin-top: -4px;
 `
 
 export const NavbarBrandImg = styled.img`
-  height: 5rem;
+  height: 8rem;
 `
 
-export const NavItems = styled.div` 
-    padding: 1.2rem 2.4rem;
-    display: flex;
-    align-items: center;
+export const NavItems = styled.div`
+  padding: 1.2rem 2.4rem;
+  align-items: center;
+  position: fixed;
+  top: 1.3rem;
+  right: 20px;
+  display: none;
 
-    @media only screen and (min-width: ${styleVars.smUp})
-        display: initial;
-    }
+  @media only screen and (min-width: ${styleVars.smUp}) {
+    display: flex;
+  }
 `
 
 export const NavItem = styled.a`
@@ -41,8 +47,10 @@ export const NavItem = styled.a`
   text-decoration: none;
 
   &:focus,
-  &:hover {
+  &:hover,
+  &:active {
     color: ${styleVars.colorHackRed};
+    background: transparent;
   }
 `
 
@@ -64,44 +72,65 @@ export const NavButton = styled.button`
   }
 `
 
-export const Footer = styled.footer`
-  padding: 2rem 0;
-  border-top: 2px solid ${styleVars.colorHackRed};
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-`
-
-export const FooterLinks = styled.div`
-  padding: 1.2rem 2.4rem;
-`
-
-export const FooterLink = styled.a`
-  color: ${navBarLink};
-  margin-right: 2rem;
-  cursor: pointer;
-  text-decoration: none;
-
-  &:focus,
-  &:hover {
-    color: ${styleVars.colorHackRed};
-  }
-`
-
-export const FooterLinksSocial = styled.div`
-  padding: 1.2rem 2.4rem;
-`
-
-export const FooterLinkSocial = styled.a`
-  margin-left: 2rem;
-  color: ${navBarLink};
-  margin-right: 2rem;
-  cursor: pointer;
-  text-decoration: none;
-
-  &:focus,
-  &:hover {
-    color: ${styleVars.colorHackRed};
-  }
-`
+export const menuStyles = {
+  bmBurgerButton: {
+    position: "fixed",
+    width: "30px",
+    height: "25px",
+    top: "22px",
+    right: "30px",
+  },
+  bmBurgerBars: {
+    background: styleVars.hackBlack40,
+    borderRadius: "30px",
+    height: "3.5px",
+  },
+  bmBurgerBarsHover: {
+    background: styleVars.hackBlack60,
+  },
+  bmCrossButton: {
+    height: "30px",
+    width: "30px",
+    top: "22px",
+    right: "30px",
+    outline: "none",
+  },
+  bmCross: {
+    background: styleVars.hackBlack40,
+    height: "5px",
+    width: "30px",
+    top: "5px",
+    left: "-15px",
+    borderRadius: "5px",
+  },
+  bmMenuWrap: {
+    position: "fixed",
+    height: "100%",
+  },
+  bmMenu: {
+    background: styleVars.hackBlack5,
+    padding: "2.5em 1.5em 0",
+  },
+  bmMorphShape: {
+    fill: "#373a47",
+  },
+  bmItemList: {
+    color: styleVars.colorHackRed,
+    padding: "0.8em",
+    top: "8em",
+    display: "grid",
+    height: "250px",
+    textAlign: "center",
+    fontSize: "24px",
+    marginTop: "60px",
+  },
+  bmItem: {
+    textAlign: "center",
+    lineHeight: "7rem",
+    fontDize: "36px",
+    padding: "40px",
+  },
+  bmOverlay: {
+    background: "rgba(0, 0, 0, 0.3)",
+  },
+}

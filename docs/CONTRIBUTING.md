@@ -1,5 +1,7 @@
 # Contributing
 
+Before contributing to the McHacks website, please review our [Code of Conduct](https://github.com/hackmcgill/mchacks7/blob/develop/docs/CODE_OF_CONDUCT.md).
+
 ## Branches
 
 - Create a new branch from `develop`

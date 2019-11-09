@@ -1,7 +1,7 @@
 import React, { useRef } from "react"
 import SEO from "../components/seo"
 import Nav from "../components/Nav/Nav"
-import Hero from "../components/hero"
+import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/sponsor"
 import Footer from "../components/Footer/Footer"

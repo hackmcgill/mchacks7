@@ -8,8 +8,6 @@
 
 ### Type of change:
 
-Please delete options that aren't relevant.
-
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Breaking change

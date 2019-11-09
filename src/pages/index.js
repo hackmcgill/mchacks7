@@ -7,7 +7,7 @@ import About from "../components/About/About"
 import Sponsor from "../components/sponsor"
 import Footer from "../components/Footer/Footer"
 
-const scrollToRef = ref => {
+const scrollTo = ref => {
   if (!ref || !ref.current) {
     return
   }
@@ -22,8 +22,8 @@ const IndexPage = () => {
     <div>
       <SEO />
       <Nav
-        scrollToAbout={() => scrollToRef(aboutRef)}
-        scrollToSponsor={() => scrollToRef(sponsorRef)}
+        scrollToAbout={() => scrollTo(aboutRef)}
+        scrollToSponsor={() => scrollTo(sponsorRef)}
       />
       <Hero />
       <About scrollRef={aboutRef} />

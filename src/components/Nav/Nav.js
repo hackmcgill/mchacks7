@@ -4,9 +4,9 @@ import { slide as Menu } from "react-burger-menu"
 import { Link } from "gatsby"
 
 import Container from "./Container"
-import IconWrapper from "./IconWrapper"
+import IconContainer from "./IconContainer"
 import Icon from "./Icon"
-import LinksWrapper from "./LinksWrapper"
+import Links from "./Links"
 import NavLink from "./NavLink"
 import MobileMenu from "./MobileMenu"
 
@@ -24,12 +24,12 @@ const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
   )
   return (
     <Container>
-      <IconWrapper>
+      <IconContainer>
         <Link to="/">
           <Icon src={Logo} />
         </Link>
-      </IconWrapper>
-      <LinksWrapper>{NavItems()}</LinksWrapper>
+      </IconContainer>
+      <Links>{NavItems()}</Links>
       <Menu isOpen={true} styles={MobileMenu}>
         {NavItems()}
       </Menu>

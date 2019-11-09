@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-export const LinksWrapper = styled.div`
+export const Links = styled.div`
   padding: 1.2rem 2.4rem;
   align-items: center;
   position: fixed;
@@ -14,4 +14,4 @@ export const LinksWrapper = styled.div`
   }
 `
 
-export default LinksWrapper
+export default Links

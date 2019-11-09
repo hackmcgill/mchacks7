@@ -4,7 +4,7 @@ import Nav from "../components/nav"
 import Hero from "../components/hero"
 import About from "../components/About/About"
 import Sponsor from "../components/sponsor"
-import Footer from "../components/footer"
+import Footer from "../components/Footer/Footer"
 
 const scrollToRef = ref => {
   if (!ref || !ref.current) {

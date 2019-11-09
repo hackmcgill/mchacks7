@@ -4,7 +4,7 @@ import SEO from "../components/SEO/SEO"
 import Nav from "../components/Nav/Nav"
 import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
-import Sponsor from "../components/sponsor"
+import Sponsor from "../components/Sponsor/Sponsor"
 import Footer from "../components/Footer/Footer"
 
 const scrollTo = ref => {

@@ -1,5 +1,6 @@
 import React, { useRef } from "react"
-import SEO from "../components/seo"
+
+import SEO from "../components/SEO/SEO"
 import Nav from "../components/Nav/Nav"
 import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"

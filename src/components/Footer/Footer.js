@@ -9,13 +9,13 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 import Container from "./Container"
-import LinksWrapper from "./LinksWrapper"
+import Links from "./Links"
 // import PageLink from "./PageLink"
 import SocialLink from "./SocialLink"
 
 const Footer = () => (
   <Container>
-    <LinksWrapper>
+    <Links>
       {/* TODO
             <PageLink>
                 Code of Conduct
@@ -27,9 +27,9 @@ const Footer = () => (
                 Privacy Policy
             </PageLink>
               */}
-    </LinksWrapper>
+    </Links>
 
-    <LinksWrapper>
+    <Links>
       <SocialLink href="mailto:contact@mchacks.ca?Subject=Hello!" target="_blank" >
         <FontAwesomeIcon icon={faEnvelope} />
       </SocialLink>
@@ -42,7 +42,7 @@ const Footer = () => (
       <SocialLink href="https://instagram.com/mcgillhacks">
         <FontAwesomeIcon icon={faInstagram} />
       </SocialLink>
-    </LinksWrapper>
+    </Links>
   </Container>
 )
 

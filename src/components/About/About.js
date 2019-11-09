@@ -1,6 +1,6 @@
 import React from "react"
 
-import Wrapper from "./Wrapper"
+import Container from "./Container"
 import Content from "./Content"
 import Text from "./Text"
 import Image from "./Image"
@@ -8,7 +8,7 @@ import Image from "./Image"
 import AboutImg from "../../assets/images/designs/about.svg"
 
 const About = ({ scrollRef }) => (
-  <Wrapper ref={scrollRef}>
+  <Container ref={scrollRef}>
     <Content>
       <Text>
         <h2>Behind Canada’s original collegiate hackathon</h2>
@@ -27,7 +27,7 @@ const About = ({ scrollRef }) => (
       </Text>
       <Image src={AboutImg} />
     </Content>
-  </Wrapper>
+  </Container>
 )
 
 export default About

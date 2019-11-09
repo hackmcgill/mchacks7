@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
  
-export const Wrapper = styled.section`
+export const Container = styled.section`
   display: flex;
   align-items: center;
   padding: 2rem 1rem;
@@ -11,4 +11,4 @@ export const Wrapper = styled.section`
   }
 `
 
-export default Wrapper
+export default Container

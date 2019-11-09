@@ -31,6 +31,7 @@ This repository contains the code behind the static site of McHacks 7.
 
 ## Folder Structure
 
+    .
     ├── docs                    # Documentation files
     ├── src                     # Source files
     │   ├── components          # Page sections files

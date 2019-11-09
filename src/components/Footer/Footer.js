@@ -1,10 +1,5 @@
 import React from "react"
 
-import Container from "./Container"
-import LinksWrapper from "./LinksWrapper"
-// import PageLink from "./PageLink"
-import SocialLink from "./SocialLink"
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {
@@ -12,6 +7,11 @@ import {
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
+
+import Container from "./Container"
+import LinksWrapper from "./LinksWrapper"
+// import PageLink from "./PageLink"
+import SocialLink from "./SocialLink"
 
 const Footer = () => (
   <Container>

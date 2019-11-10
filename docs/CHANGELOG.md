@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/hackmcgill/mchacks7/tree/1.1.1)
+
+_November 8, 2019_
+
+**Features:**
+
+- Add changelog
+- Update pull request template
+
 ## [1.1.0](https://github.com/hackmcgill/mchacks7/tree/1.1.0)
 
 _November 8, 2019_

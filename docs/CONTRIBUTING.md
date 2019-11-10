@@ -26,6 +26,8 @@ Before contributing to the McHacks website, please review our [Code of Conduct](
 - Create a new branch from `develop` to merge into `master`
 - Name the branch like `release/version-number`, i.e. `release/1.4.0`
 - For version numbers, we follow [semantic versioning](https://semver.org/) with MAJOR.MINOR.PATCH.
+- Update the [Changelog](https://github.com/hackmcgill/mchacks7/blob/develop/docs/CHANGELOG.md).
 - Create a pull request to merge the release branch into `master`
 - Satisfy the entire PR template with a good description for reference
-- Add a release tag in the [releases tab](https://github.com/hackmcgill/mchacks7/releases).
+- After merging into `master`, add a tag with the version number
+- If it's a major release, add a release tag in the [releases tab](https://github.com/hackmcgill/mchacks7/releases).

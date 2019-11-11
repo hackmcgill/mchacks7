@@ -1,17 +1,22 @@
 import React from "react"
 
-import SponsImg from "../images/spons.svg"
-import * as Styles from "../styles/components/index.js"
+import Container from "./Container"
+import Content from "./Content"
+import Image from "./Image"
+import Text from "./Text"
+import Button from "./Button"
+
+import SponsorImg from "../../assets/images/designs/sponsor.svg"
 
 const mailTo = () => {
-  window.location = "mailto:sponsorship@mchacks.ca"
+  window.location = "mailto:sponsorship@mchacks.ca?Subject=Hello!"
 }
 
 const Sponsor = ({ scrollRef }) => (
-  <Styles.Sponsor ref={scrollRef}>
-    <Styles.SponsContent>
-      <Styles.SponsImg src={SponsImg} />
-      <Styles.SponsText>
+  <Container ref={scrollRef}>
+    <Content>
+      <Image src={SponsorImg} />
+      <Text>
         <h2>Interested in Sponsoring?</h2>
         <p>
           Hosting Canada’s favourite hackathon isn't easy, and our generous
@@ -23,13 +28,12 @@ const Sponsor = ({ scrollRef }) => (
           Join us as we shake the world of technology for 24 hours. We've got a
           table with your name on it!
         </p>
-        <Styles.SponsButton onClick={mailTo}>
+        <Button onClick={mailTo}>
           Become a Sponsor
-        </Styles.SponsButton>
-        {/* <a class="button" href="mailto:sponsorship@mchacks.ca">Become a sponsor</a> */}
-      </Styles.SponsText>
-    </Styles.SponsContent>
-  </Styles.Sponsor>
+        </Button>
+      </Text>
+    </Content>
+  </Container>
 )
 
 export default Sponsor

@@ -1,12 +1,13 @@
 import React, { useRef } from "react"
-import SEO from "../components/seo"
-import Nav from "../components/nav"
-import Hero from "../components/hero"
-import About from "../components/about"
-import Sponsor from "../components/sponsor"
-import Footer from "../components/footer"
 
-const scrollToRef = ref => {
+import SEO from "../components/SEO/SEO"
+import Nav from "../components/Nav/Nav"
+import Hero from "../components/Hero/Hero"
+import About from "../components/About/About"
+import Sponsor from "../components/Sponsor/Sponsor"
+import Footer from "../components/Footer/Footer"
+
+const scrollTo = ref => {
   if (!ref || !ref.current) {
     return
   }
@@ -21,8 +22,8 @@ const IndexPage = () => {
     <div>
       <SEO />
       <Nav
-        scrollToAbout={() => scrollToRef(aboutRef)}
-        scrollToSponsor={() => scrollToRef(sponsorRef)}
+        scrollToAbout={() => scrollTo(aboutRef)}
+        scrollToSponsor={() => scrollTo(sponsorRef)}
       />
       <Hero />
       <About scrollRef={aboutRef} />

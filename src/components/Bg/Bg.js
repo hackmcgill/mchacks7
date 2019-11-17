@@ -1,13 +1,14 @@
 import React from "react"
 
-import BgStyles, { BgImgStyles } from "./BgStyles"
-import BgImg from "../../assets/images/designs/bg.svg"
+import BgStyles from "./BgStyles"
+import CordStyles from "./CordStyles"
 
+import CordImg from "../../assets/images/designs/cord.svg"
 
 const Bg = ({ children }) => (
   <BgStyles>
     {children}
-    <BgImgStyles src={BgImg} />
+    <CordStyles src={CordImg} />
   </BgStyles>
 )
 

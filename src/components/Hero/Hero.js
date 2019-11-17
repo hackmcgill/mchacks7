@@ -1,14 +1,11 @@
 import React from "react"
 
 import HeroStyles from "./HeroStyles"
-import Campus from "./Campus"
-import Plateau from "./Plateau"
-import BottomLine from "./BottomLine"
+import Buildings from "./Buildings"
+
 import SignUpForm from "./SignUpForm"
 
-import HeroPlateauImg from "../../assets/images/designs/plateau.svg"
-import HeroCampusImg from "../../assets/images/designs/campus.svg"
-import BottomLineImg from "../../assets/images/designs/bottomline.svg"
+import BuildingImg from "../../assets/images/designs/buildings.svg"
 
 const Hero = () => (
   <HeroStyles>
@@ -19,11 +16,8 @@ const Hero = () => (
       Sign up for updates about McHacks. No spam, we promise.
     </p>
     <SignUpForm />
-    <div class="hero__images">
-      <Plateau src={HeroPlateauImg} />
-      <Campus src={HeroCampusImg} />
-      <img src={BottomLineImg} />
-    </div>
+    <Buildings src={BuildingImg} />
+      
   </HeroStyles>
 )
 

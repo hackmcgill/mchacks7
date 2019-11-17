@@ -13,7 +13,7 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    margin-bottom: 80px;
+    margin-bottom: 8px;
   }
 
   .hero__heading {
@@ -76,21 +76,6 @@ export const HeroStyles = styled.section`
 
     @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
-    }
-  }
-
-  .hero__images {
-    position: absolute;
-    top: 290px;
-    right: 0;
-    display: inline;
-
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      max-width: 90%;
-      max-height: 80%;
-      margin-top: 120px;
-      padding: 0;
-      padding-top: 3rem;
     }
   }
 `

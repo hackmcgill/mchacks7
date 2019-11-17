@@ -51,7 +51,7 @@ export const UFOStyles = styled.img`
 
 export const PlanetStyles = styled.img`
   position: absolute;
-  width: 90px;
+  width: 70px;
   top: -270px;
   right: 50px;
 

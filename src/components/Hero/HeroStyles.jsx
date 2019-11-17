@@ -2,14 +2,13 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-  height: 100%;
   position: relative;
   padding: 0 2rem;
   margin-bottom: 400px;
-  padding-top: 50px;
+  padding-top: 120px;
 
   @media only screen and (min-width: ${styleVars.mdUp}) {
-    padding: 50px 10rem;
+    padding: 120px 10rem;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

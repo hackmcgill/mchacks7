@@ -1,10 +1,13 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-export const Campus = styled.img`
+export const BottomLine = styled.img`
+  position: relative;
   height: auto;
   object-fit: contain;
   z-index: 0;
+  bottom: 0;
+  right: 0px;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 90%;
@@ -15,4 +18,4 @@ export const Campus = styled.img`
   }
 `
 
-export default Campus
+export default BottomLine

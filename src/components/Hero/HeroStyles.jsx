@@ -6,17 +6,14 @@ export const HeroStyles = styled.section`
   position: relative;
   padding: 0 2rem;
   margin-bottom: 400px;
+  padding-top: 50px;
 
   @media only screen and (min-width: ${styleVars.mdUp}) {
-    padding: 0 10rem;
+    padding: 50px 10rem;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     margin-bottom: 80px;
-  }
-
-  .hero__copy {
-    padding-top: 14rem;
   }
 
   .hero__heading {
@@ -79,6 +76,21 @@ export const HeroStyles = styled.section`
 
     @media only screen and (max-width: ${styleVars.smUp}) {
       text-align: center;
+    }
+  }
+
+  .hero__images {
+    position: absolute;
+    top: 290px;
+    right: 0;
+    display: inline;
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      max-width: 90%;
+      max-height: 80%;
+      margin-top: 120px;
+      padding: 0;
+      padding-top: 3rem;
     }
   }
 `

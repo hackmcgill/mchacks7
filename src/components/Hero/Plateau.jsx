@@ -5,9 +5,8 @@ export const Plateau = styled.img`
   position: absolute;
   height: auto;
   object-fit: contain;
-  z-index: -5;
-  top: 350px;
-  right: 0px;
+  z-index: -1;
+  top: 56px;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 90%;
@@ -15,7 +14,6 @@ export const Plateau = styled.img`
     padding: 0 2rem;
     padding-top: 7.3rem;
     position: unset;
-    z-index: -1;
   }
 `
 

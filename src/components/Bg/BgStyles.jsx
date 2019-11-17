@@ -14,7 +14,7 @@ export const BgStyles = styled.section`
   z-index: -8;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    background-position: 95% 350px;
+    background-position: 95% 400px;
   }
 `
 

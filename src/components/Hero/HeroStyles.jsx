@@ -95,7 +95,7 @@ export const HeroStyles = styled.section`
       top: 0;
       right: 0;
       left: 0;
-      margin-top: 280px;
+      margin-top: 350px;
       position: relative;
     }
   }

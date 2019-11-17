@@ -1,11 +1,15 @@
 import React from "react"
 
 import HeroStyles from "./HeroStyles"
-import Buildings from "./Buildings"
+import { HotAirStyles, UFOStyles, PlanetStyles } from "./FloatingStyles"
 
+import Buildings from "./Buildings"
 import SignUpForm from "./SignUpForm"
 
 import BuildingImg from "../../assets/images/designs/buildings.svg"
+import HotAirImg from "../../assets/images/designs/hotair.svg"
+import UFOImg from "../../assets/images/designs/ufo.svg"
+import PlanetImg from "../../assets/images/designs/planet-stars.svg"
 
 const Hero = () => (
   <HeroStyles>
@@ -16,8 +20,12 @@ const Hero = () => (
       Sign up for updates about McHacks. No spam, we promise.
     </p>
     <SignUpForm />
-    <Buildings src={BuildingImg} />
-      
+    <div class="hero__illustrations">
+      <HotAirStyles src={HotAirImg} />
+      <UFOStyles src={UFOImg} />
+      <PlanetStyles src={PlanetImg} />
+      <Buildings src={BuildingImg} />  
+    </div>
   </HeroStyles>
 )
 

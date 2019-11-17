@@ -78,6 +78,27 @@ export const HeroStyles = styled.section`
       text-align: center;
     }
   }
+
+  .hero__illustrations {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 900px;
+    max-width: 100%;
+    z-index: -2;
+  
+    @media only screen and (max-width: ${styleVars.lgUp}) {
+      top: 320px;
+    }
+  
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      top: 0;
+      right: 0;
+      left: 0;
+      margin-top: 280px;
+      position: relative;
+    }
+  }
 `
 
 export default HeroStyles

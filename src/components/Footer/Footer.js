@@ -30,10 +30,7 @@ const Footer = () => (
     </Links>
 
     <Links>
-      <SocialLink
-        href="mailto:contact@mchacks.ca?Subject=Hello!"
-        target="_blank"
-      >
+      <SocialLink href="mailto:contact@mchacks.ca?Subject=Hello!" target="_blank" >
         <FontAwesomeIcon icon={faEnvelope} />
       </SocialLink>
       <SocialLink href="https://fb.com/mcgillhacks">

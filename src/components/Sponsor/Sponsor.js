@@ -28,7 +28,9 @@ const Sponsor = ({ scrollRef }) => (
           Join us as we shake the world of technology for 24 hours. We've got a
           table with your name on it!
         </p>
-        <Button onClick={mailTo}>Become a Sponsor</Button>
+        <Button onClick={mailTo}>
+          Become a Sponsor
+        </Button>
       </Text>
     </Content>
   </Container>

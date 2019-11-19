@@ -8,7 +8,7 @@ export const HeroStyles = styled.section`
   padding-top: 120px;
 
   @media only screen and (min-width: ${styleVars.mdUp}) {
-    padding: 120px 10rem;
+    padding: 120px 160px;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

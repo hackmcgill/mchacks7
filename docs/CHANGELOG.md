@@ -1,8 +1,16 @@
 # Changelog
 
+## [1.2.0](https://github.com/hackmcgill/mchacks7/tree/1.2.0)
+
+_November 11, 2019_
+
+**Features:**
+
+- Refactor components structure
+
 ## [1.1.1](https://github.com/hackmcgill/mchacks7/tree/1.1.1)
 
-_November 8, 2019_
+_November 10, 2019_
 
 **Features:**
 

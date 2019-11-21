@@ -71,4 +71,3 @@ export const PlanetStyles = styled.img`
     width: 50px;
   }
 `
-

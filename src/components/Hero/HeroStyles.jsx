@@ -85,11 +85,11 @@ export const HeroStyles = styled.section`
     width: 900px;
     max-width: 100%;
     z-index: -2;
-  
+
     @media only screen and (max-width: ${styleVars.lgUp}) {
       top: 320px;
     }
-  
+
     @media only screen and (max-width: ${styleVars.smUp}) {
       top: 0;
       right: 0;

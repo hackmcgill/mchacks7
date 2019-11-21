@@ -13,4 +13,3 @@ export const CordStyles = styled.img`
 `
 
 export default CordStyles
-

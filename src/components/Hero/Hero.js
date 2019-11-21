@@ -24,7 +24,7 @@ const Hero = () => (
       <HotAirStyles src={HotAirImg} />
       <UFOStyles src={UFOImg} />
       <PlanetStyles src={PlanetImg} />
-      <Buildings src={BuildingImg} />  
+      <Buildings src={BuildingImg} />
     </div>
   </HeroStyles>
 )

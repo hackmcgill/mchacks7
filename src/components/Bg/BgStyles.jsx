@@ -19,4 +19,3 @@ export const BgStyles = styled.section`
 `
 
 export default BgStyles
-

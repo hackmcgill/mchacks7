@@ -28,7 +28,7 @@ const IndexPage = () => {
       />
       <Bg>
         <Hero />
-        <About scrollRef={aboutRef} />  
+        <About scrollRef={aboutRef} />
       </Bg>
       <Sponsor scrollRef={sponsorRef} />
       <Footer />

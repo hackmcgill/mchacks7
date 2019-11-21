@@ -6,6 +6,7 @@ import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
 import Footer from "../components/Footer/Footer"
+import Bg from "../components/Bg/Bg"
 
 const scrollTo = ref => {
   if (!ref || !ref.current) {
@@ -25,8 +26,10 @@ const IndexPage = () => {
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
       />
-      <Hero />
-      <About scrollRef={aboutRef} />
+      <Bg>
+        <Hero />
+        <About scrollRef={aboutRef} />
+      </Bg>
       <Sponsor scrollRef={sponsorRef} />
       <Footer />
     </div>

@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.1](https://github.com/hackmcgill/mchacks7/tree/1.2.1)
+
+_November 24, 2019_
+
+**Features:**
+
+- Add hero illustrations
+
+**Fixes:**
+
+- Fix section scrolling
+
 ## [1.2.0](https://github.com/hackmcgill/mchacks7/tree/1.2.0)
 
 _November 11, 2019_

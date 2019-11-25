@@ -7,6 +7,7 @@ _November 24, 2019_
 **Features:**
 
 - Add hero illustrations
+- Update sponsor package to v1.2
 
 **Fixes:**
 

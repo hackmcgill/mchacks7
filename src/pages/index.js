@@ -6,12 +6,13 @@ import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
 import Footer from "../components/Footer/Footer"
+import Bg from "../components/Bg/Bg"
 
 const scrollTo = ref => {
   if (!ref || !ref.current) {
     return
   }
-  window.scrollTo(0, ref.current.offsetTop)
+  window.scrollTo(0, ref.current.offsetTop - 100)
 }
 
 const IndexPage = () => {
@@ -25,8 +26,10 @@ const IndexPage = () => {
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
       />
-      <Hero />
-      <About scrollRef={aboutRef} />
+      <Bg>
+        <Hero />
+        <About scrollRef={aboutRef} />
+      </Bg>
       <Sponsor scrollRef={sponsorRef} />
       <Footer />
     </div>

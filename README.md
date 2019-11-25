@@ -36,8 +36,8 @@ This repository contains the code behind the static site of McHacks 7.
     ├── src                     # Source files
     │   ├── components          # Page sections files
     │   ├── assets              # Assets files
-    │   │   ├── fonts           
-    │   │   └── images          
+    │   │   ├── fonts
+    │   │   └── images
     │   └── pages               # Page files
     │   └── styles              # Style files
     ├── static                  # Unbundled assets

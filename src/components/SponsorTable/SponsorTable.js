@@ -4,12 +4,14 @@ import SponsorTierContainer from "./SponsorTierContainer"
 import SponsorWrapper from "./SponsorWrapper"
 import SponsorLink from "./SponsorLink"
 import SponsorImg from "./SponsorImg"
+import Text from "./Text"
+
+import TestImg from "../../assets/images/designs/buildings.svg"
 
 const Sponsor = ({
   url,
   img,
   maxHeight = "none",
-  maxWidth = "none",
   flexBasisPercent = "none",
   paddingPercent = 2,
 }) => (
@@ -18,38 +20,32 @@ const Sponsor = ({
     paddingPercent={paddingPercent}
   >
     <SponsorLink href={url} target="_blank">
-      <SponsorImg src={img} maxHeight={maxHeight} maxWidth={maxWidth} />
+      <SponsorImg src={img} maxHeight={maxHeight} />
     </SponsorLink>
   </SponsorWrapper>
 )
 
-export const TeraSponsor = ({ url, img }) => (
-  <Sponsor
-    url={url}
-    img={img}
-    maxHeight={"25vh"}
-    maxWidth={"25vw"}
-    flexBasisPercent={90}
-  />
+const TeraSponsor = ({ url, img }) => (
+  <Sponsor url={url} img={img} maxHeight={"25vh"} flexBasisPercent={90} />
 )
 
-export const GigaSponsor = ({ url, img }) => (
-  <Sponsor url={url} img={img} maxHeight={"10vh"} flexBasisPercent={65} />
+const GigaSponsor = ({ url, img }) => (
+  <Sponsor url={url} img={img} maxHeight={"12vh"} flexBasisPercent={50} />
 )
 
-export const MegaSponsor = ({ url, img }) => (
-  <Sponsor url={url} img={img} maxHeight={"9vh"} flexBasisPercent={45} />
+const MegaSponsor = ({ url, img }) => (
+  <Sponsor url={url} img={img} maxHeight={"10vh"} flexBasisPercent={30} />
 )
 
-export const KiloSponsor = ({ url, img }) => (
-  <Sponsor url={url} img={img} maxHeight={"9vh"} flexBasisPercent={21} />
+const KiloSponsor = ({ url, img }) => (
+  <Sponsor url={url} img={img} maxHeight={"8vh"} flexBasisPercent={19} />
 )
 
-export const ByteSponsor = ({ url, img }) => (
-  <Sponsor url={url} img={img} maxHeight={"6vh"} flexBasisPercent={18} />
+const ByteSponsor = ({ url, img }) => (
+  <Sponsor url={url} img={img} maxHeight={"5vh"} flexBasisPercent={15} />
 )
 
-export const InKindSponsor = ({ url, img }) => (
+const InKindSponsor = ({ url, img }) => (
   <Sponsor
     url={url}
     img={img}
@@ -59,8 +55,43 @@ export const InKindSponsor = ({ url, img }) => (
   />
 )
 
-export const SponsorTier = ({ children }) => (
-  <SponsorTierContainer>{children}</SponsorTierContainer>
+export const SponsorTable = () => (
+  <>
+    <Text>Our Sponsors</Text>
+    <SponsorTierContainer>
+      <TeraSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+    <SponsorTierContainer>
+      <GigaSponsor img={TestImg} url="https://test.com" />
+      <GigaSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+    <SponsorTierContainer>
+      <MegaSponsor img={TestImg} url="https://test.com" />
+      <MegaSponsor img={TestImg} url="https://test.com" />
+      <MegaSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+    <SponsorTierContainer>
+      <KiloSponsor img={TestImg} url="https://test.com" />
+      <KiloSponsor img={TestImg} url="https://test.com" />
+      <KiloSponsor img={TestImg} url="https://test.com" />
+      <KiloSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+    <SponsorTierContainer>
+      <ByteSponsor img={TestImg} url="https://test.com" />
+      <ByteSponsor img={TestImg} url="https://test.com" />
+      <ByteSponsor img={TestImg} url="https://test.com" />
+      <ByteSponsor img={TestImg} url="https://test.com" />
+      <ByteSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+    <SponsorTierContainer>
+      <InKindSponsor img={TestImg} url="https://test.com" />
+      <InKindSponsor img={TestImg} url="https://test.com" />
+      <InKindSponsor img={TestImg} url="https://test.com" />
+      <InKindSponsor img={TestImg} url="https://test.com" />
+      <InKindSponsor img={TestImg} url="https://test.com" />
+      <InKindSponsor img={TestImg} url="https://test.com" />
+    </SponsorTierContainer>
+  </>
 )
 
-export default SponsorTier
+export default SponsorTable

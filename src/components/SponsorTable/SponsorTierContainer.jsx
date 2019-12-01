@@ -12,7 +12,7 @@ export const SponsorTierContainer = styled.div`
   margin: 0 auto;
 
   &::after {
-    content: "''";
+    content: "";
     display: table;
     clear: both;
   }

@@ -19,11 +19,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix section scrolling
 
-## [1.2.0](https://github.com/hackmcgill/mchacks7/tree/1.2.0)
+## [1.2.0](https://github.com/hackmcgill/mchacks7/tree/1.2.0) - 2019-11-11
 
-_November 11, 2019_
-
-**Features:**
+### Changed
 
 - Refactor components structure
 

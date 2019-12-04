@@ -52,11 +52,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix SEO
 - Fix Gatsby compiler warnings
 
-## [1.0.1](https://github.com/hackmcgill/mchacks7/tree/1.0.1)
+## [1.0.1](https://github.com/hackmcgill/mchacks7/tree/1.0.1) - 2019-10-23
 
-_October 23, 2019_
-
-**Features:**
+### Added
 
 - Add sponsorship package
 

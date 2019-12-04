@@ -25,13 +25,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Refactor components structure
 
-## [1.1.1](https://github.com/hackmcgill/mchacks7/tree/1.1.1)
+## [1.1.1](https://github.com/hackmcgill/mchacks7/tree/1.1.1) - 2019-11-10
 
-_November 10, 2019_
-
-**Features:**
+### Added
 
 - Add changelog
+
+### Changed
+
 - Update pull request template
 
 ## [1.1.0](https://github.com/hackmcgill/mchacks7/tree/1.1.0)

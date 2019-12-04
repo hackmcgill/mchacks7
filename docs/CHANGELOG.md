@@ -35,18 +35,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update pull request template
 
-## [1.1.0](https://github.com/hackmcgill/mchacks7/tree/1.1.0)
+## [1.1.0](https://github.com/hackmcgill/mchacks7/tree/1.1.0) - 2019-11-08
 
-_November 8, 2019_
-
-**Features:**
+### Added
 
 - Add scripts
 - Add navbar scroll
 - Add mobile menu
+
+### Changed
+
 - Move page redirects to source code
 
-**Fixes:**
+### Fixed
 
 - Fix SEO
 - Fix Gatsby compiler warnings

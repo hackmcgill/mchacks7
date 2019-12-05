@@ -24,6 +24,7 @@
 
 - [ ] Merged `develop` branch (before testing)
 - [ ] Ran `yarn format` to format code
+- [ ] Listed change in CHANGELOG file
 - [ ] Tested all links in project relevant browsers
 - [ ] Tested all links on different screen sizes
 - [ ] Referenced all useful info (issues, tasks, etc)

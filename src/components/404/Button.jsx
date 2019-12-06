@@ -6,9 +6,10 @@ export const Button = styled.button`
   font-weight: 600;
   font-size: 14px;
   text-transform: none;
-  color: ${styleVars.colorHackRed};
+  color: white;
+  background-color: ${styleVars.colorHackRed};
   border-radius: 3.75em;
-  border: 2px solid ${styleVars.colorHackRed};
+  border: none;
   transition: all 0.15s ease-in-out;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -18,8 +19,7 @@ export const Button = styled.button`
   //   width: 175px;
 
   &:hover {
-    background-color: ${styleVars.colorHackRed};
-    color: white;
+    background-color: ${styleVars.colorHackRedMed};
   }
 `
 

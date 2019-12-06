@@ -6,6 +6,7 @@ export const HeroStyles = styled.section`
   padding: 0 2rem;
   margin-bottom: 400px;
   padding-top: 120px;
+  z-index: 1;
 
   @media only screen and (min-width: ${styleVars.mdUp}) {
     padding: 120px 160px;

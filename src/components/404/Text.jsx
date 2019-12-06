@@ -6,7 +6,6 @@ export const Text = styled.div`
   margin: 0 auto;
   text-align: center;
 
-
   h2 {
     color: ${styleVars.colorHackRed};
     font-size: 3rem;

@@ -18,13 +18,13 @@ const NotFoundPage = () => {
 
   return (
     <div>
-    <SEO />
-    <Nav
+      <SEO />
+      <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
       />
-    <NotFound />
-    <Footer />
+      <NotFound />
+      <Footer />
     </div>
   )
 }

@@ -30,7 +30,7 @@ export const UFOStyles = styled.img`
   top: -140px;
   right: 250px;
   width: 120px;
-  z-index: -7;
+  z-index: -10;
 
   @media only screen and (max-width: ${styleVars.lgUp}) {
     right: 200px;

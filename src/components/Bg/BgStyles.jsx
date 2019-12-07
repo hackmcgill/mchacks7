@@ -11,7 +11,6 @@ export const BgStyles = styled.section`
   background-size: cover;
   background-position: right 80px;
   background-repeat: no-repeat;
-  z-index: -8;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     background-position: 95% 400px;

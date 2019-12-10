@@ -9,7 +9,8 @@ export const Container = styled.footer`
   justify-content: space-between;
   align-items: center;
   z-index: 2;
-  height: 7rem;
+  height: 80px;
+  margin-top: 0;
 `
 
 export default Container

@@ -12,7 +12,7 @@ const scrollTo = ref => {
   window.scrollTo(0, ref.current.offsetTop - 100)
 }
 
-const PrivacyPolicy = () => {
+const PrivacyPage = () => {
   const aboutRef = useRef(null)
   const sponsorRef = useRef(null)
 
@@ -29,4 +29,4 @@ const PrivacyPolicy = () => {
   )
 }
 
-export default PrivacyPolicy
+export default PrivacyPage

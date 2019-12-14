@@ -12,7 +12,7 @@ const scrollTo = ref => {
   window.scrollTo(0, ref.current.offsetTop - 100)
 }
 
-const CodeofC = () => {
+const CodeOfConductPage = () => {
   const aboutRef = useRef(null)
   const sponsorRef = useRef(null)
 
@@ -29,4 +29,4 @@ const CodeofC = () => {
   )
 }
 
-export default CodeofC
+export default CodeOfConductPage

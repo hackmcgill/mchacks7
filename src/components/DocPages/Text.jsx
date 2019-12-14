@@ -13,14 +13,14 @@ export const Text = styled.div`
   h2 {
     color: ${styleVars.colorHackRed};
     font-size: 3rem;
-    font-weight: 400;
+		font-weight: 400;
+		margin-bottom: 0.22rem;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 1rem;
   }
 `
 

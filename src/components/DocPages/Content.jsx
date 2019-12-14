@@ -2,11 +2,19 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Content = styled.div`
-  align-items: center;
   display: flex;
   max-width: 1000px;
-  margin: auto;
-  margin-bottom: 5rem;
+  padding: 3000px;
+
+  @media only screen and (max-width: ${styleVars.smUp}){
+    display: block;
+    padding: 10%;
+  }
+  
+  @media only screen and (max-width: ${styleVars.lgUp}) and (min-width: ${styleVars.smUp}) {
+    display: block;
+    padding: 25%;
+  }
 `
 
 export default Content

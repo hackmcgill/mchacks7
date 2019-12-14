@@ -47,7 +47,8 @@ const CodeOfConduct = () => (
         <br></br>
         <br></br>
         Any bus ticket reserved by a participant with a deposit may not be traded, redistributed, or sold to any other participant or 
-				person. If a participant wishes to unreserve a ticket and receive a refund, they must send an email to contact@mchacks.ca along 
+				person. If a participant wishes to unreserve a ticket and receive a refund, they must send an email to&nbsp;
+				<a href="mailto:contact@mchacks.ca" target="_top">contact@mchacks.ca</a>&nbsp;along 
 				with an order receipt detailing information about the transaction. 
         <br></br>
         <br></br>
@@ -81,7 +82,8 @@ const CodeOfConduct = () => (
 					<li><b>Isabelle del Mundo</b>: (940) 594-5583 </li>
 					<li><b>Max Boksem</b>: (438) 885-7116</li>
 				</ul>
-				You can also email us at directors@mchacks.ca.
+				You can also email us at&nbsp;
+				<a href="mailto:directors@mchacks.ca" target="_top">directors@mchacks.ca</a>.
 				<br></br>
         <br></br>
 				If you are uncomfortable reporting a potential violation to the Co-Directors for any reason, please approach the contracted 
@@ -111,7 +113,8 @@ const CodeOfConduct = () => (
 					<li>Hack@Brown Code of Conduct</li>
 					<li>JustHack Code of Conduct</li>
 				</ul>
-				If you have any questions regarding this code of conduct, please contact contact@mchacks.ca. 
+				If you have any questions regarding this code of conduct, please contact&nbsp;
+				<a href="mailto:contact@mchacks.ca" target="_top">contact@mchacks.ca</a>. 
 				McHacks reserves itself the right to modify this code of conduct at any time.
 				<br></br>
 				<br></br>

@@ -9,6 +9,7 @@ export const Container = styled.section`
   @media only screen and (max-width: ${styleVars.smUp}) {
     display: block;
     padding: 10%;
+
   }
 `
 

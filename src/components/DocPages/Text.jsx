@@ -20,7 +20,16 @@ export const Text = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     width: 100%;
     margin: 0;
-    padding: 0;
+		padding: 0;
+		
+		h1{
+			font-size: 4rem;
+		}
+
+		h2{
+			font-size: 2.8rem;
+
+		}
   }
 `
 

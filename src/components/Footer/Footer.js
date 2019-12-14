@@ -10,13 +10,13 @@ import {
 
 import Container from "./Container"
 import Links from "./Links"
-import PageLink from "./PageLink"
+// import PageLink from "./PageLink"
 import SocialLink from "./SocialLink"
 
 const Footer = () => (
   <Container>
     <Links>
-      {/* TODO */}
+      {/* TODO
             <PageLink>
                 Code of Conduct
             </PageLink>
@@ -26,7 +26,7 @@ const Footer = () => (
             <PageLink>
                 Privacy Policy
             </PageLink>
-             
+              */}
     </Links>
 
     <Links>

@@ -6,7 +6,7 @@ import Content from "../About/Content"
 
 const Privacy = () => (
     <Container>
-        <Content>
+    	<Content>
         <Text>
         <h1>Privacy Policy</h1>
         <h2>Summary</h2>
@@ -78,7 +78,7 @@ const Privacy = () => (
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         </Text>
-        </Content>
+      </Content>
         
     </Container>
 )

@@ -4,9 +4,9 @@ import Container from "./Container"
 import Text from "./Text"
 import Content from "../About/Content"
 
-const CodeofConduct = () => (
+const CodeOfConduct = () => (
     <Container>
-        <Content>
+      <Content>
         <Text>
         <h1>Code of Conduct</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -82,9 +82,9 @@ const CodeofConduct = () => (
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         </Text>
-        </Content>
+      </Content>
         
     </Container>
 )
 
-export default CodeofConduct
+export default CodeOfConduct

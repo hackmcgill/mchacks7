@@ -53,13 +53,15 @@ const Privacy = () => (
 				</p>
 				<h2>Deletion Policy</h2>
 				<p>
-				Upon receipt of a written request with proof of identity via email sent to contact@mchacks.ca, we will delete all associated 
+				Upon receipt of a written request with proof of identity via email sent to&nbsp;
+				<a href="mailto:contact@mchacks.ca" target="_top">contact@mchacks.ca</a>, we will delete all associated 
 				personal data within 30 days. Please note that your data may remain in our rolling backups after this time but will not be utilized 
 				and will be deleted from any restored versions if necessary.
 				</p>
 				<h2>Questions</h2>
 				<p>
-				Any questions regarding the McHacks privacy policy may be directed to the contact@mchacks.ca. We take your privacy seriously and 
+				Any questions regarding the McHacks privacy policy may be directed to the&nbsp;
+				<a href="mailto:contact@mchacks.ca" target="_top">contact@mchacks.ca</a>. We take your privacy seriously and 
 				value any feedback or criticism to ensure that you are comfortable with how we operate.
 				</p>
         </Text>

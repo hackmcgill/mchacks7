@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add Privacy Policy and Code of Conduct pages
 
+### Fixed
+
+- Change to right logo file for favicon
+
 ## [1.2.3](https://github.com/hackmcgill/mchacks7/tree/1.2.3) - 2019-12-14
 
 ### Added

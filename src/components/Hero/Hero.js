@@ -4,7 +4,7 @@ import HeroStyles from "./HeroStyles"
 import { HotAirStyles, UFOStyles, PlanetStyles } from "./FloatingStyles"
 
 import Buildings from "./Buildings"
-import SignUpForm from "./SignUpForm"
+// import SignUpForm from "./SignUpForm"
 
 import BuildingImg from "../../assets/images/designs/buildings.svg"
 import HotAirImg from "../../assets/images/designs/hotair.svg"
@@ -16,10 +16,10 @@ const Hero = () => (
     <h2 class="hero__topsubheading">Create, build, and play @</h2>
     <h1 class="hero__heading">McHacks</h1>
     <p class="hero__subheading"> McGill University · Feb 1-2, 2020</p>
-    <p class="hero__email">
+    {/* <p class="hero__email">
       Sign up for updates about McHacks. No spam, we promise.
     </p>
-    <SignUpForm />
+    <SignUpForm /> */}
     <div class="hero__illustrations">
       <HotAirStyles src={HotAirImg} />
       <UFOStyles src={UFOImg} />

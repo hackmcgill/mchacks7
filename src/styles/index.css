@@ -27,6 +27,14 @@ body {
     flex: 1 0 auto;
 }
 
+a {
+    color: #f2463a;
+}
+
+a:hover {
+    color: #f56f65;
+}
+
 button {
     cursor: pointer;
     outline: none;

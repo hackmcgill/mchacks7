@@ -10,23 +10,22 @@ import {
 
 import Container from "./Container"
 import Links from "./Links"
-// import PageLink from "./PageLink"
+import PageLink from "./PageLink"
 import SocialLink from "./SocialLink"
 
 const Footer = () => (
   <Container>
     <Links>
-      {/* TODO
-            <PageLink>
-                Code of Conduct
-            </PageLink>
-            <PageLink>
-                Press Kit
-            </PageLink>
-            <PageLink>
-                Privacy Policy
-            </PageLink>
-              */}
+      <PageLink href="https://mchacks.ca/code-of-conduct">
+          Code of Conduct
+      </PageLink>
+      <PageLink href="https://mchacks.ca/privacy">
+          Privacy Policy
+      </PageLink>
+        {/* TODO
+        <PageLink>
+          Press Kit
+      </PageLink> */}
     </Links>
 
     <Links>

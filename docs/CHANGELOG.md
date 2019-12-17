@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add Privacy Policy and Code of Conduct pages
+- Apply button to Hero for launch
 
 ### Fixed
 

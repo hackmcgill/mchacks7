@@ -2,7 +2,7 @@
   "name": "mchacks7",
   "private": true,
   "description": "McHacks website",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "author": "HackMcGill @hackmcgill",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",

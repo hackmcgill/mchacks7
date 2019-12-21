@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add google analytics
+- Add MLH 2020 badge
+
 ### Fixed
 
 - Fix compiler warnings

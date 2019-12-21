@@ -5,8 +5,8 @@ import { HotAirStyles, UFOStyles, PlanetStyles } from "./FloatingStyles"
 
 import Buildings from "./Buildings"
 import Button from "./Button"
-import MLHBadge from "../Hero/MLHBadge"
-import MLHContainer from "../Hero/MLHContainer"
+import MLHBadge from "./MLHBadge"
+import MLHContainer from "./MLHContainer"
 // import SignUpForm from "./SignUpForm"
 
 import BuildingImg from "../../assets/images/designs/buildings.svg"

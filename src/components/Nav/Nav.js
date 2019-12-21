@@ -7,10 +7,13 @@ import Container from "./Container"
 import IconContainer from "./IconContainer"
 import Icon from "./Icon"
 import Links from "./Links"
+import MLHBadge from "./MLHBadge"
+import MLHContainer from "./MLHContainer"
 import NavLink from "./NavLink"
 import MobileMenu from "./MobileMenu"
 
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
+import MLH from "../../assets/images/mlh-trust-badge-2020-white.svg"
 
 const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
   const NavItems = () => (
@@ -33,6 +36,9 @@ const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
       <Menu isOpen={true} styles={MobileMenu}>
         {NavItems()}
       </Menu>
+      <MLHContainer>
+        <MLHBadge src={MLH} />
+      </MLHContainer>
     </Container>
   )
 }

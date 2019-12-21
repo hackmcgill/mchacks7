@@ -9,7 +9,7 @@ export const MLHContainer = styled.a`
   margin-left: 2.2rem;
   margin-top: -30px;
   width: 10%;
-  z-index: 10000;
+  z-index: 1;
 
   @media only screen and (min-width: ${styleVars.mdUp}) {
     margin-left: 1.2rem;

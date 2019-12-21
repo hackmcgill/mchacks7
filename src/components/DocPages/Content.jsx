@@ -6,11 +6,11 @@ export const Content = styled.div`
   max-width: 1000px;
   padding: 3000px;
 
-  @media only screen and (max-width: ${styleVars.smUp}){
+  @media only screen and (max-width: ${styleVars.smUp}) {
     display: block;
     padding: 10%;
   }
-  
+
   @media only screen and (max-width: ${styleVars.lgUp}) and (min-width: ${styleVars.smUp}) {
     display: block;
     padding: 25%;

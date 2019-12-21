@@ -17,12 +17,10 @@ const Footer = () => (
   <Container>
     <Links>
       <PageLink href="https://mchacks.ca/code-of-conduct">
-          Code of Conduct
+        Code of Conduct
       </PageLink>
-      <PageLink href="https://mchacks.ca/privacy">
-          Privacy Policy
-      </PageLink>
-        {/* TODO
+      <PageLink href="https://mchacks.ca/privacy">Privacy Policy</PageLink>
+      {/* TODO
         <PageLink>
           Press Kit
       </PageLink> */}

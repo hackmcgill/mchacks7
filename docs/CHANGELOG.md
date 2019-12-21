@@ -12,6 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add google analytics
 - Add MLH 2020 badge
 
+### Fixed
+
+- Fix compiler warnings
+
+### Security
+
+- Update to Gatsby v2.18.16 to resolve dependency warnings
+
 ## [1.3.0](https://github.com/hackmcgill/mchacks7/tree/1.3.0) - 2019-12-17
 
 ### Added

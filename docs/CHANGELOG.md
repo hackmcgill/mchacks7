@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `/promo` page redirect to promo kit
+
 ### Changed
 
 - Refactor `js` files to `jsx`

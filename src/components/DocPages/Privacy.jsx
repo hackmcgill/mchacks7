@@ -38,7 +38,7 @@ const Privacy = () => (
           information in order to properly run the event. Information will only
           be used within the services that McHacks utilizes for the Application
           Dashboard. Such services might include but are not limited to
-          instances of a MongoDB server, Nelify, Google Cloud Platform, and
+          instances of a MongoDB server, Netlify, Google Cloud Platform, and
           Heroku.
           <br></br>
           <br></br>

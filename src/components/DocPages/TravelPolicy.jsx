@@ -96,6 +96,9 @@ const TravelPolicy = () => (
             contact@mchacks.ca
           </a>
           .
+          <br></br>
+          <br></br>
+          <i>Last modified on January 13, 2020.</i>
         </p>
       </Text>
     </Content>

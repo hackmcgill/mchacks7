@@ -95,8 +95,7 @@ const TravelPolicy = () => (
           <a href="mailto:contact@mchacks.ca" target="_top">
             contact@mchacks.ca
           </a>
-          .
-          <br></br>
+          .<br></br>
           <br></br>
           <i>Last modified on January 13, 2020.</i>
         </p>

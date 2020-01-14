@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add travel policy page
 
+### Fixed
+
+- Add modified date to privacy policy
+
 ## [1.3.2](https://github.com/hackmcgill/mchacks7/tree/1.3.2) - 2019-12-22
 
 ### Added

@@ -88,6 +88,9 @@ const Privacy = () => (
           </a>
           . We take your privacy seriously and value any feedback or criticism
           to ensure that you are comfortable with how we operate.
+          <br></br>
+          <br></br>
+          <i>Last modified on January 13, 2020.</i>
         </p>
       </Text>
     </Content>

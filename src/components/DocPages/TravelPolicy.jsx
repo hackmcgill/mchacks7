@@ -85,9 +85,11 @@ const TravelPolicy = () => (
           be provided to McHacks by February 1, 2020 at 12:00pm EST.
           <br></br>
           <br></br>
-          All travel reimbursements must be picked up during McHacks and before
-          February 2, 2020 at 5:00pm EST or an attendee will not be offered any
-          reimbursement.
+          All travel reimbursements will be issued via Interac e-Transfer to an
+          attendee’s email address indicated in their application within 15 days
+          after McHacks. If an e-Transfer is not accepted by March 1, 2020 at
+          12:00pm EST, the e-Transfer will cancel and an attendee will not
+          longer be able to claim their travel reimbursement.
         </p>
         <h2>Questions</h2>
         <p>

@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update `p` tag font family to Hind
+- Update `p` tag font family to Hindˇ
 
 ## [1.5.1](https://github.com/hackmcgill/mchacks7/tree/1.5.1) - 2020-01-15
 
@@ -52,7 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Refactor `js` files to `jsx`
 
-### Fixed
+### Fixed``
 
 - Fix typo in `/privacy` page
 

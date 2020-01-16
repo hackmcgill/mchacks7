@@ -12,7 +12,7 @@ exports.createPages = ({ graphql, actions }) => {
   })
   createRedirect({
     fromPath: "/waiver",
-    toPath: "waiver.pdf",
+    toPath: "/waiver.pdf",
     isPermanent: true,
   })
 }

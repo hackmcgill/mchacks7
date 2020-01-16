@@ -180,6 +180,7 @@ const SponsorInfo = () => (
           </a>
           , they will be invited to join.
           <br></br>
+          <br></br>
           In the event of an emergency, <b>contact</b> the co-directors Isabelle
           (+1-940-594-5583) or Max (+1-438-885-7116) for assistance. Please also
           search for a nearby organizer for immediate assistance.

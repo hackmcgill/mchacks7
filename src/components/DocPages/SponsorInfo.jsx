@@ -22,8 +22,8 @@ const SponsorInfo = () => (
           <br></br>
           <br></br>
           In this package, you can find information about check-in, sponsors'
-          space, mentorship, the sponsorship dashboard, event schedule, as well
-          as some tips to make the most out of McHacks.
+          space, mentorship, event schedule, as well as some tips to make the
+          most out of McHacks.
         </p>
         <h2>Check-In</h2>
         <p>

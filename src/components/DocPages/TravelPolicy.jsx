@@ -39,8 +39,8 @@ const TravelPolicy = () => (
           other interested attendees.
           <br></br>
           <br></br>
-          An attendee will no longer be eligible for a refund after Wednesday,
-          January 29 though please still{" "}
+          An attendee will no longer be eligible for a refund after January 29,
+          2020 though please still{" "}
           <a href="mailto:contact@mchacks.ca" target="_top">
             contact
           </a>{" "}

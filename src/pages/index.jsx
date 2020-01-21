@@ -5,6 +5,7 @@ import Nav from "../components/Nav/Nav"
 import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
+import FAQ from "../components/FAQ/FAQ"
 import Footer from "../components/Footer/Footer"
 import Bg from "../components/Bg/Bg"
 
@@ -18,6 +19,7 @@ const scrollTo = ref => {
 const IndexPage = () => {
   const aboutRef = useRef(null)
   const sponsorRef = useRef(null)
+  const faqRef = useRef(null)
 
   return (
     <div>
@@ -25,12 +27,14 @@ const IndexPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        scrollToFaq={() => scrollTo(faqRef)}
       />
       <Bg>
         <Hero />
         <About scrollRef={aboutRef} />
       </Bg>
       <Sponsor scrollRef={sponsorRef} />
+      <FAQ scrollRef={faqRef} />
       <Footer />
     </div>
   )

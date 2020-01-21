@@ -12,11 +12,12 @@ import MobileMenu from "./MobileMenu"
 
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 
-const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {} }) => {
+const Nav = ({ scrollToAbout = () => {}, scrollToSponsor = () => {}, scrollToFaq = () => {} }) => {
   const NavItems = () => (
     <>
       <NavLink onClick={scrollToAbout}>About</NavLink>
       <NavLink onClick={scrollToSponsor}>Sponsor</NavLink>
+      <NavLink onClick={scrollToFaq}>FAQ</NavLink>
       <NavLink href="https://2019.mchacks.ca" target="_blank">
         2019
       </NavLink>

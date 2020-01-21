@@ -28,7 +28,8 @@ const TravelPolicy = () => (
         <h3>Seat Capacity</h3>
         <p>
           Bus seats are available at a first-come first-serve basis to all
-          attendees with an acceptance status on our hacker dashboard.
+          attendees with an acceptance status on our hacker dashboard. Seats
+          must be used by the same attendee to/from McHacks.
           <br></br>
           <br></br>
           If an attendee can no longer attend, please email{" "}
@@ -107,7 +108,7 @@ const TravelPolicy = () => (
           </a>
           .<br></br>
           <br></br>
-          <i>Last modified on January 13, 2020.</i>
+          <i>Last modified on January 21, 2020.</i>
         </p>
       </Text>
     </Content>

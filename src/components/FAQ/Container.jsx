@@ -54,7 +54,7 @@ export const Container = styled.div`
       font-size: 0.9em;
       display: none;
     }
-  
+
     &.expanded {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 

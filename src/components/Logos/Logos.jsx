@@ -9,7 +9,9 @@ import stickerMule from "../../assets/images/sponsor/stickermule.png"
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
     <Content>
-      <center><Image src={stickerMule} width='40%'/></center>
+      <center>
+        <Image src={stickerMule} width="40%" />
+      </center>
     </Content>
   </Container>
 )

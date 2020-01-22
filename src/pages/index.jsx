@@ -5,6 +5,7 @@ import Nav from "../components/Nav/Nav"
 import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
+import Logos from "../components/Logos/Logos"
 import Footer from "../components/Footer/Footer"
 import Bg from "../components/Bg/Bg"
 
@@ -31,6 +32,7 @@ const IndexPage = () => {
         <About scrollRef={aboutRef} />
       </Bg>
       <Sponsor scrollRef={sponsorRef} />
+      <Logos />
       <Footer />
     </div>
   )

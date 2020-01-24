@@ -12,6 +12,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implement FAQ section
 - Add link to FAQ section to navbar
 
+## [1.6.4](https://github.com/hackmcgill/mchacks7/tree/1.6.4) - 2020-01-23
+
+### Fixed
+
+- Add link to Stickermule site
+
+## [1.6.3](https://github.com/hackmcgill/mchacks7/tree/1.6.3) - 2020-01-22
+
+### Changed
+
+- Quick add of Stickermule logo
+
 ## [1.6.2](https://github.com/hackmcgill/mchacks7/tree/1.6.2) - 2020-01-21
 
 ### Changed

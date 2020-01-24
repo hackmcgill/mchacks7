@@ -53,6 +53,7 @@ export const Container = styled.div`
       margin-top: 10px;
       font-size: 0.9em;
       display: none;
+      font-family: "Hind Siliguri", sans-serif;
     }
 
     &.expanded {

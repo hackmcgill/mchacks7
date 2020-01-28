@@ -1,7 +1,11 @@
 import React from "react"
 
-const Schedule = ({ scrollRef }) => (
+import Container from "./Container"
 
+const Schedule = ({ scrollRef }) => (
+  <Container>
+
+  </Container>
 )
 
 export default Schedule

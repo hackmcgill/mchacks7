@@ -1,7 +1,9 @@
 import React, { useRef } from "react"
 
 import SEO from "../components/SEO/SEO"
-import Nav from "../components/Live/Nav"
+import LiveNav from "../components/Live/LiveNav"
+import Maps from "../components/Maps/Maps"
+import Info from "../components/Live/Info"
 
 const scrollTo = ref => {
   if (!ref || !ref.current) {
@@ -11,11 +13,15 @@ const scrollTo = ref => {
 }
 
 const LivePage = () => {
+  const mapsRef = useRef(null)
+  const infoRef = useRef(null)
 
   return (
     <div>
       <SEO />
-      <Nav />
+      <LiveNav />
+      <Maps scrollRef={mapsRef} />
+      <Info scrollRef={infoRef} />
     </div>
   )
 }

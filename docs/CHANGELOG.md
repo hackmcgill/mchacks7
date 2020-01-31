@@ -104,6 +104,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Add schedule
+- Change navgation to tabbed instead of scrolljacking
 - Add google analytics
 - Add MLH 2020 badge
 

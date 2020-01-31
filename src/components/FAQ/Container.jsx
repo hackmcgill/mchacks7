@@ -8,6 +8,10 @@ export const Container = styled.div`
   margin-bottom: 100px;
   margin-top: 100px;
 
+  &.hidden {
+    display: none !important;
+  }
+
   h2 {
     color: ${styleVars.colorHackRed};
     font-size: 3rem;

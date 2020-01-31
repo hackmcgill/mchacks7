@@ -6,6 +6,7 @@ export const Container = styled.div`
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
+  margin-top: 100px;
 
   h2 {
     color: ${styleVars.colorHackRed};

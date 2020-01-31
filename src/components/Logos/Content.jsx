@@ -9,7 +9,7 @@ export const Content = styled.div`
   margin-bottom: 5rem;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    flex-direction: column;
+    flex-direction: row;
     padding: 4rem 2rem;
   }
 `

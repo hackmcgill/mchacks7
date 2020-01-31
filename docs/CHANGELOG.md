@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
 
+- Sponsor table on mobile
 
 ## [1.8.0](https://github.com/hackmcgill/mchacks7/tree/1.8.0) - 2020-01-31
 

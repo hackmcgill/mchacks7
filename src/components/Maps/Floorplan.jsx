@@ -18,6 +18,7 @@ const FloorplanContainer = styled.section`
     @media screen and (min-width: 0px) and (max-width: 400px) {
         max-width: 100%; !important;
     }
+
 `;
 
 const FloorplanImage = styled.img`
@@ -25,6 +26,9 @@ const FloorplanImage = styled.img`
     float:center;
     max-width: 35%;
     height: auto;
+    border-radius: 12px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 `;
 class Floorplan extends React.Component {
     render() {

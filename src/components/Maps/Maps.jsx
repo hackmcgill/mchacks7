@@ -9,30 +9,13 @@ import TrottierFloor2 from "../../assets/images/maps/floor-2.png"
 import TrottierFloor3 from "../../assets/images/maps/floor-3.png"
 import TrottierFloor4 from "../../assets/images/maps/floor-4.png"
 import TrottierFloor5 from "../../assets/images/maps/floor-5.png"
-import Rutherford from "../../assets/images/maps/floor-1.png"
+import Rutherford from "../../assets/images/maps/rutherford-1.png"
 import OutdoorMap from "../../assets/images/maps/map.png"
 import Sidebar from "./Sidebar";
 
 const Maps = ({ visible }) => (
   <Container style={{justifyContent: 'space-evenly'}}>
   <Container className={!visible ? 'hidden' : ''}>
-    <Sidebar>
-      <Scrollspy items={ ['section-1', 'section-2','section-3','section-4','section-5','section-6','section-7','section-8'] } currentClassName="is-current" offset={50}>
-        <li><a href="#section-1">Outdoor Map</a></li>
-        <li><a href="#section-2">Rutherford</a></li>
-        <li><a href="#section-3">Trottier</a>
-            <ul>
-              <li><a href="#section-3">Ground</a></li>
-              <li><a href="#section-4">1st Floor</a></li>
-              <li><a href="#section-5">2nd Floor</a></li>
-              <li><a href="#section-6">3rd Floor</a></li>
-              <li><a href="#section-7">4th Floor</a></li>
-              <li><a href="#section-8">5th Floor</a></li>
-            </ul>
-          </li>
-
-      </Scrollspy>
-    </Sidebar>
     <Container className={!visible ? 'hidden' : ''}>
       <Floorplan id="1" floorplan={OutdoorMap} name="Outdoor">
       </Floorplan>

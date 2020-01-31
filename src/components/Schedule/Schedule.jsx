@@ -7,9 +7,25 @@ import Event from "./Event"
 const events = [
   {
     day: 1,
+    name: 'Breakfast',
+    type: 'Food',
+    location: 'Trottier Cafe',
+    startTime: '6:30am',
+    endTime: null
+  },
+  {
+    day: 1,
+    name: 'Check-in Begins',
+    type: 'Main Event',
+    location: 'Trottier First Floor',
+    startTime: '7:00am',
+    endTime: '10:00am',
+  },
+  {
+    day: 1,
     name: 'Opening Ceremonies',
     type: 'Main Event',
-    location: 'McMed [Room Number]',
+    location: 'McMed 522',
     startTime: '10:30am',
     endTime: '12:00pm',
   },
@@ -33,7 +49,7 @@ const events = [
     day: 1,
     name: 'Intro to Python',
     type: 'Workshop',
-    location: 'Rutherford [Room Number]',
+    location: 'Rutherford 112',
     startTime: '12:45pm',
     endTime: '1:45pm'
   },
@@ -47,11 +63,27 @@ const events = [
   },
   {
     day: 1,
-    name: 'Google [Need more details?]',
+    name: 'Google',
     type: 'Workshop',
     location: 'Trottier 3120',
     startTime: '2:00pm',
     endTime: '3:00pm'
+  },
+  {
+    day: 1,
+    name: 'McWiCS p5.js',
+    type: 'Workshop',
+    location: 'Trottier 3120',
+    startTime: '3:00pm',
+    endTime: '4:00pm'
+  },
+  {
+    day: 1,
+    name: 'RBC',
+    type: 'Workshop',
+    location: 'Trottier 3120',
+    startTime: '3:00pm',
+    endTime: '4:00pm'
   },
   {
     day: 1,
@@ -62,12 +94,156 @@ const events = [
     endTime: null
   },
   {
-    day: 2,
-    name: 'Breakfast - [Something]',
+    day: 1,
+    name: 'Design',
+    type: 'Workshop',
+    location: 'TBA',
+    startTime: '3:00pm',
+    endTime: '4:00pm'
+  },
+  {
+    day: 1,
+    name: 'Intro to Git',
+    type: 'Workshop',
+    location: 'Trottier 3120',
+    startTime: '4:00pm',
+    endTime: '5:00pm'
+  },
+  {
+    day: 1,
+    name: 'CP: Technical Interview Challenges',
+    type: 'Workshop',
+    location: 'Rutherford 112',
+    startTime: '5:00pm',
+    endTime: '6:00pm'
+  },
+  {
+    day: 1,
+    name: 'Dinner - Monza',
     type: 'Food',
     location: 'Trottier Cafe',
-    startTime: '10:00am',
-    endTime: '11:00am'
+    startTime: '6:30pm',
+    endTime: '8:00pm'
+  },
+  {
+    day: 1,
+    name: 'Cup Stacking',
+    type: 'Activity',
+    location: 'TBA',
+    startTime: '7:00pm',
+    endTime: '7:30pm'
+  },
+  {
+    day: 1,
+    name: 'Hot Ones',
+    type: 'Activity',
+    location: 'TBA',
+    startTime: '7:30pm',
+    endTime: null
+  },
+  {
+    day: 1,
+    name: 'Carnival Games',
+    type: 'Activity',
+    location: 'Trottier First Floor',
+    startTime: '9:00pm',
+    endTime: '10:30pm'
+  },
+  {
+    day: 1,
+    name: 'Sleep Area Opens',
+    type: 'Main Event',
+    location: 'Trottier Fourth Floor',
+    startTime: '11:30pm',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Midnight Snack',
+    type: 'Food',
+    location: 'Trottier Cafe',
+    startTime: '1:00pm',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Carnival Games',
+    type: 'Activity',
+    location: 'Chill Space (Where\'s that?)',
+    startTime: '1:00am',
+    endTime: '2:00am'
+  },
+  {
+    day: 2,
+    name: 'Breakfast',
+    type: 'Food',
+    location: 'Trottier First Floor',
+    startTime: '6:30am',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Sleep Area Closes',
+    type: 'Main Event',
+    location: 'Trottier Fourth Floor',
+    startTime: '9:30am',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Lunch - Boustan',
+    type: 'Food',
+    location: 'Trottier Cafe',
+    startTime: '11:30am',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Judging Info Session',
+    type: 'Main Event',
+    location: 'Trottier 3120',
+    startTime: '11:30am',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Hacking Ends',
+    type: 'Main Event',
+    location: 'Trottier/Rutherford',
+    startTime: '12:00pm',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Demo',
+    type: 'Main Event',
+    location: 'Trottier/Rutherford',
+    startTime: '12:30pm',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Closing Ceremonies',
+    type: 'Main Event',
+    location: 'Leacock',
+    startTime: '3:00pm',
+    endTime: '4:30pm'
+  },
+  {
+    day: 2,
+    name: 'Bus People Leave Leacock',
+    type: 'Main Event',
+    location: 'Trottier',
+    startTime: '4:30pm',
+    endTime: null
+  },
+  {
+    day: 2,
+    name: 'Bus Leaves',
+    type: 'Main Event',
+    location: 'Trottier',
+    startTime: '5:00pm',
+    endTime: null
   },
 ]
 

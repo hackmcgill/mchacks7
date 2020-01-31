@@ -86,44 +86,21 @@ export const Container = styled.section`
 
       .icon {
         font-size: 2.4em;
-        margin-right: 10px;
+        margin: 0 40px 0 20px;
+      }
+
+      .icon > *:before {
+        background: linear-gradient(#f2463a, #f2463a55);
+        background-clip: text;
+        text-fill-color: transparent;
+
       }
     }
 
     &.type-workshop {
-      .icon {
-        color: ${styleVars.colorHackTeal};
-      }
-
-      .detail {
-        border-color: ${styleVars.colorHackTeal};
-      }
-    }
-
-    &.type-food {
-      .icon {
-        color: ${styleVars.colorHackYellow};
-      }
-      
-      .detail {
-        border-color: ${styleVars.colorHackYellow};
-      }
-    }
-
-    &.type-activity {
-      .icon {
-        color: ${styleVars.colorHackRed};
-      }
-
-      .detail {
-        border-color: ${styleVars.colorHackRed};
-      }
-    }
-
-    &.type-main-event {
       background: ${styleVars.hackWhite};
       border-radius: 12px;
-      border: 1px solid ${styleVars.hackBlack20};
+      border: 1px solid ${styleVars.hackBlack30};
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
       .time {
@@ -136,6 +113,88 @@ export const Container = styled.section`
         border: none;
         background: none;
         box-shadow: none;
+      }
+      .icon {
+        color: ${styleVars.hackBlack30};
+      }
+
+      .detail {
+        border-color: ${styleVars.hackBlack30};
+      }
+    }
+
+    &.type-food {
+      background: ${styleVars.hackWhite};
+      border-radius: 12px;
+      border: 1px solid ${styleVars.colorHackYellow};
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+      .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .detail {
+        border: none;
+        background: none;
+        box-shadow: none;
+      }
+      .icon {
+        color: ${styleVars.colorHackYellow};
+      }
+      
+      .detail {
+        border-color: ${styleVars.colorHackYellow};
+      }
+    }
+
+    &.type-activity {
+      background: ${styleVars.hackWhite};
+      border-radius: 12px;
+      border: 1px solid ${styleVars.colorHackTeal};
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+      .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .detail {
+        border: none;
+        background: none;
+        box-shadow: none;
+      }
+      .icon {
+        color: ${styleVars.colorHackTeal};
+      }
+
+      .detail {
+        border-color: ${styleVars.colorHackTeal};
+      }
+    }
+
+    &.type-main-event {
+      background: ${styleVars.hackWhite};
+      border-radius: 12px;
+      border: 1px solid ${styleVars.colorHackRed};
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+      .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .detail {
+        border: none;
+        background: none;
+        box-shadow: none;
+      }
+
+      .icon {
+        color: ${styleVars.colorHackRed};
       }
     }
   }

@@ -87,17 +87,9 @@ const events = [
   },
   {
     day: 1,
-    name: 'Smash Tournament',
-    type: 'Activity',
-    location: 'Trottier First Floor',
-    startTime: '3:00pm',
-    endTime: null
-  },
-  {
-    day: 1,
     name: 'Design',
     type: 'Workshop',
-    location: 'TBA',
+    location: 'Trottier 3120',
     startTime: '3:00pm',
     endTime: '4:00pm'
   },
@@ -113,7 +105,7 @@ const events = [
     day: 1,
     name: 'CP: Technical Interview Challenges',
     type: 'Workshop',
-    location: 'Rutherford 112',
+    location: 'Trottier 3120',
     startTime: '5:00pm',
     endTime: '6:00pm'
   },
@@ -143,11 +135,27 @@ const events = [
   },
   {
     day: 1,
+    name: 'Smash Tournament',
+    type: 'Activity',
+    location: 'Trottier First Floor',
+    startTime: '8:00pm',
+    endTime: null
+  },
+  {
+    day: 1,
     name: 'Carnival Games',
     type: 'Activity',
     location: 'Trottier First Floor',
     startTime: '9:00pm',
     endTime: '10:30pm'
+  },
+  {
+    day: 1,
+    name: 'Highschool Hacker Meetup',
+    type: 'Activity',
+    location: 'TBA',
+    startTime: '9:00pm',
+    endTime: '10:00pm'
   },
   {
     day: 1,

@@ -12,9 +12,7 @@ import MobileMenu from "../Nav/MobileMenu"
 
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 
-const LiveNav = ({
-  scrollToInfo = () => {},
-}) => {
+const LiveNav = ({ scrollToInfo = () => {} }) => {
   const NavItems = () => (
     <>
       <NavLink>Schedule</NavLink>

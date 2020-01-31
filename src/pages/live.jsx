@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, { useState } from "react"
 
 import SEO from "../components/SEO/SEO"
 import LiveNav from "../components/Live/LiveNav"
@@ -14,17 +14,15 @@ const scrollTo = ref => {
 }
 
 const LivePage = () => {
-  const scheduleRef = useRef(null)
-  const mapsRef = useRef(null)
-  const infoRef = useRef(null)
+  const [activePage, setActivePage] = useState('schedule');
 
   return (
     <div>
       <SEO />
-      <LiveNav />
-      <Schedule scrollRef={scheduleRef} />
-      <Maps scrollRef={mapsRef} />
-      <Info scrollRef={infoRef} />
+      <LiveNav switchPage={setActivePage} activePage={activePage} />
+      <Schedule visible={activePage === 'schedule'} />
+      <Maps visible={activePage === 'maps'} />
+      <Info visible={activePage === 'info'} />
     </div>
   )
 }

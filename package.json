@@ -27,6 +27,7 @@
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.1",
+    "react-scrollspy": "^3.4.2",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {

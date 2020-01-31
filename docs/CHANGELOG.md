@@ -7,11 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+
+## [1.8.0](https://github.com/hackmcgill/mchacks7/tree/1.8.0) - 2020-01-31
+
 ### Added
 
 - Sponsor table layout with currently known sponsors
 - Add a boilerplate for live page
-
 
 ## [1.7.0](https://github.com/hackmcgill/mchacks7/tree/1.7.0) - 2020-01-25
 

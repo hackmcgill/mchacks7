@@ -12,14 +12,27 @@ import MobileMenu from "../Nav/MobileMenu"
 
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 
-const LiveNav = ({
-  scrollToInfo = () => {},
-}) => {
+const LiveNav = ({ switchPage = () => {}, activePage }) => {
   const NavItems = () => (
     <>
-      <NavLink>Schedule</NavLink>
-      <NavLink>Maps</NavLink>
-      <NavLink onClick={scrollToInfo}>Info</NavLink>
+      <NavLink
+        onClick={() => switchPage("schedule")}
+        className={activePage === "schedule" ? "active" : ""}
+      >
+        Schedule
+      </NavLink>
+      <NavLink
+        onClick={() => switchPage("maps")}
+        className={activePage === "maps" ? "active" : ""}
+      >
+        Maps
+      </NavLink>
+      <NavLink
+        onClick={() => switchPage("info")}
+        className={activePage === "info" ? "active" : ""}
+      >
+        Info
+      </NavLink>
     </>
   )
   return (

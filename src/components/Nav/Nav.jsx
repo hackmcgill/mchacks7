@@ -22,6 +22,9 @@ const Nav = ({
       <NavLink onClick={scrollToAbout}>About</NavLink>
       <NavLink onClick={scrollToSponsor}>Sponsor</NavLink>
       <NavLink onClick={scrollToFaq}>FAQ</NavLink>
+      <NavLink href="/live" target="_blank">
+        Live
+      </NavLink>
       <NavLink href="https://2019.mchacks.ca" target="_blank">
         2019
       </NavLink>

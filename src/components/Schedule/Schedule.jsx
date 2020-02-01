@@ -41,7 +41,7 @@ const events = [
     day: 1,
     name: "Team Formation",
     type: "Main Event",
-    location: "Trottier/Rutherford",
+    location: "Trottier 2120",
     startTime: "12:00pm",
     endTime: "1:00pm",
   },

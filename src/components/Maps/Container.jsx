@@ -6,6 +6,10 @@ export const Container = styled.section`
   align-items: center;
   padding: 2rem 1rem 0 1rem;
 
+  &.hidden {
+    display: none !important;
+  }
+
   @media only screen and (max-width: ${styleVars.smUp}) {
     display: block;
   }

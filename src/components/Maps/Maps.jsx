@@ -2,8 +2,8 @@ import React from "react"
 
 import Container from "./Container"
 
-const Maps = ({ scrollRef }) => (
-  <Container>
+const Maps = ({ visible }) => (
+  <Container className={!visible ? 'hidden' : ''}>
     
   </Container>
 )

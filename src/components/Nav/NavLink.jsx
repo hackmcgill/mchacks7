@@ -7,6 +7,7 @@ export const NavLink = styled.a`
   color: ${styleVars.hackBlack60};
   text-decoration: none;
 
+  &.active,
   &:focus,
   &:hover,
   &:active {

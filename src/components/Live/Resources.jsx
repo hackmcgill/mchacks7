@@ -20,7 +20,7 @@ const Resources = ({ visible }) => (
     </Question>
     
     <Question question="IBM API">
-      Natural Language Understanding API found <a href="https://www.ibm.com/cloud/watson-natural-language-understanding" target="_blank">here</a>
+      Natural Language Understanding API found <a href="https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding" target="_blank">here</a>
     </Question>
 
     <Question question="Voiceflow Pro">

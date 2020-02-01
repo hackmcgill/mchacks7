@@ -7,7 +7,7 @@ const Info = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
     <h2>Welcome to McHacks! 👋</h2>
     <Question question="Wifi">
-      To access the wifi network, you need to create an account on guest.mcgill.ca wifi network.
+      To access the wifi network, you need to create an account on guest.mcgill.ca wifi network. If you are a university student, you can also connect to the eduroam network with your school credentials.
     </Question>
     <Question question="HackPass">
       Your HackPass is the QR code found on your McHacks badge. Make sure your wearing your HackPass at all times during McHacks. Sponsors can access your digital resume by scanning your HackPass.

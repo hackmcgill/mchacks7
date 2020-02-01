@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 import ArrowDown from "./arrow_down.svg"
 
-const Question = ({ question, answer }) => {
+const Question = ({ question, children }) => {
   const [expanded, setExpanded] = useState(false)
 
   return (
@@ -17,7 +17,7 @@ const Question = ({ question, answer }) => {
           <img src={ArrowDown} />
         </div>
       </div>
-      <div className="answer">{answer}</div>
+      <div className="answer">{children}</div>
     </div>
   )
 }

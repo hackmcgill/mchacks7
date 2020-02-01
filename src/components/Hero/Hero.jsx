@@ -19,6 +19,10 @@ const Dashboard = () => {
   window.location = "https://app.mchacks.ca"
 }
 
+const Live = () => {
+  window.location = "/live"
+}
+
 const Hero = () => (
   <>
     <MLHContainer>
@@ -32,7 +36,8 @@ const Hero = () => (
       Sign up for updates about McHacks. No spam, we promise.
     </p>
     <SignUpForm /> */}
-      <Button onClick={Dashboard}>Apply →</Button>
+      {/* <Button onClick={Dashboard}>Apply →</Button> */}
+      <Button onClick={Live}>Live Site</Button>
       <div class="hero__illustrations">
         <HotAirStyles src={HotAirImg} />
         <UFOStyles src={UFOImg} />

@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import { Sticky, StickyContainer } from 'react-sticky'
+
 import Container from "./Container"
 
 import Event from "./Event"
@@ -136,20 +138,20 @@ const events = [
   },
   {
     day: 1,
-    name: "Hot Ones",
-    type: "Activity",
-    location: "TBA",
-    startTime: "7:00pm",
-    endTime: null,
-    description: "Want to see how much spice you can handle? Come compete against other hackers in our Hot Ones challenge 🌶️🔥 At each step the hot sauce will get spicier... let's see how far you can get!"
-  },
-  {
-    day: 1,
     name: "Cup Stacking",
     type: "Activity",
     location: "TBA",
     startTime: "7:00pm",
     endTime: "7:30pm",
+  },
+  {
+    day: 1,
+    name: "Hot Ones",
+    type: "Activity",
+    location: "Trottier Cafe",
+    startTime: "7:30pm",
+    endTime: null,
+    description: "Want to see how much spice you can handle? Come compete against other hackers in our Hot Ones challenge 🌶️🔥 At each step the hot sauce will get spicier... let's see how far you can get!"
   },
   {
     day: 1,

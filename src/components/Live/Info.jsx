@@ -22,7 +22,7 @@ const Info = ({ visible }) => (
       Water fountains are located on each floor next to the restrooms and bottle filling stations are on floor 0 and 1.
     </Question>
     <Question question="Prizes + judges">
-      Check out the McHacks 7 Devpost for information on judging and prizes.
+      Check out the <a href="https://mchacks7.devpost.com/" target="_blank">McHacks 7 Devpost</a> for information on judging and prizes.
     </Question>
   </Container>
 )

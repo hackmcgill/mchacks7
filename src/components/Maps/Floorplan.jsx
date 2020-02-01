@@ -3,8 +3,7 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 const FloorplanContainer = styled.section`
-    text-align: center;
-    float:right;
+
     max-width:100%;
     vertical-align: middle;
 

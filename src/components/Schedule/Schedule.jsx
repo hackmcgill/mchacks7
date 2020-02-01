@@ -172,7 +172,7 @@ const events = [
     subtitle: " - Sponsored by TandemLaunch",
     type: "Food",
     location: "Trottier Cafe",
-    startTime: "1:00pm",
+    startTime: "12:30am",
     endTime: null,
   },
   {

@@ -75,7 +75,7 @@ const events = [
     day: 1,
     name: "McWiCS p5.js",
     type: "Workshop",
-    location: "Trottier 3120",
+    location: "Trottier 0070",
     startTime: "3:00pm",
     endTime: "4:00pm",
     description: "Join McWiCS for a workshop using the JavaScript library p5.js 👩‍💻 Learn to create an animation such as  rain 🌧 or a ball bouncing ⚽️!  We'll also get you started on a game like Snake, Flappy Bird or Pong! 🤓"
@@ -93,7 +93,7 @@ const events = [
     day: 1,
     name: "Smash Tournament",
     type: "Activity",
-    location: "Trottier First Floor",
+    location: "Trottier 0070",
     startTime: "4:00pm",
     endTime: null,
     description: "Wanna smash? 😏 We're having a Super Smash 👊 tournament! You will be able to compete against other hackers and maybe win a fun prize!"

@@ -40,16 +40,14 @@ export const Container = styled.section`
 
   .Event {
     margin-top: 24px;
-    display: flex;
-    flex-direction: columns;
 
     .time {
-      width: 120px;
-      padding-top: 13px;
-      padding-bottom: 13px;
-      background: ${styleVars.hackBlack5};
-      border-radius: 12px 0 0 12px;
-
+      background: #fff;
+      text-align: left;
+      padding-top: 10px;
+      padding-bottom: 6px;
+      padding-left: 32px;
+      
       .to {
         font-size: 0.85em;
       }
@@ -57,15 +55,15 @@ export const Container = styled.section`
 
     .detail {
       flex: 1;
-      padding: 16px 24px;
+      padding: 16px 32px;
       border-radius: 0 12px 12px 0;
       box-sizing: border-box;
       text-align: left;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      background: ${styleVars.hackWhite};
-      border: 1px solid ${styleVars.hackBlack60};
       display: flex;
       align-items: center;
+      border-top: 2px solid ${styleVars.hackBlack10};
+      border-bottom: 2px solid ${styleVars.hackBlack10};
+      margin-bottom: 30px;
 
       .overview {
         flex: 1;
@@ -109,104 +107,27 @@ export const Container = styled.section`
       }
     }
 
-    &.type-workshop {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.hackBlack30};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-      .icon {
-        color: ${styleVars.hackBlack30};
-      }
-
-      .detail {
-        border-color: ${styleVars.hackBlack30};
-      }
-    }
-
-    &.type-food {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackYellow};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-      .icon {
-        color: ${styleVars.colorHackYellow};
-      }
-      
-      .detail {
-        border-color: ${styleVars.colorHackYellow};
-      }
-    }
-
     &.type-activity {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackTeal};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
       .icon {
         color: ${styleVars.colorHackTeal};
-      }
-
-      .detail {
-        border-color: ${styleVars.colorHackTeal};
       }
     }
 
     &.type-main-event {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackRed};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-
       .icon {
         color: ${styleVars.colorHackRed};
+      }
+    }
+
+    &.type-food {
+      .icon {
+        color: ${styleVars.colorHackYellow};
+      }
+    }
+
+    &.type-workshop {
+      .icon {
+        color: ${styleVars.hackBlack30};
       }
     }
   }

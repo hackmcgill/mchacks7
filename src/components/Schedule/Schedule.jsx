@@ -49,7 +49,7 @@ const events = [
     day: 1,
     name: "Intro to Python",
     type: "Workshop",
-    location: "Rutherford 112",
+    location: "Trottier 3120",
     startTime: "12:45pm",
     endTime: "1:45pm",
     description: "This ground-up workshop that will teach you all the basics you need to code in Python 🐍🤟🏼 A data analysis challenge will also be presented at the end!  All experience levels are welcome, but the workshop will be tailored to those with more limited programming experience 🥰"
@@ -180,7 +180,7 @@ const events = [
   {
     day: 2,
     name: "Midnight Snack",
-    subtitle: " - Sponsored by TandemLaunch",
+  subtitle: " - Sponsored by TandemLaunch",
     type: "Food",
     location: "Trottier Cafe",
     startTime: "12:30am",

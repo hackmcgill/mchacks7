@@ -28,8 +28,8 @@ const Info = ({ visible }) => (
       answer="Water fountains are located on each floor next to the restrooms and bottle filling stations are on floor 0 and 1."
     />
     <Question
-      question="Prizes + judges"
-      answer="Check out the McHacks 7 Devpost for information on judging and prizes."
+      question="Prizes & Judges"
+      answer="Check out the McHacks 7 Devpost for information on judging and prizes. Found at mchacks7.devpost.com."
     />
   </Container>
 )

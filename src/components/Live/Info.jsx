@@ -24,6 +24,10 @@ const Info = ({ scrollRef }) => (
       answer="There are bathrooms located on every floor of Trottier. A gender neutral bathroom is located on the ground floor at the end of the hallway next to 0060."
     />
     <Question
+      question="Water"
+      answer="Water fountains are located on each floor next to the restrooms and bottle filling stations are on floor 0 and 1."
+    />
+    <Question
       question="Prizes + judges"
       answer="Check out the McHacks 7 Devpost for information on judging and prizes."
     />

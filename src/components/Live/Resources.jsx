@@ -5,7 +5,7 @@ import Question from "../FAQ/Question"
 
 const Resources = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
-    <h2>Welcome to McHacks! 👋</h2>
+    <h2>Sponsor Resources</h2>
     <Question question="Wolfram API">
       30-day complimentary access to the Wolfram development platform and the Wolfram API, just click <a href="https://account.wolfram.com/redeem/McHacks7Montreal2020" target="_blank">here</a><br></br>
       For more information check out <a href="https://www.wolfram.com/hackathons/" target="_blank">https://www.wolfram.com/hackathons/</a>

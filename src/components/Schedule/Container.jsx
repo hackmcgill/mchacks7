@@ -25,7 +25,7 @@ export const Container = styled.section`
       text-align: center;
       flex: 1;
       cursor: pointer;
-      border-bottom 2px solid ${styleVars.hackBlack20};
+      border-bottom: 2px solid ${styleVars.hackBlack20};
       padding: 10px 0;
       font-size: 1.2em;
       color: ${styleVars.hackBlack60};
@@ -38,15 +38,23 @@ export const Container = styled.section`
     }
   }
 
+  .Events {
+    margin-top: 40px;
+  }
+
   .Event {
-    margin-top: 24px;
+    text-align: left;
 
     .time {
       background: #fff;
       text-align: left;
-      padding-top: 10px;
       padding-bottom: 6px;
-      padding-left: 32px;
+      margin-left: 24px;
+      padding-left: 8px;
+      padding-right: 10px;
+      position: relative;
+      top: 17px;
+      display: inline-block;
       
       .to {
         font-size: 0.85em;
@@ -55,15 +63,12 @@ export const Container = styled.section`
 
     .detail {
       flex: 1;
-      padding: 16px 32px;
-      border-radius: 0 12px 12px 0;
+      padding: 24px 32px 24px 32px;
       box-sizing: border-box;
       text-align: left;
       display: flex;
       align-items: center;
       border-top: 2px solid ${styleVars.hackBlack10};
-      border-bottom: 2px solid ${styleVars.hackBlack10};
-      margin-bottom: 30px;
 
       .overview {
         flex: 1;

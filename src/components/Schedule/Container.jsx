@@ -47,6 +47,8 @@ export const Container = styled.section`
       width: 120px;
       padding-top: 13px;
       padding-bottom: 13px;
+      background: ${styleVars.hackBlack5};
+      border-radius: 12px 0 0 12px;
 
       .to {
         font-size: 0.85em;
@@ -71,22 +73,32 @@ export const Container = styled.section`
         .name {
           font-size: 1.5em;
           margin-top: -4px;
-          margin-bottom: 8px;
+
+          small {
+            font-size: 0.8em;
+          }
         }
   
         .type {
           font-size: 0.85em;
           text-transform: uppercase;
         }
+        
+        .description {
+          color: ${styleVars.hackBlack70};
+          font-family: "Hind Siliguri", sans-serif;
+          margin-top: 8px;
+        }
   
         .location {
+          margin-top: 8px;
           font-family: "Hind Siliguri", sans-serif;
         }
       }
 
       .icon {
         font-size: 2.4em;
-        margin: 0 40px 0 20px;
+        margin: 0 20px 0 40px;
       }
 
       .icon > *:before {

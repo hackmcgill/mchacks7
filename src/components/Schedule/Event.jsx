@@ -8,7 +8,7 @@ import {
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons"
 
-const Event = ({ type, startTime, endTime, name, location }) => {
+const Event = ({ type, startTime, endTime, name, location, subtitle, description }) => {
   let logo = <div></div>
   if (type === "Workshop") {
     logo = <FontAwesomeIcon icon={faGraduationCap} />
@@ -22,18 +22,19 @@ const Event = ({ type, startTime, endTime, name, location }) => {
 
   return (
     <div className={"Event type-" + type.replace(/\s+/g, "-").toLowerCase()}>
-      <div className="detail">
-        <div className="icon">{logo}</div>
-        <div className="overview">
-          <div className="type">{type}</div>
-          <div className="name">{name}</div>
-          <div className="location">@ {location}</div>
-        </div>
-      </div>
       <div className="time">
         <div className="start">{startTime}</div>
         {endTime ? <div className="to">to</div> : <></>}
         <div className="start">{endTime}</div>
+      </div>
+      <div className="detail">
+        <div className="overview">
+          <div className="type">{type}</div>
+          <div className="name">{name}<small>{subtitle}</small></div>
+          { description ? <div className="description">{description}</div> : ''}
+          <div className="location">@ {location}</div>
+        </div>
+        <div className="icon">{logo}</div>
       </div>
     </div>
   )

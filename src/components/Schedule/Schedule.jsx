@@ -87,14 +87,6 @@ const events = [
   },
   {
     day: 1,
-    name: "Design",
-    type: "Workshop",
-    location: "Trottier 3120",
-    startTime: "3:00pm",
-    endTime: "4:00pm",
-  },
-  {
-    day: 1,
     name: "Intro to Git",
     type: "Workshop",
     location: "Trottier 3120",
@@ -103,11 +95,20 @@ const events = [
   },
   {
     day: 1,
-    name: "CP: Technical Interview Challenges",
+    name: "Compete McGill:",
+    subtitle: " Technical Interview Challenges",
     type: "Workshop",
     location: "Trottier 3120",
     startTime: "5:00pm",
     endTime: "6:00pm",
+  },
+  {
+    day: 1,
+    name: "Design",
+    type: "Workshop",
+    location: "Trottier 3120",
+    startTime: "6:00pm",
+    endTime: "7:00pm"
   },
   {
     day: 1,
@@ -168,6 +169,7 @@ const events = [
   {
     day: 2,
     name: "Midnight Snack",
+    subtitle: " - Sponsored by TandemLaunch",
     type: "Food",
     location: "Trottier Cafe",
     startTime: "1:00pm",
@@ -177,7 +179,7 @@ const events = [
     day: 2,
     name: "Carnival Games",
     type: "Activity",
-    location: "Chill Space (Where's that?)",
+    location: "Chill Space (Trottier First Floor)",
     startTime: "1:00am",
     endTime: "2:00am",
   },

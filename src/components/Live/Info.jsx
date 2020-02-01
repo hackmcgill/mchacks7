@@ -20,10 +20,10 @@ const Info = ({ visible }) => (
     </Question>
     <Question question="Water">
       Water fountains are located on each floor next to the restrooms and bottle filling stations are on floor 0 and 1.
-    </Question>
-    <Question question="Prizes + judges">
-      Check out the McHacks 7 Devpost for information on judging and prizes.
-    </Question>
+    <Question
+      question="Prizes & Judges"
+      answer="Check out the McHacks 7 Devpost for information on judging and prizes. Found at mchacks7.devpost.com."
+    />
   </Container>
 )
 

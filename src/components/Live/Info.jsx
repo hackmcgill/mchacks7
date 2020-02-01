@@ -4,7 +4,7 @@ import Container from "../FAQ/Container"
 import Question from "../FAQ/Question"
 
 const Info = ({ visible }) => (
-  <Container className={!visible ? 'hidden' : ''}>
+  <Container className={!visible ? "hidden" : ""}>
     <h2>Welcome to McHacks! 👋</h2>
     <Question
       question="Wifi"

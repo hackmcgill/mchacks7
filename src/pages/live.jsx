@@ -14,15 +14,15 @@ const scrollTo = ref => {
 }
 
 const LivePage = () => {
-  const [activePage, setActivePage] = useState('schedule');
+  const [activePage, setActivePage] = useState("schedule")
 
   return (
     <div>
       <SEO />
       <LiveNav switchPage={setActivePage} activePage={activePage} />
-      <Schedule visible={activePage === 'schedule'} />
-      <Maps visible={activePage === 'maps'} />
-      <Info visible={activePage === 'info'} />
+      <Schedule visible={activePage === "schedule"} />
+      <Maps visible={activePage === "maps"} />
+      <Info visible={activePage === "info"} />
     </div>
   )
 }

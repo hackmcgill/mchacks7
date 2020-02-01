@@ -19,7 +19,7 @@ const events = [
     type: "Main Event",
     location: "Trottier First Floor",
     startTime: "7:00am",
-    endTime: "10:00am",
+    endTime: null
   },
   {
     day: 1,

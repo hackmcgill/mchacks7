@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import Sticky from 'react-stickynode'
+
 import Container from "../Schedule/Container"
 import Floorplan from "./Floorplan"
 
@@ -63,11 +65,13 @@ const Maps = ({ visible }) => {
   <Container className={!visible ? 'hidden' : ''}>
   <h2>Maps</h2>
 
-  <div className="DayTabNav">
-    <div className={"DayTab " + (group === 1 ? 'active' : '')} onClick={() => setGroup(1)}>Outdoor</div>
-    <div className={"DayTab " + (group === 2 ? 'active' : '')} onClick={() => setGroup(2)}>Trottier</div>
-    <div className={"DayTab " + (group === 3 ? 'active' : '')} onClick={() => setGroup(3)}>Rutherford</div>
-  </div>
+  <Sticky enabled={true} top={80}>
+    <div className="DayTabNav">
+      <div className={"DayTab " + (group === 1 ? 'active' : '')} onClick={() => setGroup(1)}>Outdoor</div>
+      <div className={"DayTab " + (group === 2 ? 'active' : '')} onClick={() => setGroup(2)}>Trottier</div>
+      <div className={"DayTab " + (group === 3 ? 'active' : '')} onClick={() => setGroup(3)}>Rutherford</div>
+    </div>
+  </Sticky>
 
   <div className="Maps">
     {

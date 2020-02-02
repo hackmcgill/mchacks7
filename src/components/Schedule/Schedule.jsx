@@ -9,7 +9,7 @@ import events from './events'
 
 
 const Schedule = ({ visible }) => {
-  const [day, _setDay] = useState(1)
+  const [day, _setDay] = useState(2)
   const setDay = (newDay) => {
     if (newDay !== day) {
       _setDay(newDay);

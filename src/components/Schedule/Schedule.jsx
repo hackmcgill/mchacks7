@@ -9,7 +9,13 @@ import events from './events'
 
 
 const Schedule = ({ visible }) => {
-  const [day, setDay] = useState(1)
+  const [day, _setDay] = useState(1)
+  const setDay = (newDay) => {
+    if (newDay !== day) {
+      _setDay(newDay);
+      window.scrollTo(0, 0);
+    }
+  }
 
   return (
     <Container className={!visible ? "hidden" : ""}>

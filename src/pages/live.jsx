@@ -15,7 +15,13 @@ const scrollTo = ref => {
 }
 
 const LivePage = () => {
-  const [activePage, setActivePage] = useState("schedule")
+  const [activePage, _setActivePage] = useState("schedule")
+  const setActivePage = (newPage) => {
+    if (newPage !== activePage) {
+      _setActivePage(newPage);
+      window.scrollTo(0, 0);
+    }
+  }
 
   return (
     <div>

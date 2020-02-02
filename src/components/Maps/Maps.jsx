@@ -59,7 +59,13 @@ const maps = [
 ]
 
 const Maps = ({ visible }) => {
-  const [group, setGroup] = useState(1);
+  const [group, _setGroup] = useState(1);
+  const setGroup = (newGroup) => {
+    if (newGroup !== group) {
+      _setGroup(newGroup);
+      window.scrollTo(0, 0);
+    }
+  }
 
   return (
   <Container className={!visible ? 'hidden' : ''}>

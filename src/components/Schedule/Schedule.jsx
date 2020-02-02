@@ -140,7 +140,7 @@ const events = [
     day: 1,
     name: "Cup Stacking",
     type: "Activity",
-    location: "TBA",
+    location: "Trottier 1080",
     startTime: "7:00pm",
     endTime: "7:30pm",
   },

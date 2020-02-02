@@ -1,7 +1,5 @@
 import React, { useState } from "react"
 
-import { Sticky, StickyContainer } from 'react-sticky'
-
 import Container from "./Container"
 
 import Event from "./Event"

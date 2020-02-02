@@ -130,7 +130,7 @@ export const Container = styled.section`
       }
     }
 
-    &.type-workshop {
+    &.type-workshop, &.type-travel, &.type-rest {
       .icon {
         color: ${styleVars.hackBlack30};
       }

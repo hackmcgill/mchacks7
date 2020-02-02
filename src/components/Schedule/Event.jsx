@@ -6,6 +6,8 @@ import {
   faGraduationCap,
   faBasketballBall,
   faLaptopCode,
+  faBus,
+  faBed
 } from "@fortawesome/free-solid-svg-icons"
 
 const Event = ({ type, startTime, endTime, name, location, subtitle, description }) => {
@@ -18,6 +20,10 @@ const Event = ({ type, startTime, endTime, name, location, subtitle, description
     logo = <FontAwesomeIcon icon={faPizzaSlice} />
   } else if (type === "Main Event") {
     logo = <FontAwesomeIcon icon={faLaptopCode} />
+  } else if (type === "Travel") {
+    logo = <FontAwesomeIcon icon={faBus} />
+  } else if (type === "Rest") {
+    logo = <FontAwesomeIcon icon={faBed} />
   }
 
   return (

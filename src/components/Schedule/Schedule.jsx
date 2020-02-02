@@ -171,6 +171,14 @@ const events = [
   },
   {
     day: 1,
+    name: "Organizers Meetup",
+    type: "Activity",
+    location: "Trottier 0070",
+    startTime: "9:00pm",
+    endTime: "10:00pm"
+  },
+  {
+    day: 1,
     name: "Sleep Area Opens",
     type: "Main Event",
     location: "Trottier Fourth Floor",
@@ -180,7 +188,7 @@ const events = [
   {
     day: 2,
     name: "Midnight Snack",
-  subtitle: " - Sponsored by TandemLaunch",
+    subtitle: " - Sponsored by TandemLaunch",
     type: "Food",
     location: "Trottier Cafe",
     startTime: "12:30am",

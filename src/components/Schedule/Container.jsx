@@ -18,15 +18,21 @@ export const Container = styled.section`
     font-weight: 400;
   }
 
+  .sticky-inner-wrapper {
+    z-index: 1000;
+  }
+
   .DayTabNav {
     display: flex;
+    background: ${styleVars.hackWhite};
+    margin-top: -10px;
 
     .DayTab {
       text-align: center;
       flex: 1;
       cursor: pointer;
       border-bottom: 2px solid ${styleVars.hackBlack20};
-      padding: 10px 0;
+      padding: 20px 0 10px 0;
       font-size: 1.2em;
       color: ${styleVars.hackBlack60};
       font-weight: normal;

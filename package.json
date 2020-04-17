@@ -2,7 +2,7 @@
   "name": "mchacks7",
   "private": true,
   "description": "McHacks website",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "author": "HackMcGill @hackmcgill",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -27,6 +27,7 @@
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.1",
+    "react-stickynode": "^2.1.1",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {

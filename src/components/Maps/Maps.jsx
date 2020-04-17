@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import Sticky from 'react-stickynode'
+
 import Container from "../Schedule/Container"
 import Floorplan from "./Floorplan"
 
@@ -57,17 +59,25 @@ const maps = [
 ]
 
 const Maps = ({ visible }) => {
-  const [group, setGroup] = useState(1);
+  const [group, _setGroup] = useState(1);
+  const setGroup = (newGroup) => {
+    if (newGroup !== group) {
+      _setGroup(newGroup);
+      window.scrollTo(0, 0);
+    }
+  }
 
   return (
   <Container className={!visible ? 'hidden' : ''}>
   <h2>Maps</h2>
 
-  <div className="DayTabNav">
-    <div className={"DayTab " + (group === 1 ? 'active' : '')} onClick={() => setGroup(1)}>Outdoor</div>
-    <div className={"DayTab " + (group === 2 ? 'active' : '')} onClick={() => setGroup(2)}>Trottier</div>
-    <div className={"DayTab " + (group === 3 ? 'active' : '')} onClick={() => setGroup(3)}>Rutherford</div>
-  </div>
+  <Sticky enabled={true} top={80}>
+    <div className="DayTabNav">
+      <div className={"DayTab " + (group === 1 ? 'active' : '')} onClick={() => setGroup(1)}>Outdoor</div>
+      <div className={"DayTab " + (group === 2 ? 'active' : '')} onClick={() => setGroup(2)}>Trottier</div>
+      <div className={"DayTab " + (group === 3 ? 'active' : '')} onClick={() => setGroup(3)}>Rutherford</div>
+    </div>
+  </Sticky>
 
   <div className="Maps">
     {

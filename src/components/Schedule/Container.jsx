@@ -18,15 +18,21 @@ export const Container = styled.section`
     font-weight: 400;
   }
 
+  .sticky-inner-wrapper {
+    z-index: 1000;
+  }
+
   .DayTabNav {
     display: flex;
+    background: ${styleVars.hackWhite};
+    margin-top: -10px;
 
     .DayTab {
       text-align: center;
       flex: 1;
       cursor: pointer;
-      border-bottom 2px solid ${styleVars.hackBlack20};
-      padding: 10px 0;
+      border-bottom: 2px solid ${styleVars.hackBlack20};
+      padding: 20px 0 10px 0;
       font-size: 1.2em;
       color: ${styleVars.hackBlack60};
       font-weight: normal;
@@ -38,16 +44,24 @@ export const Container = styled.section`
     }
   }
 
+  .Events {
+    margin-top: 40px;
+  }
+
   .Event {
-    margin-top: 24px;
-    display: flex;
-    flex-direction: columns;
+    text-align: left;
 
     .time {
-      width: 120px;
-      padding-top: 13px;
-      padding-bottom: 13px;
-
+      background: #fff;
+      text-align: left;
+      padding-bottom: 6px;
+      margin-left: 24px;
+      padding-left: 8px;
+      padding-right: 10px;
+      position: relative;
+      top: 17px;
+      display: inline-block;
+      
       .to {
         font-size: 0.85em;
       }
@@ -55,15 +69,12 @@ export const Container = styled.section`
 
     .detail {
       flex: 1;
-      padding: 16px 24px;
-      border-radius: 0 12px 12px 0;
+      padding: 24px 32px 24px 32px;
       box-sizing: border-box;
       text-align: left;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      background: ${styleVars.hackWhite};
-      border: 1px solid ${styleVars.hackBlack60};
       display: flex;
       align-items: center;
+      border-top: 2px solid ${styleVars.hackBlack10};
 
       .overview {
         flex: 1;
@@ -71,22 +82,32 @@ export const Container = styled.section`
         .name {
           font-size: 1.5em;
           margin-top: -4px;
-          margin-bottom: 8px;
+
+          small {
+            font-size: 0.8em;
+          }
         }
   
         .type {
           font-size: 0.85em;
           text-transform: uppercase;
         }
+        
+        .description {
+          color: ${styleVars.hackBlack70};
+          font-family: "Hind Siliguri", sans-serif;
+          margin-top: 8px;
+        }
   
         .location {
+          margin-top: 8px;
           font-family: "Hind Siliguri", sans-serif;
         }
       }
 
       .icon {
         font-size: 2.4em;
-        margin: 0 40px 0 20px;
+        margin: 0 20px 0 40px;
       }
 
       .icon > *:before {
@@ -97,104 +118,27 @@ export const Container = styled.section`
       }
     }
 
-    &.type-workshop {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.hackBlack30};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-      .icon {
-        color: ${styleVars.hackBlack30};
-      }
-
-      .detail {
-        border-color: ${styleVars.hackBlack30};
-      }
-    }
-
-    &.type-food {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackYellow};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-      .icon {
-        color: ${styleVars.colorHackYellow};
-      }
-      
-      .detail {
-        border-color: ${styleVars.colorHackYellow};
-      }
-    }
-
     &.type-activity {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackTeal};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
       .icon {
         color: ${styleVars.colorHackTeal};
-      }
-
-      .detail {
-        border-color: ${styleVars.colorHackTeal};
       }
     }
 
     &.type-main-event {
-      background: ${styleVars.hackWhite};
-      border-radius: 12px;
-      border: 1px solid ${styleVars.colorHackRed};
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-      .time {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      .detail {
-        border: none;
-        background: none;
-        box-shadow: none;
-      }
-
       .icon {
         color: ${styleVars.colorHackRed};
+      }
+    }
+
+    &.type-food {
+      .icon {
+        color: ${styleVars.colorHackYellow};
+      }
+    }
+
+    &.type-workshop, &.type-travel, &.type-rest {
+      .icon {
+        color: ${styleVars.hackBlack30};
       }
     }
   }

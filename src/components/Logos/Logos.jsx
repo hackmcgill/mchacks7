@@ -25,6 +25,7 @@ import rbc from "../../assets/images/sponsor/rbc.svg"
 import stickerMule from "../../assets/images/sponsor/stickermule.png"
 import tandemLaunch from "../../assets/images/sponsor/TandemLaunch_Logo_high_resolution.png"
 import twilio from "../../assets/images/sponsor/twilio.png"
+import vercel from "../../assets/images/sponsor/vercel.svg"
 import voiceflow from "../../assets/images/sponsor/logo_black.png"
 import wolfram from "../../assets/images/sponsor/wolfram.png"
 
@@ -162,6 +163,9 @@ const Logos = ({ scrollRef }) => (
       </NavLink>
       <NavLink href="https://indico.io/" target="_blank">
         <Image src={indico} style={{ width: "100%", maxWidth: "75px" }} />
+      </NavLink>
+      <NavLink href="https://www.vercel.com/?utm_source=mchacks7" target="_blank">
+        <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
     </Content>
   </Container>

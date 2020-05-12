@@ -52,6 +52,8 @@ See our [contributing guide](https://github.com/hackmcgill/mchacks7/blob/develop
 
 We are using Netlify to compile and host our code. When a PR is created, Netlify builds the site and generates a deploy preview to confirm everything is working as expected. Once code is merged to `master` branch, Netlify will promote the code to production at `2020.mchacks.ca`. Netlify also handles the SSL certificate for this site.
 
+[![Deploy to Vercel](https://vercel.com/button)](/import/project?template=https://github.com/hackmcgill/mchacks7)
+
 ### Domains
 
 The primary domain for this site `mchacks.ca` is registered with the HackMcGill Namecheap and DNS is with Cloudflare. The secondary domain `mchacks.io` is registered with Cloudflare. `2020.mchacks.ca` and `2020.mchacks.io` have CNAME records pointing to `mchacks7.netlify.com`.

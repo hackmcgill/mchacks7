@@ -5,7 +5,12 @@ import Question from "../FAQ/Question"
 
 const Info = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
-    <h2>Welcome to McHacks! <span role="img" aria-label="wave">👋</span> </h2>
+    <h2>
+      Welcome to McHacks!{" "}
+      <span role="img" aria-label="wave">
+        👋
+      </span>{" "}
+    </h2>
     <Question question="Wifi">
       To access the wifi network, you need to create an account on the{" "}
       <i>guest.mcgill.ca</i> wifi network.

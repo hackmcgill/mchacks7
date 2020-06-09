@@ -31,7 +31,7 @@ This repository contains the code behind the static site of McHacks 7.
 
     .
     ├── docs                    # Documentation files
-    ├── public                  # Build and bundled files  
+    ├── public                  # Build and bundled files
     ├── src                     # Source files
     │   ├── components          # Page sections files
     │   ├── assets              # Assets files

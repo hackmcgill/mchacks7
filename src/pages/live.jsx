@@ -9,10 +9,10 @@ import Resources from "../components/Live/Resources"
 
 const LivePage = () => {
   const [activePage, _setActivePage] = useState("schedule")
-  const setActivePage = (newPage) => {
+  const setActivePage = newPage => {
     if (newPage !== activePage) {
-      _setActivePage(newPage);
-      window.scrollTo(0, 0);
+      _setActivePage(newPage)
+      window.scrollTo(0, 0)
     }
   }
 
@@ -23,7 +23,7 @@ const LivePage = () => {
       <Schedule visible={activePage === "schedule"} />
       <Maps visible={activePage === "maps"} />
       <Info visible={activePage === "info"} />
-      <Resources visible={activePage === 'resources'} />
+      <Resources visible={activePage === "resources"} />
     </div>
   )
 }

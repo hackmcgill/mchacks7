@@ -29,7 +29,8 @@ const Footer = () => (
     <Links>
       <SocialLink
         href="mailto:contact@mchacks.ca?Subject=Hello!"
-        target="_blank" rel="noopener noreferrer"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faEnvelope} />
       </SocialLink>

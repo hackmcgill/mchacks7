@@ -33,9 +33,9 @@ const Hero = () => (
       <h1 class="hero__heading">McHacks</h1>
       <p class="hero__subheading"> McGill University · Feb 1-2, 2020</p>
       <p class="hero__email">
-      Sign up for updates about McHacks. No spam, we promise.
-    </p>
-    <SignUpForm />
+        Sign up for updates about McHacks. No spam, we promise.
+      </p>
+      <SignUpForm />
       {/* <Button onClick={Dashboard}>Apply →</Button>
       <Button onClick={Live}>Live Site</Button> */}
       <div class="hero__illustrations">

@@ -7,13 +7,6 @@ import Maps from "../components/Maps/Maps"
 import Info from "../components/Live/Info"
 import Resources from "../components/Live/Resources"
 
-const scrollTo = ref => {
-  if (!ref || !ref.current) {
-    return
-  }
-  window.scrollTo(0, ref.current.offsetTop - 100)
-}
-
 const LivePage = () => {
   const [activePage, _setActivePage] = useState("schedule")
   const setActivePage = (newPage) => {

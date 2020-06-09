@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import * as styleVars from "../variable"
 
 const FloorplanContainer = styled.section`
 
@@ -33,7 +32,7 @@ class Floorplan extends React.Component {
     render() {
         return <FloorplanContainer id={"section-" + this.props.name}>
                 <h2>{this.props.name}</h2>
-                    <a href={this.props.image} target="_blank">
+                    <a href={this.props.image} target="_blank" rel="noopener noreferrer">
                         <FloorplanImage src={this.props.image}>
                         </FloorplanImage>
                     </a>

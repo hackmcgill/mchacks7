@@ -93,6 +93,7 @@ const SignUpForm = () => (
       name="mc-embedded-subscribe-form"
       class="validate"
       target="_blank"
+      rel="noopener noreferrer"
       novalidate
     >
       <div id="mc_embed_signup_scroll">

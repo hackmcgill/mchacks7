@@ -61,7 +61,7 @@ export const Container = styled.section`
       position: relative;
       top: 17px;
       display: inline-block;
-      
+
       .to {
         font-size: 0.85em;
       }
@@ -87,18 +87,18 @@ export const Container = styled.section`
             font-size: 0.8em;
           }
         }
-  
+
         .type {
           font-size: 0.85em;
           text-transform: uppercase;
         }
-        
+
         .description {
           color: ${styleVars.hackBlack70};
           font-family: "Hind Siliguri", sans-serif;
           margin-top: 8px;
         }
-  
+
         .location {
           margin-top: 8px;
           font-family: "Hind Siliguri", sans-serif;
@@ -114,7 +114,6 @@ export const Container = styled.section`
         background: linear-gradient(#f2463a, #f2463a55);
         background-clip: text;
         text-fill-color: transparent;
-
       }
     }
 
@@ -136,7 +135,9 @@ export const Container = styled.section`
       }
     }
 
-    &.type-workshop, &.type-travel, &.type-rest {
+    &.type-workshop,
+    &.type-travel,
+    &.type-rest {
       .icon {
         color: ${styleVars.hackBlack30};
       }

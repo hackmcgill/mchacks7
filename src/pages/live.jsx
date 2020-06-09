@@ -7,19 +7,12 @@ import Maps from "../components/Maps/Maps"
 import Info from "../components/Live/Info"
 import Resources from "../components/Live/Resources"
 
-const scrollTo = ref => {
-  if (!ref || !ref.current) {
-    return
-  }
-  window.scrollTo(0, ref.current.offsetTop - 100)
-}
-
 const LivePage = () => {
   const [activePage, _setActivePage] = useState("schedule")
-  const setActivePage = (newPage) => {
+  const setActivePage = newPage => {
     if (newPage !== activePage) {
-      _setActivePage(newPage);
-      window.scrollTo(0, 0);
+      _setActivePage(newPage)
+      window.scrollTo(0, 0)
     }
   }
 
@@ -30,7 +23,7 @@ const LivePage = () => {
       <Schedule visible={activePage === "schedule"} />
       <Maps visible={activePage === "maps"} />
       <Info visible={activePage === "info"} />
-      <Resources visible={activePage === 'resources'} />
+      <Resources visible={activePage === "resources"} />
     </div>
   )
 }

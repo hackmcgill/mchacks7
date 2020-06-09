@@ -21,7 +21,7 @@ export const ArrowButton = styled.button`
   margin-left: -8px;
 
   &:hover {
-    background-color: $color-hack-red-med;
+    background-color: ${styleVars.colorHackRedMed};
   }
 `
 
@@ -93,6 +93,7 @@ const SignUpForm = () => (
       name="mc-embedded-subscribe-form"
       class="validate"
       target="_blank"
+      rel="noopener noreferrer"
       novalidate
     >
       <div id="mc_embed_signup_scroll">

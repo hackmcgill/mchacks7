@@ -1,19 +1,18 @@
 import React, { useState } from "react"
 
-import Sticky from 'react-stickynode'
+import Sticky from "react-stickynode"
 
 import Container from "./Container"
 import Event from "./Event"
 
-import events from './events'
-
+import events from "./events"
 
 const Schedule = ({ visible }) => {
   const [day, _setDay] = useState(2)
-  const setDay = (newDay) => {
+  const setDay = newDay => {
     if (newDay !== day) {
-      _setDay(newDay);
-      window.scrollTo(0, 0);
+      _setDay(newDay)
+      window.scrollTo(0, 0)
     }
   }
 
@@ -26,12 +25,18 @@ const Schedule = ({ visible }) => {
           <div
             className={"DayTab " + (day === 1 ? "active" : "")}
             onClick={() => setDay(1)}
+            onKeyDown={() => setDay(1)}
+            role="button"
+            tabIndex={0}
           >
             February 1st
           </div>
           <div
             className={"DayTab " + (day === 2 ? "active" : "")}
             onClick={() => setDay(2)}
+            onKeyDown={() => setDay(2)}
+            role="button"
+            tabIndex={0}
           >
             February 2nd
           </div>

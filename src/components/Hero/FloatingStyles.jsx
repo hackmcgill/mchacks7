@@ -52,7 +52,7 @@ export const UFOStyles = styled.img`
 export const PlanetStyles = styled.img`
   position: absolute;
   width: 70px;
-  top: -270px;
+  top: -240px;
   right: 50px;
 
   @media only screen and (max-width: ${styleVars.lgUp}) {
@@ -66,7 +66,7 @@ export const PlanetStyles = styled.img`
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    top: -340px;
+    top: -640px;
     right: 30px;
     width: 50px;
   }

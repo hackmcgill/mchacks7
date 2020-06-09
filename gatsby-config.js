@@ -5,7 +5,6 @@ module.exports = {
     author: `@hackmcgill`,
   },
   plugins: [
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
@@ -37,6 +36,7 @@ module.exports = {
         head: true,
       },
     },
+    `gatsby-plugin-client-side-redirect`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

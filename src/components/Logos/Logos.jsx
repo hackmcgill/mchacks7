@@ -42,7 +42,11 @@ const Logos = ({ scrollRef }) => (
     </Content>
     {/* Tier 1/Mega sponsors */}
     <Content style={{ textAlign: "center" }}>
-      <NavLink href="https://www.novartis.ca/" target="_blank">
+      <NavLink
+        href="https://www.novartis.ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={novartis} style={{ width: "70%" }} />
       </NavLink>
     </Content>
@@ -56,18 +60,31 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="https://jobs.rbc.com/ca/en/featuredopportunities/student-early-talent-jobs"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image src={rbc} style={{ minWidth: "100%" }} />
       </NavLink>
-      <NavLink href="https://www.ivey.uwo.ca/msc/" target="_blank">
+      <NavLink
+        href="https://www.ivey.uwo.ca/msc/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={ivey} style={{ minWidth: "100%" }} />
       </NavLink>
     </Content>
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
-      <NavLink href="https://www.nuance.com/" target="_blank">
+      <NavLink
+        href="https://www.nuance.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={nuance} style={{ width: "50%" }} />
       </NavLink>
-      <NavLink href="https://www.cisco.com" target="_blank">
+      <NavLink
+        href="https://www.cisco.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={cisco} style={{ width: "50%" }} />
       </NavLink>
     </Content>
@@ -78,10 +95,18 @@ const Logos = ({ scrollRef }) => (
         justifyItems: "center",
       }}
     >
-      <NavLink href="https://www.gorillagroup.com/careers/" target="_blank">
+      <NavLink
+        href="https://www.gorillagroup.com/careers/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={gorilla} style={{ width: "100%", maxWidth: "250px" }} />
       </NavLink>
-      <NavLink href="http://ausmcgill.com/" target="_blank">
+      <NavLink
+        href="http://ausmcgill.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           src={aus}
           style={{ width: "100%", maxWidth: "250px", height: "50px" }}
@@ -92,10 +117,15 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="https://careers.microsoft.com/us/en/students-and-graduates/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image src={microsoft} style={{ width: "100%", maxWidth: "250px" }} />
       </NavLink>
-      <NavLink href="https://careers.google.com/students/" target="_blank">
+      <NavLink
+        href="https://careers.google.com/students/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={google} style={{ width: "100%", maxWidth: "250px" }} />
       </NavLink>
     </Content>
@@ -103,6 +133,7 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="https://www-03.ibm.com/employment/ca/en/entry_level_campus.html/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image
           src={ibm}
@@ -112,6 +143,7 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image
           src={fdm}
@@ -124,6 +156,7 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="https://www.tandemlaunch.com/en/startup-program/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image
           src={tandemLaunch}
@@ -131,7 +164,11 @@ const Logos = ({ scrollRef }) => (
         />
         {/* need an image link for this company */}
       </NavLink>
-      <NavLink href="https://www.manulife.ca/personal.html" target="_blank">
+      <NavLink
+        href="https://www.manulife.ca/personal.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image
           src={manulife}
           style={{ width: "100%", maxWidth: "100px", transform: "scale(1.7)" }}
@@ -140,31 +177,60 @@ const Logos = ({ scrollRef }) => (
       <NavLink
         href="http://hackp.ac/mlh-stickermule-hackathons/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Image src={stickerMule} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
     </Content>
     {/* Tier 4/In-Kind sponsors */}
     <Content style={{ justifyContent: "space-evenly" }}>
-      <NavLink href="https://www.wolframalpha.com/hackathons/" target="_blank">
+      <NavLink
+        href="https://www.wolframalpha.com/hackathons/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={wolfram} style={{ width: "100%", maxWidth: "45px" }} />
       </NavLink>
-      <NavLink href="https://https://www.jetbrains.com/" target="_blank">
+      <NavLink
+        href="https://https://www.jetbrains.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={jetBrains} style={{ width: "100%", maxWidth: "50px" }} />
       </NavLink>
-      <NavLink href="https://www.netlify.com/" target="_blank">
+      <NavLink
+        href="https://www.netlify.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={netlify} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
-      <NavLink href="https://www.voiceflow.com" target="_blank">
+      <NavLink
+        href="https://www.voiceflow.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={voiceflow} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
-      <NavLink href="https://www.twilio.com/" target="_blank">
+      <NavLink
+        href="https://www.twilio.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={twilio} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
-      <NavLink href="https://indico.io/" target="_blank">
+      <NavLink
+        href="https://indico.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={indico} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
-      <NavLink href="https://www.vercel.com/?utm_source=mchacks7" target="_blank">
+      <NavLink
+        href="https://www.vercel.com/?utm_source=mchacks7"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
     </Content>

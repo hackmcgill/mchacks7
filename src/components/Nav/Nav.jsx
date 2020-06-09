@@ -25,7 +25,11 @@ const Nav = ({
       <NavLink href="/live" target="_blank">
         Live
       </NavLink>
-      <NavLink href="https://2019.mchacks.ca" target="_blank">
+      <NavLink
+        href="https://2019.mchacks.ca"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         2019
       </NavLink>
     </>

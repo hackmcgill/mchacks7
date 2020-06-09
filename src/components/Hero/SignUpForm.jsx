@@ -21,7 +21,7 @@ export const ArrowButton = styled.button`
   margin-left: -8px;
 
   &:hover {
-    background-color: $color-hack-red-med;
+    background-color: ${styleVars.colorHackRedMed};
   }
 `
 

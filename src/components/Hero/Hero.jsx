@@ -31,7 +31,7 @@ const Hero = () => (
     <HeroStyles>
       <h2 class="hero__topsubheading">Create, build, and play @</h2>
       <h1 class="hero__heading">McHacks</h1>
-      <p class="hero__subheading"> McGill University · Jan 30-31, 2021</p>
+      <p class="hero__subheading"> McGill University · Jan 29-31, 2021</p>
       <p class="hero__email">
         Sign up for updates about McHacks. No spam, we promise.
       </p>

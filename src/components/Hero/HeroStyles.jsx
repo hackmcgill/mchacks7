@@ -2,6 +2,7 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
+  margin-top: 100px;
   position: relative;
   padding: 0 2rem;
   margin-bottom: 400px;

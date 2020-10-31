@@ -7,7 +7,7 @@ export const BgStyles = styled.section`
   position: relative;
   margin-bottom: 60px;
   margin-top: 100px;
-  background: url(${BgImg});
+  background: #F4F4F4;
   background-size: cover;
   background-position: right 80px;
   background-repeat: no-repeat;
